@@ -76,6 +76,29 @@ https://www.youtube.com/watch?v=F9l-RQvCPMo
 
 If you are using Bazzite's KDE image, then you can skip the "Making Gnome look more familiar to Windows users" section, and use the steps above to get auto login working in Bazzite KDE. Then finally set Steam Big Picture Mode to auto-start in **Settings >> Autostart**
 
+## Cannot scan wifi networks in Bazzite when dual-booting with Windows
+
+**Issue:** You are dual-booting Windows 10/11 with Bazzite and you cannot connect to new wifi networks. 
+
+**Resolution:** Fast Startup is a feature of Windows that puts your computer into a hybrid state between shutdown and hibernation to speed up the time it takes for Windows to start up. However, this mode locks up some of the functionality of hardware devices such as your wifi and ethernet. One solution is to select the Restart option instead of the Shutdown option, which will perform a full power cycle. However, a better solution is to simply disable Fast Startup.
+
+You can do this by:
+
+- Open **Control Panel**
+- Click on **Hardware and Sound**
+- Click on **Change what the power buttons do** which is under Power Options
+- Click on **Change settings that are currently unavailable**
+- Untick **Turn on fast startup (recommended)**
+- Click on **Save changes**
+
+![how to disable fast startup in Windows](../img/disable-windows-fast-startup.gif)
+
+Now if you now select the Shutdown option, Windows will shut down completely and not interfere with Bazzite.
+
+!!! warning
+
+    Hibernating Windows cause the same issue as Fast Startup
+
 <hr>
 
 **See also**: [Steam Gaming Mode Quirks](https://docs.bazzite.gg/Handheld_and_HTPC_edition/quirks/)
