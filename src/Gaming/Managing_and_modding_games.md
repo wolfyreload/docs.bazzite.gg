@@ -82,8 +82,7 @@ For games on Steam, they are located in your `~/.steam/root/steamapps/compatdata
 
 Non-Steam games can have the prefix folder anywhere you specify:
 
-- By default Lutris uses `~/.wine` as the main folder.
-  - However, sometimes it's also in `~/Games`.
+- By default Lutris uses `~/Games` as the main folder.
 - WineZGUI creates a prefix in `~/.var/app/io.github.fastrizwaan.WineZGUI/data/winezgui/Prefixes`.
 
 ## Modding Quick-Start
