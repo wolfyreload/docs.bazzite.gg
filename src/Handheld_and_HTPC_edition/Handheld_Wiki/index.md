@@ -30,7 +30,7 @@ _Click the name of each hardware to view post-installation setup and known issue
 - [**Ayaneo Handhelds**](./Ayaneo_Handhelds.md)
 - [**Other Handhelds**](./Other_Handhelds.md)
 
-Feel free to add new entries or update current wiki pages for your handheld following our [documentation guidelines](https://github.com/KyleGospo/docs.bazzite.gg/blob/main/README.md).
+Feel free to add new entries or update current wiki pages for your handheld following our [**documentation guidelines**](https://github.com/bazzite-org/docs.bazzite.gg/blob/main/README.md#documentation-guidelines).
 
 ### Support Rating
 
@@ -87,13 +87,12 @@ Check out the [Steam Gaming Mode documentation](../Steam_Gaming_Mode.md) for an 
 
 !!! warning
     
-    eGPU is **not** a fully supported feature and has many caveats.
+    eGPU is **not** a fully supported feature and may have caveats.
 
 ### Caveats:
 
 - The same [GPU hardware requirements](/Gaming/Hardware_compatibility_for_gaming.md#steam-gaming-mode-requirements) that apply for Steam Gaming Mode also apply for e-GPUs.
-  - Nvidia GPUs are **unsupported**. 
-- Proprietary connectors, like the one for the ASUS ROG Ally, will not work.
+  - Nvidia GPUs are **unsupported** but may work if rebasing to a beta Nvidia `-deck` image.
 
 ### Recommended External Guide & Script:
 
