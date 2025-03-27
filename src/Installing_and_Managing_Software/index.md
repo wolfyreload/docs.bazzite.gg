@@ -26,7 +26,6 @@ title: Installing and Managing Applications
 - [Lutris](https://lutris.net/about) (_pre-installed_) for non-Steam video games.
 - [Heroic](https://heroicgameslauncher.com/) for Epic Games, GOG, and Amazon Games integration.
 - [Zoom Platform](https://www.zoom-platform.com/) has a built-in [Windows compatibility layer](https://zoom-platform.sh/) making use of [`umu-launcher`](https://github.com/Open-Wine-Components/umu-launcher).
-- [itch](https://flathub.org/apps/io.itch.itch) for games on itch.io.
 - [WineZGUI](https://github.com/fastrizwaan/WineZGUI) (_pre-installed_) for Windows applications that don’t require special considerations for their prefix.
 
 >Read the [Bazzite Gaming Guide](/Gaming/index.md) for more information on running Windows games on Linux.
