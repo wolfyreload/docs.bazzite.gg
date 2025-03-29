@@ -13,7 +13,7 @@ description: "Run services."
 
 ![podman|385x358, 50%](../img/podman.png)
 
-Quadlet is a features of [podman](https://podman.io/) that allows a user to run a container as [systemd](https://systemd.io/) units. It works by using a declarative syntax like [docker compose](https://docs.docker.com/compose/) but integrates to systemd and use podman as a backend.
+Quadlet is a feature of [podman](https://podman.io/) that allows a user to run a container as [systemd](https://systemd.io/) units. It works by using a declarative syntax like [docker compose](https://docs.docker.com/compose/) but integrates to systemd and use podman as a backend.
 
 ### Quick Example:
 
@@ -64,7 +64,7 @@ You can put your quadlet in these location sorted by priority.
 - `/etc/containers/systemd/users/`
 
 !!! note
-    
+
     If you want your service to start even when you are not logged in, run `loginctl enable-linger $USER` to start it automatically.
 
 ### Running Quadlet on Startup
