@@ -13,7 +13,7 @@ description: "Run services."
 
 ![podman|385x358, 50%](../img/podman.png)
 
-Quadlet is a features of [podman](https://podman.io/) that allows a user to run a container as [systemd](https://systemd.io/) units. It works by using a declarative syntax like [docker compose](https://docs.docker.com/compose/) but integrates to systemd and use podman as a backend.
+Quadlet is a feature of [podman](https://podman.io/) that allows a user to run a container as [systemd](https://systemd.io/) units. It works by using a declarative syntax like [docker compose](https://docs.docker.com/compose/) but integrates to systemd and use podman as a backend.
 
 ### Quick Example:
 
@@ -64,7 +64,7 @@ You can put your quadlet in these location sorted by priority.
 - `/etc/containers/systemd/users/`
 
 !!! note
-    
+
     If you want your service to start even when you are not logged in, run `loginctl enable-linger $USER` to start it automatically.
 
 ### Running Quadlet on Startup
@@ -127,6 +127,7 @@ Rootful Quadlet Path
 Documentation: https://docker-minecraft-server.readthedocs.io/en/latest
 Quadlet File:
 ```
+# ~/.config/containers/systemd/minecraft.container
 [Container]
 ContainerName=minecraft
 Environment=EULA=TRUE
@@ -147,6 +148,7 @@ WantedBy=default.target
 Documentation: https://github.com/plexinc/pms-docker
 Quadlet File:
 ```
+# ~/.config/containers/systemd/plex.container
 [Container]
 ContainerName=plex
 Environment=TZ=Your/TimeZone
@@ -169,6 +171,34 @@ WantedBy=default.target
 !!! note
 
     You can mount multiple volume for your media, e.g `Volume=/path/to/media:/tv:z` and `Volume=/path/to/another/media:/movie:z`. Consult the documentation for more info.
+
+### Samba Server (Rootful)
+
+Documentation: https://github.com/ServerContainers/samba
+Quadlet File:
+```
+# /etc/containers/systemd/samba.container
+[Container]
+Environment=ACCOUNT_username=password
+# Protected share with write access
+Environment="SAMBA_VOLUME_CONFIG_protected=[My Share]; path=/shares/protected; valid users = username; guest ok = no; read only = no; browseable = yes"
+# Open share with readonly access
+Environment="SAMBA_VOLUME_CONFIG_guest=[Guest Share]; path=/shares/guest; guest ok = yes; browseable = yes"
+Image=ghcr.io/servercontainers/samba:smbd-only-latest
+Network=host
+Volume=/path/to/protected:/shares/protected:z
+Volume=/path/to/guest:/shares/guest:z
+
+# Remove if you don't want autostart
+[Install]
+WantedBy=default.target
+```
+!!! note
+
+    You can find list of timezone [here](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones).
+!!! note
+
+    Use absolute path for volume, e.g `/home/username/samba/guest`.
 
 ## Project Website
 
