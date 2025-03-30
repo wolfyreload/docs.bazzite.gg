@@ -76,14 +76,14 @@ sudo chown $USER:$USER /var/mnt/games
     
     If you plan to reformat the partition, remember to edit the mount point and "Remove" the mount path before you reformat! If not you will have to manually edit `/etc/fstab`.
 
-## Graphical User Interface (GUI) Methods for Auto-Mounting
+## Graphical User Interface (GUI) Methods for Auto-Mounting (**Recommended**)
 
 !!! warning 
 
     Do not set up auto-mount, unmount then format a drive! It can confuse the software you are configuring drives with. Instead, **remove the auto-mount first before formatting the drive**.
 
-- [**KDE Partition Manager**](./KDE_Partition_Manager_Auto_Mount_Guide.md)
-- [**GNOME Disks**](./GNOME_Disks_Auto-Mount_Guide.md)
+- [**KDE Partition Manager Guide**](./KDE_Partition_Manager_Auto_Mount_Guide.md)
+- [**GNOME Disks Guide**](./GNOME_Disks_Auto-Mount_Guide.md)
 
 ## Alternative Methods (CLI)
 
