@@ -53,7 +53,7 @@ sudo systemctl enable --now hhd@$(whoami)
 - eGPU Thunderbolt 3/4 over USB4 is supported. USB4 enclosure needs proper testing, but there is no reason to suspect it should not work.
   - **AMD**:
     - Automatic switch at boot with [all-ways-egpu](https://github.com/ewagner12/all-ways-egpu/tree/main) works fine using method 2 and 3 at boot, unfortunately method 1 is not supported but seems to be related to Steam Gaming Mode.
-      - The script needs to be installed with [Steam Deck/User Installation](https://github.com/ewagner12/all-ways-egpu/tree/main?tab=readme-ov-file#steam-deckuser-installation).
+      - The script needs to be installed with [Steam Deck/User Installation](https://github.com/ewagner12/all-ways-egpu/blob/main/README.md#steamosbazziteuser-installation).
     - No issue in booting with eGPU attached. Tested on RX 6800 and no kernel parameters are needed since bazzite is now enabling the needed argument by default (amdgpu .ppfeaturemask).
       - Using `rpm-ostree kargs --append-if-missing=pci=nommconf` (or editing the kernel command line with `rpm-ostree kargs –editor`) is still needed according to my testing because some applications otherwise may underperform.
     - Some AMD cards requires to set a correct limit for GPU and Memory Clocks, this is a known issue that is present also on Desktops. I suggest installing LACT and setting the correct limits for the card.
