@@ -10,7 +10,7 @@ title: Installation Guide
 
 ### **Important Installation Notes**:
 
-- Use a download manager (like [**Motrix**](https://motrix.app/)) if the direct download fails or is downloading too slow or use the [**torrent**](https://fosstorrents.com/distributions/bazzite/).
+- Use a download manager (like [**Motrix**](https://motrix.app/)) if the direct download fails or is downloading too slow (or use the [**torrent**](https://fosstorrents.com/distributions/bazzite/) instead.)
 
 - A physical wired keyboard is **recommended** and **required for devices without a touchscreen**.
 
