@@ -18,7 +18,7 @@ authors:
 
 ![photo_5875160389711413569_y|663x500, 100%](../../img/Ayaneo_Geek_1S.jpeg)
 
-**Status**: Silver
+**Status**: Gold
 
 ## Installing Bazzite
 
@@ -35,17 +35,12 @@ Read the [**Installing Bazzite on Handheld PCs documentation**](/General/Install
 
 ## Workarounds / Known Issues
 
-- Screen rotation is fixed with `rpm-ostree kargs --append-if-missing=video=eDP-1:panel_orientation=right_side_up` or editing the kernel command line with `rpm-ostree kargs --editor`.
-- Audio driver does work but needs to adjusted to support the 3.5mm jack.
-  - Either install [this rpm package](https://drive.google.com/drive/folders/1ShnESXQ1aFQjbe0mVW5b6VBrfrgDA2O6?usp=sharing) that was created using [this guide](https://www.reddit.com/r/Fedora/comments/wir3cq/guide_adding_custom_files_to_the_root_filesystem/).
-  - Alternatively, since ALC269VB is an audio chipset that has been around for years, it just need its pins to be rerouted with `hdajackretask` (part of fedora's alsa-tools) package. (You basically need to reroute the auto-generated "green headset" and "black headset" devices to "Channel 30 & 31").
-  - External audio works over both HDMI and eGPU.
-- **Suspend does not work without a workaround**!
-  - see suspend workaround [here](#suspend-workaround)
+- Suspending the device requires the latest BIOS update.
+  - Reports of controller issues on wake have been reported inconsistency.
 - VRAM size option is missing from BIOS as it's controlled by AYASPACE application under windows.
-- For certain Ayaneo devices, wifi stops working after suspend-resume cycles
-  - as a workaround, you need to `modprobe -r mt7921e` right before suspend to disable the wifi, then run `modprobe mt7921e` after suspend to re-enable the wifi
-    - You can find an automatic installer for the workaround [here](https://github.com/aarron-lee/gpd-win-tricks/tree/mt7921e_fix/suspend-fix)
+- For certain Ayaneo devices, Wi-Fi stops working after suspend-resume cycles.
+  - Workaround: You need to `modprobe -r mt7921e` right before suspend to disable the Wi-Fi, then run `modprobe mt7921e` after suspend to re-enable the Wi-Fi.
+    - You can find an automatic installer for the workaround [here](https://github.com/aarron-lee/gpd-win-tricks/tree/mt7921e_fix/suspend-fix).
 
 ### Functional HHD
 
@@ -55,43 +50,14 @@ sudo systemctl enable --now hhd@$(whoami)
 
 ### External Graphics:
 
-- eGPU Thunderbolt 3/4 over USB4 is supported. USB4 enclosure needs proper testing but there is no reason to suspect it should not work.
+- eGPU Thunderbolt 3/4 over USB4 is supported. USB4 enclosure needs proper testing, but there is no reason to suspect it should not work.
   - **AMD**:
     - Automatic switch at boot with [all-ways-egpu](https://github.com/ewagner12/all-ways-egpu/tree/main) works fine using method 2 and 3 at boot, unfortunately method 1 is not supported but seems to be related to Steam Gaming Mode.
       - The script needs to be installed with [Steam Deck/User Installation](https://github.com/ewagner12/all-ways-egpu/tree/main?tab=readme-ov-file#steam-deckuser-installation).
-    - In order to boot with eGPU attached you need to add a kernel parameter, seems to be related to [this kernel issue](https://lore.kernel.org/lkml/20240415163056.GP223006@ziepe.ca/). There are many other issues opened and according to [this](https://gitlab.freedesktop.org/drm/amd/-/issues/3182) it could be potentially fixed in kernel 6.9. As a temporary solution booting with eGPU connected works when launching the command `rpm-ostree kargs --append-if-missing=video=pci=nommconf` or editing the kernel command line with `rpm-ostree kargs --editor`.
-  - **NVIDIA**: currently untested and probably doesn't work.
-
-### Suspend workaround
-
-> Thanks to ChimeraOS for the [original suspend workaround](https://github.com/ChimeraOS/chimeraos/wiki/Community-Guides#enabling-modern-sleep-on-7000-series-amd-hardware), and SteamFork for the [updated writeup](https://wiki.steamfork.org/troubleshooting/#enabling-modern-sleep-on-7000-series-amd-based-devices) of this workaround.
-
-7000 series and newer AMD APU's no longer support S3 sleep, and unfortunately many handheld manufacturers don't configure their firmware to take advantage of modern standby by default. Fortunately, modern standby can be configured manually with Smokeless UMAF.
-
-!!! warning
-    
-    The Smokeless UMAF tool has been known to brick devices even by reading values in the BIOS.  There is a good chance that setting something incorrectly in the BIOS with this tool will brick your device and void your warranty.  The Bazzite team and Universal Blue takes no responsibility for any harm caused by following these steps. By following this guide you acknowledge that you are solely responsible for the outcome.
-
-### Modern Standby Enablement Methods
-
-- Enter your bios/firmware settings to see if you already have the options listed in the steps for the [Enabling Modern Standby](https://universal-blue.discourse.group/t/ayaneo-handheld-compatibility/2417#p-5599-enabling-modern-standby-7) section of this guide. If so, skip the rest of this section.
-- If the options are not available, follow the next few steps to create boot media.
-- Format a USB stick with FAT32.
-- Download [Smokeless UMAF](https://github.com/DavidS95/Smokeless_UMAF/raw/main/UMAF_BETA.zip).
-- Extract `UMAF_Beta.zip` and copy the contents into the root of the usb stick.
-- Boot your device and select the USB stick from the boot menu.
-- Navigate to the `Front Page` tab and select `Device Manager`.
-
-#### Enabling Modern Standby
-
-1. Select `AMD PBS` then `Power Saving Configurations`.
-2. Under `S3/Modern Standby Support` change the entry to `Modern Standby` (or `Modern Standby Enable` on some devices).
-3. Under `Modern Standby Type` select `Modern Standby + S0i2 + S0i3`.
-4. Save changes and exit, allowing the device to reboot.
-
-!!! note 
-    
-    The first restart after this change may take longer than usual.
+    - No issue in booting with eGPU attached. Tested on RX 6800 and no kernel parameters are needed since bazzite is now enabling the needed argument by default (amdgpu .ppfeaturemask).
+      - Using `rpm-ostree kargs --append-if-missing=pci=nommconf` (or editing the kernel command line with `rpm-ostree kargs –editor`) is still needed according to my testing because some applications otherwise may underperform.
+    - Some AMD cards requires to set a correct limit for GPU and Memory Clocks, this is a known issue that is present also on Desktops. I suggest installing LACT and setting the correct limits for the card.
+  - **NVIDIA**: currently untested but _may_ work with the “-nvidia-deck” variant of bazzite.
 
 ### External Resource
 
