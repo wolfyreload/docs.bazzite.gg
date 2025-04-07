@@ -41,7 +41,7 @@ All Universal Blue images share governance structures and are modelled after clo
 
 ## Contacts
 
-Feel free to [email us](mailto:press@bazzite.gg) with any questions or get in touch with any of our [social platforms](https://docs.bazzite.gg/Resources/).
+Feel free to [email us](mailto:press@bazzite.gg) with any questions or get in touch with any of our [social platforms](../Resources.md).
 
 ## Fonts
 Our logo uses the following fonts:
