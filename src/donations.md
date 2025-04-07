@@ -141,14 +141,16 @@ Similar desktop Linux projects that share resources with us.
 - [**CachyOS**](https://cachyos.org/) ([**Support**](https://www.patreon.com/CachyOS))
 - [**SteamFork**](https://wiki.steamfork.org/) ([**Contribute**](https://github.com/SteamFork#support))
 
-## Other Universal Blue Images
+## Special Thanks
+
+- [evlaV](https://gitlab.com/evlaV) - For making Valve's code available and for being [this person](https://xkcd.com/2347/).
+- [Steam Deck Homebrew](https://deckbrew.xyz) - For choosing to support distributions other than SteamOS despite the extra work, and a special thanks to [PartyWumpus](https://github.com/PartyWumpus) for getting Decky Loader working with SELinux for us.
+- [Valve](https://www.valvesoftware.com/), [Collabora](https://www.collabora.com/), [Igalia](https://www.igalia.com/, & [Arch Linux](https://archlinux.org/) - For creating SteamOS which is obviously Bazzite's largest influence.
+
+## Maintainers and Contributors of Other Universal Blue Projects
 
 Check out the other Universal Blue end-user custom Fedora images especially if you want an experience similar to Bazzite without a focus in PC gaming. The contributors and maintainers involved with the other Universal Blue projects will usually fix bugs in their images that will eventually be fixed in Bazzite around the same time if the same issues occur in both.
 
 - [**Aurora**](https://getaurora.dev/)
 - [**Bluefin**](https://projectbluefin.io/)
 - [**uCore**](https://projectucore.io)
-
-<hr>
-
-**See also**: [Special Thanks](https://github.com/ublue-os/bazzite/blob/main/README.md#special-thanks)
