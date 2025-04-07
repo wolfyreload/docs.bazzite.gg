@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="art/Convergence_Wallpaper.png?raw=true" alt="Bazzite"/>
-</p>
+![Bazzite|690x430](../img/Convergence_Wallpaper.png)
 
 # Press Kit
 
