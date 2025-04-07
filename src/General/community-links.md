@@ -47,7 +47,7 @@ title: Community Resources
 - [Self-Hosting Images](https://universal-blue.discourse.group/t/self-hosters-the-forge-needs-your-eyes-and-hands/1566)
 - [BlueBuild Project](https://blue-build.org/)
 
-## Misc.
+## Reference Documentation & Old Newsletters
 
 - [Bazzite Buzz Newsletters Archive](https://universal-blue.discourse.group/t/bazzite-newsletters/2252)
 - [Bluefin Documentation](https://docs.projectbluefin.io/)
