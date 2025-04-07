@@ -1,6 +1,6 @@
-![Bazzite|690x430](../img/Convergence_Wallpaper.png)
-
 # Press Kit
+
+![Bazzite|690x430](../img/Convergence_Wallpaper.png)
 
 Thanks for generating content about Bazzite and Universal Blue! This document will explain how to use the brand and terminology used by the project.
 
