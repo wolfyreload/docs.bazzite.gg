@@ -14,9 +14,9 @@ This project is built upon [Amy OS](https://github.com/astrovm/amyos).
 
 ### New Additions:
 
-- Docker
-- Visual Studio Code
-- Devcontainers
+- [Docker](https://www.docker.com/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Devcontainers](https://containers.dev/)
 
 **Repo**: https://github.com/ublue-os/bazzite-dx
 
