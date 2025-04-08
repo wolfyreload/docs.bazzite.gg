@@ -28,9 +28,8 @@ tags:
 - **Additional Notes**: Certain drivers are **not** compatible with Bazzite
   - For example: [A list of compatible USB Wi-Fi adapters](https://github.com/morrownr/USB-WiFi/blob/f3001d8e5b897e5671302cb2faf18954dd34e3d7/home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md) 
 
-!!! Resource
 
-    [The Hardware for Linux website](https://linux-hardware.org/?view=computers) is a good indicator for how well OEM hardware is supported and driver supoport on the Linux desktop.
+>[**The Hardware for Linux website**](https://linux-hardware.org/?view=computers) is a good indicator for how well OEM hardware is supported and driver supoport on the Linux desktop.
 
 ### Steam Gaming Mode Requirements
 
@@ -105,8 +104,6 @@ Any secondary drives that you plan to play video games on should be **backed up 
 
 You can use KDE Partition Manager (KDE images) or GNOME Disks (GNOME images) to format the drives appropriately **at your own risk**.
 
->There is a [**guide**](https://github.com/ValveSoftware/Proton/wiki/Using-a-NTFS-disk-with-Linux-and-Windows) for using Proton with NTFS drive, but issues may occur with this setup.
-
 #### exFAT and FAT32
 
 exFAT and FAT32 are **unsupported** entirely. Both filesystems **do not support symbolic links** which is what Proton prefixes use.
@@ -115,7 +112,7 @@ However, scenarios where a microSD card is formatted to exFAT _may work_ in some
 
 ### Sharing Games with a Windows Dual-Boot
 
-Install the unofficial [WinBtrfs](https://github.com/maharmstone/btrfs) driver on your Windows installation at your own risk. Please note that Gamepass games and games installed and launched through the Epic Games Launcher do **not** work with BTRFS under Windows.
+Install the unofficial [WinBtrfs](https://github.com/maharmstone/btrfs) driver on your Windows installation at your own risk. Please make sure to read any documentation associated with this project before installing the driver on Windows.
 
 #### Video Tutorial
 
