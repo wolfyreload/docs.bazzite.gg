@@ -21,7 +21,7 @@ title: Frequently Asked Questions
 
 Bazzite originally was developed for the Steam Deck targeting users who used their Steam Deck as their primary PC. Bazzite is a collection of custom Fedora Atomic Desktop images (with the power of [libostree](https://ostreedev.github.io/ostree/)) built with Universal Blue's tooling (with the power of [OCI](https://opencontainers.org/about/overview/)) as opposed to using an [Arch Linux](https://archlinux.org/) base with A/B updates utilizing [RAUC](https://github.com/rauc/rauc).  The main advantages of Bazzite versus SteamOS is receiving system packages in updates at a much faster rate and a choice of an alternative desktop environment.
 
-> A list of major differences can be found in the [SteamOS Comparison](/General/SteamOS_Comparison.md), [Steam Deck wiki entry](/Handheld_and_HTPC_edition/Handheld_Wiki/Steam_Deck.md#how-similar-is-bazzite-to-steamos-on-steam-deck-hardware), and the [Bazzite README](https://github.com/ublue-os/bazzite/blob/main/README.md).
+> A list of major differences can be found in the [**SteamOS Comparison**](/General/SteamOS_Comparison.md), [**Steam Deck wiki entry**](/Handheld_and_HTPC_edition/Handheld_Wiki/Steam_Deck.md#how-similar-is-bazzite-to-steamos-on-steam-deck-hardware), and the [**Bazzite README**](https://github.com/ublue-os/bazzite/blob/main/README.md).
 
 ## What Bazzite image do I use?
 
@@ -104,13 +104,13 @@ If you're familiar with [Fedora Workstation](https://www.fedoraproject.org/works
 
 There are **read-only root files** and an emphasis on installing applications as a [Flatpak](/Installing_and_Managing_Software/Flatpak.md), [Homebrew](/Installing_and_Managing_Software/Homebrew.md), or inside of a [Distrobox container](/Installing_and_Managing_Software/Distrobox.md).
 
->**Read more about [obtaining software on Bazzite](../Installing_and_Managing_Software/index.md)**.
+>**Read more about [**obtaining software on Bazzite**](../Installing_and_Managing_Software/index.md)**.
 
 #### Updates
 
 Users can also rollback to a previous deployment if a system update breaks their workflow, or rebase entirely back to a stock Fedora Atomic image, [Aurora](https://getaurora.dev/), [Bluefin](https://projectbluefin.io/), or a [custom image by the community](https://universal-blue.discourse.group/t/list-of-community-created-custom-images/340). Do **not** rebase between different desktop environments. 
 
->**Read more about how [updates, rolling back, and rebasing works on Bazzite](../Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/index.md)**.
+>**Read more about how [**updates, rolling back, and rebasing works on Bazzite**](../Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/index.md)**.
 
 ## Is this another fringe Linux distribution?
 
@@ -175,7 +175,7 @@ If its for Minecraft modding then install the [Prism Launcher](https://flathub.o
 
 It is **not recommended to rebase between desktop environments** due to configuration files having different standards which usually lead to broken installations after rebasing between two different DEs.
 
->[Read more about Rebasing on Bazzite.](/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rebase_guide.md)
+>[**Read more about Rebasing on Bazzite**](/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rebase_guide.md).
 
 ## Am I able to install _this_ desktop environment or _that_ window manager?
 
@@ -190,7 +190,7 @@ This allows users to rollback a bad system upgrade by selecting the previous dep
 
 Deployments can also be pinned to rollback for future use, so `:2`, `:3`, etc. can also exist as long as you have the storage for it.
 
->**See also**: [Rolling Back System Updates](/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rolling_back_system_updates.md)
+>**See also**: [**Rolling Back System Updates**](/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/rolling_back_system_updates.md)
 
 ## I have questions or concerns that cannot be answered in the documentation
 
