@@ -29,11 +29,11 @@ Utility to assist with rolling back to older Bazzite images, changing update bra
 
 ## Rebasing
 
-Rebase to Bazzite builds from the last 90 days, change Bazzite update channels, swap between the Desktop and Bazzite-Deck images, or move completely to a different Fedora Atomic Desktop image.
-
 !!! important 
     
     Do **not** rebase to a different desktop environment than the one you are currently using, please backup and reinstall instead.
+
+Rebase to Bazzite builds from the last 90 days, change Bazzite update channels, swap between the Desktop and Bazzite-Deck images, or move completely to a different Fedora Atomic Desktop image.
 
 > [**Rebase Guide**](./rebase_guide.md)
 
