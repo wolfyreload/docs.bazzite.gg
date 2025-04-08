@@ -12,23 +12,20 @@ title: Updates, Rollbacks, and Rebasing
 
 Updates are automatic on Desktop images and manually done on Bazzite-Deck images, and both Bazzite variants upgrade everything at both a system-level and user-installed applications during the updating process.
 
-> **Full Documentation**:
-> [Updating guide](./updating_guide.md)
+> [**Updating Guide**](./updating_guide.md)
 
 ## Rollbacks
 
 Swap back to a previous system update if there are major issues after updating via the GRUB menu or the `rpm-ostree rollback` command.
 
-> **Full Documentation**:
-> [Rollbacks guide](./rolling_back_system_updates.md)
+> [**Rollbacks Guide**](./rolling_back_system_updates.md)
 
 
 ### Bazzite Rollback Helper Tool
 
 Utility to assist with rolling back to older Bazzite images, changing update branches, or swapping to a different Bazzite image.
 
-> **Full Documentation**:
-> [Bazzite's Rollback Helper Utility Guide](./bazzite_rollback_helper.md)
+> [**Bazzite's Rollback Helper Utility Guide**](./bazzite_rollback_helper.md)
 
 ## Rebasing
 
@@ -38,8 +35,7 @@ Rebase to Bazzite builds from the last 90 days, change Bazzite update channels, 
     
     Do **not** rebase to a different desktop environment than the one you are currently using, please backup and reinstall instead.
 
-> **Full Documentation**:
-> [Rebase guide](./rebase_guide.md)
+> [**Rebase Guide**](./rebase_guide.md)
 
 <hr>
 
