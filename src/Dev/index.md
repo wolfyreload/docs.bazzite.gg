@@ -4,11 +4,13 @@
 
     This documentation is under construction and subject to change.
 
-#### Website
+## Bazzite Developer eXperience Website
 
 **https://dev.bazzite.gg/**.
 
 ## Bazzite-DX (Developer eXperience)
+
+**Repo**: https://github.com/ublue-os/bazzite-dx
 
 This project is built upon [Amy OS](https://github.com/astrovm/amyos).
 
@@ -18,13 +20,12 @@ This project is built upon [Amy OS](https://github.com/astrovm/amyos).
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Devcontainers](https://containers.dev/)
 
-**Repo**: https://github.com/ublue-os/bazzite-dx
-
 ## Bazzite-GDX (Game Dev. Edition)
 
-A focus on game development.  _Currently in development_.
-
 **Repo**: https://github.com/ublue-os/bazzite-gdx
+
+
+A focus on game development.  _Currently in development_.
 
 ## More Information Coming Soon
 
