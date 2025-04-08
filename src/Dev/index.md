@@ -6,7 +6,7 @@
 
 ## Bazzite Developer eXperience Website
 
-**https://dev.bazzite.gg/**.
+**https://dev.bazzite.gg/**
 
 ## Bazzite-DX (Developer eXperience)
 
