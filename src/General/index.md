@@ -1,7 +1,7 @@
 ---
 title: General Documentation
 ---
-- [**README**](/Bazzite_README.md)
+- [**README**](https://github.com/ublue-os/bazzite/blob/main/README.md)
 - [**Dictionary & Terminology**](/General/terms.md)
 - [**SteamOS Comparison**](/General/SteamOS_Comparison.md)
 - [**Issues & Resolution**](/General/issues_and_resolutions.md)
