@@ -27,11 +27,13 @@ title: Community Resources
 - [Microsoft's Tutorial on Xbox Cloud Streaming for Game Pass Ultimate (and Fortnite)](https://support.microsoft.com/en-us/topic/xbox-cloud-gaming-in-microsoft-edge-with-steam-deck-43dd011b-0ce8-4810-8302-965be6d53296)
 - [Installing Mullvad VPN](https://docs.getaurora.dev/guides/layerapp/)
 - [Browser Games w/ Web Apps](https://universal-blue.discourse.group/t/how-to-run-old-browser-games-with-web-apps/486)
+- [StreamingServiceLauncher](https://github.com/aarron-lee/StreamingServiceLauncher)
 - [Crunchyroll for Linux](https://github.com/aarron-lee/crunchyroll-linux)
 - [SteamFork's SetupStreamingServices](https://github.com/SteamFork/SetupStreamingServices) / [Brave Browser Version](https://github.com/NexGen-3D-Printing/SetupStreamingServices-Brave)
 - [Running Valve's Hammer Level Editor Software for Map Making in the Source 1 Engine](https://andrealmeid.com/post/2020-05-28-csgo-hammer-linux/)
 - [boxkit: Template to build your own OCI Distrobox container](https://github.com/ublue-os/boxkit) 
 - [bazzite-arch: Gaming packages inside of a Distrobox container](https://github.com/ublue-os/bazzite-arch)
+- [DAWbox: An Ubuntu based OCI ready for music production, powered by Distrobox](https://github.com/Messaiga/DAWbox)
 
 
 ## Customization & Themes
