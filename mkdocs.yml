@@ -137,7 +137,7 @@ nav:
          - "Alternative Installation Method": General/Installation_Guide/alternate-install-guide.md
   - General:
       - "General Guides": General/index.md
-      - "Bazzite's README": "Bazzite_README.md"
+      - "Bazzite's README": "https://github.com/ublue-os/bazzite/blob/main/README.md"
       - "Dictionary and Terminology": General/terms.md
       - "SteamOS Comparison": "General/SteamOS_Comparison.md"
       - "Issues & Resolutions": "General/issues_and_resolutions.md"
