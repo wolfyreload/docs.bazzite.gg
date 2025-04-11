@@ -38,7 +38,7 @@ These are the handhelds that do not have an individual entry in our Handheld Wik
 - Anbernic Win600
 
 ### MSI
-- MSI Claw
+- [MSI Claw](https://www.answeroverflow.com/m/1333043799370498129)
 
 ### TECNO
 - TECNO Pocket Go
