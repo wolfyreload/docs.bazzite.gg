@@ -87,7 +87,7 @@ Make sure "**Apply known fixes automatically**" and "**Use UMU as Proton runtime
 
 !!! note
     
-    A Game Pass Ultimate subscription is required to use [Xbox Cloud Gaming](https://www.xbox.com/en-us/play) except for select games like Fornite.
+    A Game Pass Ultimate subscription is required to use [Xbox Cloud Gaming](https://www.xbox.com/en-us/play) except for select games like Fortnite.
 
 Games installed from the Microsoft Store do **not** run unless you use a Xbox Cloud Gaming client like [Greenlight](https://github.com/unknownskl/greenlight). Fortnite can also be played via this method **without** a Game Pass subscription with Xbox Cloud Gaming.
 
