@@ -12,7 +12,7 @@ authors:
 
 !!! disclaimer
 
-    Sleep requires a BIOS update
+    Sleep functionality requires a BIOS update.
 
 # Ayaneo Geek 1S
 
