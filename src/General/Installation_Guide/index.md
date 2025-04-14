@@ -26,7 +26,7 @@ title: Installation Guide
 
 - [Installing Bazzite for **Framework Laptop 16**](https://guides.frame.work/Guide/Bazzite+Installation+on+the+Framework+Laptop+16/407)
 
-- [Installing Bazzite for **Framework Laptop 13 (AMD/Intel GPU)**](https://guides.frame.work/Guide/Bazzite+Installation+on+the+Framework+Laptop+13/405)
+- [Installing Bazzite for **Framework Laptop 13**](https://guides.frame.work/Guide/Bazzite+Installation+on+the+Framework+Laptop+13/405)
 
 - [Installing Bazzite for **Home Theater PC (HTPC) Setups**](./Installing_Bazzite_for_HTPC_Setups.md)\*
 
