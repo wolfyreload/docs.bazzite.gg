@@ -12,7 +12,7 @@ authors:
 
 !!! disclaimer
 
-    This wiki may contain outdated information.
+    Sleep requires a BIOS update
 
 # Ayaneo Geek 1S
 
@@ -36,11 +36,8 @@ Read the [**Installing Bazzite on Handheld PCs documentation**](/General/Install
 ## Workarounds / Known Issues
 
 - Suspending the device requires the latest BIOS update.
-  - Reports of controller issues on wake have been reported inconsistency.
-- VRAM size option is missing from BIOS as it's controlled by AYASPACE application under windows.
-- For certain Ayaneo devices, Wi-Fi stops working after suspend-resume cycles.
-  - Workaround: You need to `modprobe -r mt7921e` right before suspend to disable the Wi-Fi, then run `modprobe mt7921e` after suspend to re-enable the Wi-Fi.
-    - You can find an automatic installer for the workaround [here](https://github.com/aarron-lee/gpd-win-tricks/tree/mt7921e_fix/suspend-fix).
+  - Reports of controller issues on wake have reported inconsistency. Enabling "full initial usb support" in Bios seems to have an impact on how frequent the issue is.
+- VRAM size option is missing from BIOS as it's controlled by AYASPACE application under windows. You can change the amount of UMA buffer size using [Smokeless_UMAF](https://github.com/DavidS95/Smokeless_UMAF), but this method has its own associated risks.
 
 ### Functional HHD
 
@@ -50,9 +47,9 @@ sudo systemctl enable --now hhd@$(whoami)
 
 ### External Graphics:
 
-- eGPU Thunderbolt 3/4 over USB4 is supported. USB4 enclosure needs proper testing, but there is no reason to suspect it should not work.
+- eGPU Thunderbolt 3/4 and USB4 enclosures over USB4 are supported. 
   - **AMD**:
-    - Automatic switch at boot with [all-ways-egpu](https://github.com/ewagner12/all-ways-egpu/tree/main) works fine using method 2 and 3 at boot, unfortunately method 1 is not supported but seems to be related to Steam Gaming Mode.
+    - Automatic switch at boot with [all-ways-egpu](https://github.com/ewagner12/all-ways-egpu/tree/main) works fine using method 2 and 3 at boot, unfortunately method 1 is not supported.
       - The script needs to be installed with [Steam Deck/User Installation](https://github.com/ewagner12/all-ways-egpu/blob/main/README.md#steamosbazziteuser-installation).
     - No issue in booting with eGPU attached. Tested on RX 6800 and no kernel parameters are needed since bazzite is now enabling the needed argument by default (amdgpu .ppfeaturemask).
       - Using `rpm-ostree kargs --append-if-missing=pci=nommconf` (or editing the kernel command line with `rpm-ostree kargs –editor`) is still needed according to my testing because some applications otherwise may underperform.
@@ -62,6 +59,8 @@ sudo systemctl enable --now hhd@$(whoami)
 ### External Resource
 
 Check out the [original thread](https://universal-blue.discourse.group/t/ayaneo-geek-1s-2s-linux-bazzite-support-is-already-almost-there-lets-add-them-to-the-officially-supported-devices/1046) for more information and updates on this device.
+
+Ayaneo Geek 1s is as 04/2025 the only ryzen 7000 handheld which is yet to receive the EC update that increase battery life. You can follow and report [on this discord thread](https://discord.com/channels/717181357109018694/1301507866754289745)
 
 <hr>
 
