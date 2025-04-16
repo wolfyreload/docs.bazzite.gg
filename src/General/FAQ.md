@@ -130,7 +130,6 @@ Unlike traditional Linux distributions, **most of the maintenance and security u
 - [**Ptyxis**](https://devsuite.app/ptyxis/): Terminal with first-class container support.
 - [**ScopeBuddy**](https://github.com/HikariKnight/ScopeBuddy): A manager script to make Gamescope easier on the Desktop.
 - [**`ujust`**](../Installing_and_Managing_Software/ujust.md): Execute custom commands based on recipes.
-- [**Bazzite Portal (yafti)**](https://github.com/ublue-os/yafti/): First-boot utility for installing additional software.
 
 ## Is Secure Boot supported?
 
