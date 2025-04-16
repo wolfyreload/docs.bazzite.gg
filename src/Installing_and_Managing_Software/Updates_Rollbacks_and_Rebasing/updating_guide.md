@@ -46,7 +46,7 @@ Bazzite updates all of the changes made specifically in Bazzite itself, updates 
 ujust update
 ```
 
-### Do I have to reboot after every system update?
+## Do I have to reboot after every system update?
 
 **No**, but the system upgrade will not apply until the next reboot.
 
@@ -65,31 +65,6 @@ Usually Bazzite is built twice a week which includes the new changes from us and
 ## How does updating to a new Fedora major release work?
 
 Bazzite should automatically update when our new builds based on that new major release are ready, and usually aims for the around the same day when the new Fedora Linux major release is out.
-
-## Can I enable update notifications for Desktop images?
-
-**Yes!** Open a host terminal and **enter**:
-
-```command
-sudo nano /etc/ublue-update/ublue-update.toml
-```
-Change this line inside of the file:
-   `dbus_notify = false` to `dbus_notify = true`
-
-Save the file as `/etc/ublue-update/ublue-update.toml`
-
-Notifications for updates are now active.
-
-## How do I disable automatic updates for Desktop images?
-
-!!! note
-
-    There is a check in-place to disable automatic updates if the metered connection setting is enabled.
-
-Open a host terminal and enter this **command**:
-```
-ujust toggle-updates
-```
 
 <hr>
 
