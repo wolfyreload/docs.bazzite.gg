@@ -84,7 +84,7 @@ Alternatively, you can find the `ujust` commands locally in:
 
 Most applications installed via a `ujust` script would have to be uninstalled manually. Follow the instructions found on the project's website or README file in the source code to uninstall it properly.
 
-This **command** Shows layered packages that may be installed from the Bazzite Portal / `ujust`:
+This **command** Shows layered packages that may be installed from `ujust`:
 
 ```
 rpm-ostree status
