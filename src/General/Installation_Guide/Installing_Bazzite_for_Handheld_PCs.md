@@ -141,24 +141,9 @@ After completing all of the above, then your next boot will be in Steam Gaming M
 
 After you have booted into the Desktop for the first-time configuration, then you can should adjust the settings to your liking. The most important setting that may need to be changed is the scaling setting in "Display(s) [and Monitor]" since it can be incorrect for the screen of your hardware on a fresh installation. Monitor orientation should also be corrected if it is rotated improperly.
 
-### First Boot Setup Utility: Bazzite Portal
-
-![Welcome to Bazzite|618x500, 75%](../../img/yafti_welcome.jpeg)
-
-An application will pop up welcoming you to Bazzite when you boot into the desktop for the first time. This is a utility that allows you to tailor Bazzite to your liking by installing additional software.
-
-- Click "Next" to begin configuring Bazzite.
-- Press the toggle switch button next to the item to have the option enabled or disabled for your installation, some are already toggled on by default.
-- If you would like to customize any of the options, then press the arrow next to the toggle switch button if available.
-- Installing items from the portal **may take a long time**.
-
-!!! attention
-    
-    There is a rare chance you will be asked to setup KDE Wallet or GNOME Keyring and set a password to continue installing items from the Bazzite Portal.
-
 ### Installing Additional Software
 
-The [Installing and Managing Applications documentation](../../Installing_and_Managing_Software/index.md) is useful to learn how to install additional software on Bazzite outside of the Bazzite Portal.
+The [Installing and Managing Applications documentation](../../Installing_and_Managing_Software/index.md) is useful to learn how to install additional software on Bazzite.
 
 ### Changing Default Password
 <sub> (If it wasn't changed in the installer) </sub>
