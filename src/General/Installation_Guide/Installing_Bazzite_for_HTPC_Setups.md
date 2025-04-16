@@ -133,26 +133,11 @@ After completing all of the above, then your next boot will be in Steam Gaming M
 ![Display Settings (GNOME)|690x344, 75%](../../img/GNOME_Display_Settings.png)
 **_GNOME's Settings application_**
 
-It is important to configure the system settings on a first boot to personalize your desktop especially if you notice the scaling is incorrect on first-boot.
-
-### First Boot Setup Utility: Bazzite Portal
-
-![Welcome to Bazzite|618x500, 75%](../../img/yafti_welcome.jpeg)
-
-An application will pop up welcoming you to Bazzite when you boot into the desktop for the first time. This is a utility that allows you to tailor Bazzite to your liking by installing additional software.
-
-- Click "Next" to begin configuring Bazzite.
-- Press the toggle switch button next to the item to have the option enabled or disabled for your installation, some are already toggled on by default.
-- If you would like to customize any of the options, then press the arrow next to the toggle switch button if available.
-- Installing items from the portal **may take a long time**.
-
-!!! attention 
-    
-    There is a rare chance you will be asked to setup KDE Wallet or GNOME Keyring and set a password to continue installing items from the Bazzite Portal.
+It is important to configure the system settings on a first boot to personalize your desktop especially if you notice the scaling is incorrect on your first boot.
 
 ### Installing additional software
 
-The [Installing and Managing Applications documentation](../../Installing_and_Managing_Software/index.md) is useful to learn how to install additional software on Bazzite outside of the Bazzite Portal.
+The [Installing and Managing Applications documentation](../../Installing_and_Managing_Software/index.md) is useful to learn how to install additional software on Bazzite.
 
 ### Calculating ISO SHA256 Checksum Hash
 
