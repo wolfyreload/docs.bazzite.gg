@@ -86,7 +86,7 @@ SteamOS receives package and driver updates less frequently despite the rolling 
 
 ## What are the advantages to using Fedora Atomic Desktop?
 
-Since Bazzite is a custom Fedora Atomic Desktop image, it makes use of read-only root files for stability purposes, and is built with [**bootable container images**](https://containers.github.io/bootable/) which has advantages such as:
+Since Bazzite is a custom Fedora Atomic Desktop image, it makes use of read-only root files for stability purposes, and is built as a [**bootable container image**](https://containers.github.io/bootable/) which has advantages such as:
 
 - Low risk of an unbootable system
 - Rollback system updates if necessary, and the ability to pin your current deployment as a backup save state without losing user data.
