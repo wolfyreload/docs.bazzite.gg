@@ -47,11 +47,11 @@ Steam can run Windows games on Linux. It utilizes a wide range of projects and p
   - However, [Heroic Games Launcher](https://heroicgameslauncher.com) is intended as a suitable replacement for the Epic Games Launcher.
   - Other games and launchers are also available in the software center (_Discover_ or _GNOME Software_) like [Itch](https://flathub.org/apps/io.itch.itch).
 
-### Lutris Setup
+### Lutris
 
-#### Lutris Screenshots
+Lutris offers two methods to play Windows games on Bazzite.  Community-driven scripts or manually adding the executable.  It is **highly recommended to use the manual method** as some scripts are poorly maintained.
 
-![Lutris|617x500, 75%](../img/Lutris_Setup.png)
+#### Lutris Installer Scripts
 
 ![Example of Lutris installers|623x500, 75%](../img/Lutris_Setup_Installers.png)
 
@@ -59,16 +59,12 @@ Lutris is game management software that doubles as a WINE front-end for Windows 
 
 #### Manually adding a Windows game to Lutris
 
-However if your game is not listed or doesn't work with the provided script, then manually add the executable. Add locally installed game and make sure to configure it properly within the game and runner options.  It will need a [prefix directory](/Gaming/Managing_and_modding_games.md#non-steam-games-prefix-management) created or inside the default `~/Games` directory for each game.
-
 ![Add Locally Installed Game|632x496, 75%](../img/Lutris_Setup_Add_Local_Game.png)
-
-**Example #1**:
 
 ![Lutris manually adding games example 1|690x213](../img/Lutris_Setup_Add_Local_Game_1.png)
 
-**Example #2**:
-![Lutris manually adding games example 2|690x342, 100%](../img/Lutris_Setup_Add_Local_Game_2.png)
+However if your game is not listed or doesn't work with the provided script, then manually add the executable. It will need a [**prefix directory**](/Gaming/Managing_and_modding_games.md#non-steam-games-prefix-management) created somewhere, but by default it will use the `~/Games` directory for each game.
+
 
 #### Lutris Shortcuts
 
@@ -76,9 +72,9 @@ However if your game is not listed or doesn't work with the provided script, the
 
 Right clicking a game on Lutris gives the option to add it as a non-Steam game (useful for Steam Gaming Mode), create a desktop shortcut, or an application menu shortcut.
 
-### Heroic Games Launcher Setup
+### Epic Games, GOG, and Amazon Games Launcher Client
 
-Heroic Games Launcher is recommended for games that were purchased from Epic Games Launcher, GOG, and Amazon Games Launcher.
+[**Heroic Games Launcher**](https://flathub.org/apps/com.heroicgameslauncher.hgl) is recommended for games that were purchased from Epic Games Launcher, GOG, and Amazon Games Launcher.
 
 ### Game Pass and Microsoft Store Games (Xbox Cloud Gaming)
 
@@ -86,11 +82,7 @@ Heroic Games Launcher is recommended for games that were purchased from Epic Gam
     
     A Game Pass Ultimate subscription is required to use [Xbox Cloud Gaming](https://www.xbox.com/en-us/play) except for select games like Fortnite.
 
-Games installed from the Microsoft Store do **not** run unless you use a Xbox Cloud Gaming client like [Greenlight](https://github.com/unknownskl/greenlight). Fortnite can also be played via this method **without** a Game Pass subscription with Xbox Cloud Gaming.
-
-## Auto-Mounting Game Drives
-
-Read the [Auto-Mounting Secondary Drives Guide](../Advanced/Auto-Mounting_Secondary_Drives.md) for more information. It is also recommended to do your own research on drive mounting on Linux.
+Games installed from the Microsoft Store do **not** run unless you use a Xbox Cloud Gaming client like [**Greenlight**](https://github.com/unknownskl/greenlight). Fortnite can also be played via this method **without** a Game Pass subscription.
 
 <hr>
 
