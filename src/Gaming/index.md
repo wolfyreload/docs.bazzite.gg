@@ -14,8 +14,7 @@ Linux gaming being a viable competitor to Windows is a relatively new paradigm. 
 
 - [Setting Up Steam](/Gaming/Game_Launchers.md#steam-setup)
 - [Non-Steam Games](/Gaming/Game_Launchers.md#non-steam-games)
-  - [Available Options](/Gaming/Game_Launchers.md#non-steam-games)
-  - [Configuring Lutris](/Gaming/Game_Launchers.md#lutris-setup)
+  - [Lutris](/Gaming/Game_Launchers.md#lutris)
   - [Epic Games, GOG, and Amazon Games](/Gaming/Game_Launchers.md#heroic-games-launcher-setup)
   - [Gamepass Using Xbox Cloud Gaming](/Gaming/Game_Launchers.md#game-pass-and-microsoft-store-games-xbox-cloud-gaming)
 
