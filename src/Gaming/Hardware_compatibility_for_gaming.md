@@ -88,7 +88,7 @@ This will use the OpenGL translation as opposed to Vulkan.
 
     Bazzite will automatically mount secondary drives that are formatted as Ext4 or BTRFS by default.
 
-**BTRFS is the default and recommended filesystem for Bazzite**.
+**BTRFS is the default and recommended filesystem for Bazzite**.  Any secondary drives that you plan to play video games on should be **backed up and reformatted to either Ext4 or BTRFS, however the drive will lose all of the data when performing this operation**.  You can use [**KDE Partition Manager (KDE images) or GNOME Disks (GNOME images) to format the drives appropriately at your own risk**](../Advanced/Auto-Mounting_Secondary_Drives.md).
 
 ### Unsupported Filesystems for Secondary Drives
 
@@ -98,9 +98,7 @@ This will use the OpenGL translation as opposed to Vulkan.
 
 #### NTFS
 
-If you are coming from Windows and plan to game on a secondary drive with games already installed on it, then we regret to inform you that the NTFS filesystem is **unsupported** for PC gaming on Bazzite.  Any secondary drives that you plan to play video games on should be **backed up and reformatted to either Ext4 or BTRFS**. You will lose all of the data on this device.
-
-You can use KDE Partition Manager (KDE images) or GNOME Disks (GNOME images) to format the drives appropriately **at your own risk**.
+If you are coming from Windows and plan to game on a secondary drive with games already installed on it, then we regret to inform you that the NTFS filesystem is **unsupported** for PC gaming on Bazzite.
 
 #### exFAT and FAT32
 
