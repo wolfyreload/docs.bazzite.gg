@@ -76,7 +76,7 @@ Love Bazzite and want to help sustain it's development?  Consider **sponsoring**
 {{ contributor("Justin Garrison", "rothgar", "Developer Relations") }}
 {{ contributor("Ian Off", "atimeofday", "QA Testing") }}
 {{ contributor("Gareth Widlansky", "gerblesh", "Image Maintenance") }}
-{{ contributor("Marco Ceppi", "marcoceppi", "Bazzite Portal Creator") }}
+{{ contributor("Marco Ceppi", "marcoceppi", "Bazzite Portal Original Creator") }}
 {{ contributor("Alex Banna", "abanna", "Bazzite Portal Prototyping") }}
 {{ contributor("CharlieBros ", "CharlieBros", "Initial Language Translations") }}
 {{ contributor("Tony", "cyrv6737", "Pilot") }}
