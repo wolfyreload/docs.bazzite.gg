@@ -86,7 +86,9 @@ This will use the OpenGL translation as opposed to Vulkan.
 
 !!! note
 
-    BTRFS is the default and recommended filesystem for Bazzite.
+    Bazzite will automatically mount secondary drives that are formatted as Ext4 or BTRFS by default.
+
+**BTRFS is the default and recommended filesystem for Bazzite**.
 
 ### Unsupported Filesystems for Secondary Drives
 
@@ -94,21 +96,15 @@ This will use the OpenGL translation as opposed to Vulkan.
     
     You will lose all of your data reformatting secondary internal/external drives.
 
-See also: [**Auto-Mounting Secondary Drives**](../Advanced/Auto-Mounting_Secondary_Drives.md)
-
 #### NTFS
 
-If you are coming from Windows and plan to game on a secondary drive with games already installed on it, then we regret to inform you that the NTFS filesystem is **unsupported** for gaming.
-
-Any secondary drives that you plan to play video games on should be **backed up and reformatted to either Ext4 or BTRFS**. You will lose all of the data on this device.
+If you are coming from Windows and plan to game on a secondary drive with games already installed on it, then we regret to inform you that the NTFS filesystem is **unsupported** for PC gaming on Bazzite.  Any secondary drives that you plan to play video games on should be **backed up and reformatted to either Ext4 or BTRFS**. You will lose all of the data on this device.
 
 You can use KDE Partition Manager (KDE images) or GNOME Disks (GNOME images) to format the drives appropriately **at your own risk**.
 
 #### exFAT and FAT32
 
-exFAT and FAT32 are **unsupported** entirely. Both filesystems **do not support symbolic links** which is what Proton prefixes use.
-
-However, scenarios where a microSD card is formatted to exFAT _may work_ in some cases, but it is entirely unsupported by Universal Blue if something goes horribly wrong using it.
+FAT32 and exFAT are **unsupported**. Both filesystems **do not support symbolic links** which is required for Proton prefixes to work properly.  However, there are scenarios where a microSD card is formatted to exFAT _may work_ in some cases, but this method is unsupported as something the Bazzite maintainers plan to accommodate.
 
 ### Sharing Games with a Windows Dual-Boot
 
