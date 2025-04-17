@@ -49,7 +49,7 @@ tags:
 
 ### Compatible Handhelds
 
-The [Handheld Wiki](../Handheld_and_HTPC_edition/Handheld_Wiki/index.md) lists tested handhelds with proper support for the Steam Deck, ASUS ROG Ally, Lenovo Legion Go, and a handful of other handhelds.
+The [**Handheld Wiki**](../Handheld_and_HTPC_edition/Handheld_Wiki/index.md) lists tested handhelds with proper support for the Steam Deck, ASUS ROG Ally, Lenovo Legion Go, and a handful of other handhelds.
 
 ## Vulkan Compatible GPU
 
