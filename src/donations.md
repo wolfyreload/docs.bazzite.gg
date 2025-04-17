@@ -66,7 +66,6 @@ Love Bazzite and want to help sustain it's development?  Consider **sponsoring**
 {{ contributor("Sterophonick", "Sterophonick", "Driver Backports") }}
 {{ contributor("XYNY", "xynydev", "Infographics / Alternate Custom Tooling") }}
 {{ contributor("Crono", "EPOCHvoyager", "Performance Scheduler Enthusiast") }}
-{{ contributor("Niklas Haiden", "NiHaiden", "Developer Experience Edition") }}
 {{ contributor("m2", "m2Giles", "Bug Fixes / Enhancements") }}
 {{ contributor("FiftyDinar", "fiftydinar", "Bug Fixes / Enhancements") }}
 {{ contributor("Marco Rodolfi", "RodoMa92", "Bug Fixes / Enhancements") }}
@@ -76,10 +75,10 @@ Love Bazzite and want to help sustain it's development?  Consider **sponsoring**
 {{ contributor("Justin Garrison", "rothgar", "Developer Relations") }}
 {{ contributor("Ian Off", "atimeofday", "QA Testing") }}
 {{ contributor("Gareth Widlansky", "gerblesh", "Image Maintenance") }}
-{{ contributor("Marco Ceppi", "marcoceppi", "Bazzite Portal Original Creator") }}
-{{ contributor("Alex Banna", "abanna", "Bazzite Portal Prototyping") }}
+{{ contributor("Alex Banna", "abanna", "Prototyping") }}
 {{ contributor("CharlieBros ", "CharlieBros", "Initial Language Translations") }}
 {{ contributor("Tony", "cyrv6737", "Pilot") }}
+{{ contributor("Niklas Haiden", "NiHaiden", "Star Guy") }}
 {{ contributor("Jorge Castro", "castrojo", "Dinosaur Guy", "https://github.com/sponsors/castrojo") }}
 </div>
 
