@@ -9,8 +9,6 @@ authors:
 
 # Common Issues and Workarounds for Steam Gaming Mode
 
-> [View the current Gamescope issues](https://github.com/ValveSoftware/gamescope/issues).
-
 ## How do I use my microSD card that I used on my Steam Deck running SteamOS?
 
 Open a host terminal and enter this **command**:
@@ -135,6 +133,8 @@ You can restore this shortcut by opening terminal and running:
 
 ## Steam broke and Gaming Mode is broken too
 
+In scenarios where Steam Gaming Mode refuses to start due to an issue with the Steam client.
+
 ### Desktop Mode
 
 Open a host terminal and **enter**:
@@ -205,4 +205,4 @@ https://www.youtube.com/watch?v=gE1ff72g2Gk
 
 <hr>
 
-**See also**: [Issues & Resolutions](/General/issues_and_resolutions.md)
+**See also**: [Issues & Resolutions](/General/issues_and_resolutions.md) & [Current Gamescope Issues](https://github.com/ValveSoftware/gamescope/issues).
