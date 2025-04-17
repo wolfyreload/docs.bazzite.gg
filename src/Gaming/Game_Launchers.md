@@ -43,9 +43,7 @@ Steam can run Windows games on Linux. It utilizes a wide range of projects and p
 
 ## **Non-Steam Games**
 
-- **It is recommended to use [Lutris](https://lutris.net/games?q=&ordering=-popularity&paginate_by=100) for _most_ non-steam games**.
-  - However, [Heroic Games Launcher](https://heroicgameslauncher.com) is intended as a suitable replacement for the Epic Games Launcher.
-  - Other games and launchers are also available in the software center (_Discover_ or _GNOME Software_) like [Itch](https://flathub.org/apps/io.itch.itch).
+**It is recommended to use [Lutris](https://lutris.net/games?q=&ordering=-popularity&paginate_by=100) for _most_ non-steam games**.  There are edge cases with specific launchers and games that have a better working alternative than Lutris, but Lutris is the most supported option for PC games outside of Steam on Bazzite outside of special scenarios.
 
 ### Lutris
 
