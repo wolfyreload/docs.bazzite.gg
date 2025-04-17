@@ -72,7 +72,7 @@ However if your game is not listed or doesn't work with the provided script, the
 
 Right clicking a game on Lutris gives the option to add it as a non-Steam game (useful for Steam Gaming Mode), create a desktop shortcut, or an application menu shortcut.
 
-### Epic Games, GOG, and Amazon Games Launcher Client
+### Epic Games, GOG, and Amazon Games Launcher
 
 [**Heroic Games Launcher**](https://flathub.org/apps/com.heroicgameslauncher.hgl) is recommended for games that were purchased from Epic Games Launcher, GOG, and Amazon Games Launcher.
 
