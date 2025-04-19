@@ -118,6 +118,7 @@ We also encourage you to donate to the projects that are used in Bazzite which h
 - [**Hanabi**](https://ko-fi.com/jeffshee)
 - [**Handheld Daemon**](https://github.com/sponsors/antheas)
 - [**Homebrew**](https://github.com/Homebrew/brew#donations)
+- [**Just Perfection**](https://buymeacoffee.com/justperfection)
 - [**KDE**](https://kde.org/donate/)
 - [**Logo Menu**](https://github.com/sponsors/Aryan20)
 - [**Mozilla**](https://foundation.mozilla.org/en/?form=donate&gad_source=1)
