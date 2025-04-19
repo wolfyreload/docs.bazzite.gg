@@ -3,7 +3,7 @@ title: General Documentation
 ---
 - [**README**](https://github.com/ublue-os/bazzite/blob/main/README.md)
 - [**Dictionary & Terminology**](/General/terms.md)
-- [**Fedora Atomic Desktop Comparison**](/General/Fedora_Atomic_Comparison.md)
+- [**Upstream Fedora Atomic Desktop Comparison**](/General/Fedora_Atomic_Comparison.md)
 - [**SteamOS Comparison**](/General/SteamOS_Comparison.md)
 - [**Issues & Resolution**](/General/issues_and_resolutions.md)
 - [**Reporting Bugs**](/General/reporting_bugs.md)
