@@ -19,7 +19,7 @@ title: Frequently Asked Questions
 
 ## What is the difference between SteamOS and Bazzite?
 
-Bazzite originally was developed for the Steam Deck targeting users who used their Steam Deck as their primary PC. Bazzite is a collection of custom Fedora Atomic Desktop images (with the power of [libostree](https://ostreedev.github.io/ostree/)) built with Universal Blue's tooling (with the power of [OCI](https://opencontainers.org/about/overview/)) as opposed to using an [Arch Linux](https://archlinux.org/) base with A/B updates utilizing [RAUC](https://github.com/rauc/rauc).  The main advantages of Bazzite versus SteamOS is receiving system packages in updates at a much faster rate and a choice of an alternative desktop environment.
+Bazzite originally was developed for the Steam Deck targeting users who used their Steam Deck as their primary PC. Bazzite is a collection of custom Fedora Atomic Desktop images built with Universal Blue's tooling (with the power of [OCI](https://opencontainers.org/about/overview/)) as opposed to using an [Arch Linux](https://archlinux.org/) base with A/B updates utilizing [RAUC](https://github.com/rauc/rauc).  The main advantages of Bazzite versus SteamOS is receiving system packages in updates at a much faster rate and a choice of an alternative desktop environment.
 
 > A list of major differences can be found in the [**SteamOS Comparison**](/General/SteamOS_Comparison.md), [**Steam Deck wiki entry**](/Handheld_and_HTPC_edition/Handheld_Wiki/Steam_Deck.md#how-similar-is-bazzite-to-steamos-on-steam-deck-hardware), and the [**Bazzite README**](https://github.com/ublue-os/bazzite/blob/main/README.md).
 
