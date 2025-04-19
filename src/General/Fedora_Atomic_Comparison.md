@@ -8,7 +8,7 @@ Bazzite is a custom image of [**Fedora Kinoite (KDE Plasma images)**](https://fe
 - [**System and application updates will be upgraded automatically daily**](/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/updating_guide/) (for [**Desktop images**](/General/FAQ/#1-desktop-edition) only).
 - Fedora Flatpak remote removed in favor of using the [**System Flathub**](https://flathub.org/) remote for all applications.
 - [**Homebrew**](/Installing_and_Managing_Software/Homebrew/) is the intended package manager for command-line tools.
-- Convenient [`ujust`](/Installing_and_Managing_Software/ujust/) scripts by maintainers and contributors of the project.
+- Convenient [**`ujust`**](/Installing_and_Managing_Software/ujust/) scripts by maintainers and contributors of the project.
 - [**Distrobox containers**](/Installing_and_Managing_Software/Distrobox/) grant access to other Linux desktop package managers for specific applications or development environments.
 - Multimedia codecs with full support for accelerated video encoding and decoding out of the box.
 - Android application support with [**Waydroid**](/Installing_and_Managing_Software/Waydroid_Setup_Guide.md).
