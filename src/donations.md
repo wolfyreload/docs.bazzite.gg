@@ -50,7 +50,6 @@ Love Bazzite and want to help sustain it's development?  Consider **sponsoring**
 {{ contributor("Noel Miller", "noelmiller", "Installer Enhancements / Custom Image Tooling", "https://github.com/sponsors/noelmiller") }}
 {{ contributor("RJ Trujillo", "EyeCantCU", "Tooling for CI/CD Pipelines / Alternate Desktop Environment Support") }}
 {{ contributor("Tulip Blossom", "tulilirockz", "OCI Image Virtuoso / Image Maintenance", "https://github.com/sponsors/tulilirockz") }}
-{{ contributor("Benjamin Sherman", "bsherman", "Nvidia Wrangler / Image Maintenance") }}
 {{ contributor("Brian Ketelsen", "bketelsen", "Tooling Expert") }}
 {{ contributor("Pat Connors", "nicknamenamenick", "Documentation") }}
 {{ contributor("Zeglius", "Zeglius", "Scripting / Documentation Maintenance") }}
@@ -78,8 +77,9 @@ Love Bazzite and want to help sustain it's development?  Consider **sponsoring**
 {{ contributor("Alex Banna", "abanna", "Prototyping") }}
 {{ contributor("CharlieBros ", "CharlieBros", "Initial Language Translations") }}
 {{ contributor("Tony", "cyrv6737", "Pilot") }}
-{{ contributor("Niklas Haiden", "NiHaiden", "Galaxy Guy") }}
-{{ contributor("Jorge Castro", "castrojo", "Dinosaur Guy", "https://github.com/sponsors/castrojo") }}
+{{ contributor("Benjamin Sherman", "bsherman", "Server Guy <sub>uCore Lead Maintainer</sub>") }}
+{{ contributor("Niklas Haiden", "NiHaiden", "Galaxy Guy <sub>Aurora Lead Maintainer</sub>") }}
+{{ contributor("Jorge Castro", "castrojo", "Dinosaur Guy <sub>Bluefin Lead Maintainer</sub>", "https://github.com/sponsors/castrojo") }}
 </div>
 
 >[**View the full list of Bazzite contributors in the Gitub repository**](https://github.com/ublue-os/bazzite/graphs/contributors) ([**Contribute**](/CONTRIBUTE.md))
