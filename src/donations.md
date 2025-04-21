@@ -77,9 +77,9 @@ Love Bazzite and want to help sustain it's development?  Consider **sponsoring**
 {{ contributor("Alex Banna", "abanna", "Prototyping") }}
 {{ contributor("CharlieBros ", "CharlieBros", "Initial Language Translations") }}
 {{ contributor("Tony", "cyrv6737", "Pilot") }}
-{{ contributor("Benjamin Sherman", "bsherman", "Server Guy <sub>uCore Lead Maintainer</sub>") }}
-{{ contributor("Niklas Haiden", "NiHaiden", "Galaxy Guy <sub>Aurora Lead Maintainer</sub>") }}
-{{ contributor("Jorge Castro", "castrojo", "Dinosaur Guy <sub>Bluefin Lead Maintainer</sub>", "https://github.com/sponsors/castrojo") }}
+{{ contributor("Benjamin Sherman", "bsherman", "Server Guy <sup>(uCore Lead Maintainer)</sup>") }}
+{{ contributor("Niklas Haiden", "NiHaiden", "Galaxy Guy <sup>(Aurora Lead Maintainer)</sup>") }}
+{{ contributor("Jorge Castro", "castrojo", "Dinosaur Guy <sup>(Bluefin Lead Maintainer)</sup>", "https://github.com/sponsors/castrojo") }}
 </div>
 
 >[**View the full list of Bazzite contributors in the Gitub repository**](https://github.com/ublue-os/bazzite/graphs/contributors) ([**Contribute**](/CONTRIBUTE.md))
@@ -151,6 +151,6 @@ Similar desktop Linux projects that share resources with us.
 
 Check out the other Universal Blue end-user custom Fedora images especially if you want an experience similar to Bazzite without a focus in PC gaming. The contributors and maintainers involved with the other Universal Blue projects will usually fix bugs in their images that will eventually be fixed in Bazzite around the same time if the same issues occur in both.
 
-- [**Aurora**](https://getaurora.dev/)
-- [**Bluefin**](https://projectbluefin.io/)
-- [**uCore**](https://projectucore.io)
+- [**Aurora**](https://getaurora.dev/): Your stable, privacy-respecting and ultimate productivity OS.
+- [**Bluefin**](https://projectbluefin.io/): The next generation Linux workstation, designed for reliability, performance, and sustainability.
+- [**uCore**](https://projectucore.io): An OCI base image of [Fedora CoreOS](https://fedoraproject.org/coreos/) with batteries included.
