@@ -97,7 +97,6 @@ These are just some of the common Bazzite ujust scripts, there are much more ava
 ### Maintenance Scripts
 
 - **ujust update** - updates system, flatpaks, and containers all at once
-- **ujust regenerate-grub** - Regenerate GRUB config, useful in dual-boot scenarios where a second operating system isn't listed
 - **ujust configure-grub** - Configures GRUB boot menu visibility
 - **ujust fix-reset-steam** - Reset the Steam folder back to a fresh state without removing games, music, saves, etc. Very useful if Steam is giving trouble or if you are getting a blank screen in Game Mode
 - **ujust fix-proton-hang** - Force terminates all processes related to wine and proton. Useful if you can't launch games after a game fails to close properly
