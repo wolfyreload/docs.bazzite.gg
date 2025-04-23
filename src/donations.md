@@ -88,7 +88,9 @@ Love Bazzite and want to help sustain it's development?  Consider **sponsoring**
 
 ## Fedora Project
 
-Bazzite would not exist without [**Fedora Linux**](https://fedoraproject.org/) especially since it is built directly on top of it.  The Fedora Project does not take monetary donations, but values hardware donations and contributions to the project.
+Bazzite would not exist without [**Fedora Linux**](https://fedoraproject.org/) since it is built directly on top of the [**Atomic variants**](https://fedoraproject.org/atomic-desktops/).
+
+The Fedora Project does not take monetary donations, but values hardware donations and contributions to the project.
 
 - [**Donating Hardware**](https://fedoraproject.org/wiki/Donations)
 - [**Contributing**](https://fedoraproject.org/wiki/Contribute)
