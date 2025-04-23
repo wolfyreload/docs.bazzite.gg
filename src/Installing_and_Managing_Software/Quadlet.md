@@ -208,6 +208,10 @@ WantedBy=default.target
 
     Use absolute path for volume, e.g `/home/username/samba/guest`.
 
+## Troubleshooting
+
+If your quadlet for some reason isn't found or starting you can debug the container unit using `/usr/libexec/podman/quadlet -dryrun` for system quadlet or `/usr/libexec/podman/quadlet -user -dryrun` for user quadlet.
+
 ## Project Website
 
 https://podman.io/
