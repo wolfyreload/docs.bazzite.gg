@@ -55,6 +55,10 @@ systemctl --user stop nginx
 
 You can see more command in [man systemctl](https://man.archlinux.org/man/systemctl.1) or [tldr systemctl](https://tldr.inbrowser.app/pages/linux/systemctl).
 
+!!! note
+
+    Do not add the `.container` suffix when you interact with systemctl or it will gives unit not found error
+
 ### Quadlet file location
 
 You can put your quadlet in these location sorted by priority.
@@ -121,6 +125,10 @@ Rootful Quadlet Path
     The `z` option in volume is to prevent selinux from blocking access to the folder. You can read more [here](https://docs.podman.io/en/stable/markdown/podman-run.1.html#volume-v-source-volume-host-dir-container-dir-options).
 
 ## Example
+
+!!! note
+
+    Don't forget to run `systemctl --user daemon-reload` after creating the file
 
 ### Minecraft Server
 
@@ -199,6 +207,10 @@ WantedBy=default.target
 !!! note
 
     Use absolute path for volume, e.g `/home/username/samba/guest`.
+
+## Troubleshooting
+
+If your quadlet for some reason isn't found or starting you can debug the container unit using `/usr/libexec/podman/quadlet -dryrun` for system quadlet or `/usr/libexec/podman/quadlet -user -dryrun` for user quadlet.
 
 ## Project Website
 
