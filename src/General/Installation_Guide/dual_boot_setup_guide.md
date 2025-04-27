@@ -104,12 +104,13 @@ If you want to dual boot another **Fedora Atomic Desktop image** (like [Bluefin]
 
 ## Dual Boot Post-Configuration Setup
 
+`ujust regenerate-grub` to show both Windows and Bazzite in the GRUB menu.
+
 ### Bazzite as Primary Boot
 
 If the `OS Boot Manager` has set `Windows Boot Manager` to be the first boot priority, then this may result in booting directly into Windows after the install instead of Bazzite. You may have to fix this in your BIOS settings.
 
 Take note that the GRUB menu might not show up. In such case, spam the <kbd>↓</kbd> key when booting up.
-{# TODO: Add procedure for showing GRUB in handhelds. #}
 
 <hr>
 
