@@ -30,8 +30,9 @@ Bazzite is great for users who feel that the device is too limited by SteamOS in
   - Read the [Setup Guide](/General/Installation_Guide/dual_boot_setup_guide/) for more information.
 - "Fearless Updates"
   - Due to the atomic nature of Bazzite, users have access to trivially easy OS rollbacks.
-  - If an OS update introduces a bug, you can simply [rollback the bad update with one simple command](/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/bazzite_rollback_helper.md), and wait until the bug gets fixed in a future build
-  - Once bugs are fixed, then you can again just resume regular OS updates with a simple command
+  - If an OS update introduces a bug, you can simply [rollback the bad update with one simple command](/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/bazzite_rollback_helper.md), and wait until the bug gets fixed in a future build.
+  - Once bugs are fixed, then you can again just resume regular OS updates with a simple command.
+- Uses BTRFS with **deduplicaton** and **compression** over Ext4 for internal and newly formatted external storage by default.
 
 #### Handheld Improvements
 
