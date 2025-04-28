@@ -36,5 +36,6 @@ Read about forking your own Bazzite image [here](/Advanced/creating_custom_image
 
 - Package your Linux software as a [Flatpak](https://docs.flatpak.org/en/latest/) and [publish to Flathub](https://docs.flathub.org/docs/for-app-authors/submission).
 - Contribute to the desktop environment that you use by following their contribution guidelines and reporting issues to them directly.
+  - Check out this [KDE Plasma example](https://community.kde.org/Get_Involved).
 - Get involved with Fedora Atomic Desktop's future by helping out with their [roadmap](https://gitlab.com/fedora/ostree/sig/-/issues/26).
-- [Open an issue](https://github.com/ValveSoftware/steam-for-linux/issues) for the Steam client (Linux port).
+- [Open an issue](https://github.com/ValveSoftware/steam-for-linux/blob/master/README.md#reporting-issues) for the Steam client (Linux port).
