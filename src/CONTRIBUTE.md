@@ -30,7 +30,7 @@ Also, this can be your own version of Bazzite to daily drive. This is useful to 
 
 Read about forking your own Bazzite image [here](/Advanced/creating_custom_image.md/#forking-bazzite) or use the [Image Template](https://github.com/ublue-os/image-template).  Alternatively, use the unaffiliated [BlueBuild](https://blue-build.org/learn/universal-blue/) project to build your own Bazzite.
 
->**See also**: [Creating A Custom Bazzite Image](/Advanced/creating_custom_image.md)
+>**See also**: [**Creating A Custom Bazzite Image**](/Advanced/creating_custom_image.md)
 
 ## Ecosystem and Upstream Contributions
 
