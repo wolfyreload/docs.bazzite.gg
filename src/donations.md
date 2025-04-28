@@ -44,32 +44,32 @@ title: Credits and Donating
 Love Bazzite and want to help sustain it's development?  Consider **sponsoring** the maintainers and contributors of the project.
 
 <div style="display: flex; flex-wrap: wrap; gap: 0.4rem;">
-{{ contributor("Kyle Gospodnetich", "KyleGospo", "Founder / Lead Maintainer", "https://github.com/sponsors/KyleGospo") }}
-{{ contributor("Antheas Kapenekakis", "antheas", "Handheld Daemon Lead Maintainer / Handheld Support", "https://github.com/sponsors/antheas") }}
-{{ contributor("HikariKnight", "HikariKnight", "Virtualization Support / Scripting", "https://github.com/sponsors/HikariKnight") }}
-{{ contributor("Noel Miller", "noelmiller", "Installer Enhancements / Custom Image Tooling", "https://github.com/sponsors/noelmiller") }}
-{{ contributor("RJ Trujillo", "EyeCantCU", "Tooling for CI/CD Pipelines / Alternate Desktop Environment Support") }}
-{{ contributor("Tulip Blossom", "tulilirockz", "OCI Image Virtuoso / Image Maintenance", "https://github.com/sponsors/tulilirockz") }}
+{{ contributor("Kyle Gospodnetich", "KyleGospo", "Founder & Lead Maintainer", "https://github.com/sponsors/KyleGospo") }}
+{{ contributor("Antheas Kapenekakis", "antheas", "Handheld Support", "https://github.com/sponsors/antheas") }}
+{{ contributor("HikariKnight", "HikariKnight", "Virtualization Support & Scripting", "https://github.com/sponsors/HikariKnight") }}
+{{ contributor("Noel Miller", "noelmiller", "Installer Enhancements & Custom Image Tooling", "https://github.com/sponsors/noelmiller") }}
+{{ contributor("RJ Trujillo", "EyeCantCU", "Tooling for CI/CD Pipelines & Initial Alternate Desktop Environment Support") }}
+{{ contributor("Tulip Blossom", "tulilirockz", "OCI Image Virtuoso & Image Maintenance", "https://github.com/sponsors/tulilirockz") }}
 {{ contributor("Brian Ketelsen", "bketelsen", "Tooling Expert") }}
 {{ contributor("Pat Connors", "nicknamenamenick", "Documentation") }}
-{{ contributor("Zeglius", "Zeglius", "Scripting / Documentation Maintenance") }}
-{{ contributor("Aarron Lee", "aarron-lee", "SimpleDeckyTDP / Scripting / Command-Line Utilities") }}
+{{ contributor("Zeglius", "Zeglius", "Scripting & Documentation Maintenance") }}
+{{ contributor("Aarron Lee", "aarron-lee", "Scripting & Command-Line Utilities") }}
 {{ contributor("Jan", "Jan200101", "Kernel Patches") }}
-{{ contributor("Matthew Schwartz", "matte-schwartz", "Steam Gaming Mode Testing and Consulting") }}
-{{ contributor("Bouhaa", "BoukeHaarsma23", "Steam Gaming Mode Testing and Consulting") }}
+{{ contributor("Matthew Schwartz", "matte-schwartz", "Steam Gaming Mode Testing & Consulting") }}
+{{ contributor("Bouhaa", "BoukeHaarsma23", "Steam Gaming Mode Testing & Consulting") }}
 {{ contributor("Jason Nagin", "JasonN3", "Creator of Build Container Installer") }}
 {{ contributor("Adelia", "adeliasvg", "Branding Manager") }}
 {{ contributor("Sean Srock", "SuperRiderTH", "Animator") }}
 {{ contributor("wolfyreload", "wolfyreload", "Visual Guides") }}
-{{ contributor("Kurt Himebauch", "xXJSONDeruloXx", "Decky Plugins / ujust Extraordinaire") }}
+{{ contributor("Kurt Himebauch", "xXJSONDeruloXx", "ujust Extraordinaire") }}
 {{ contributor("Atapi", "Sterophonick", "Driver Backports") }}
-{{ contributor("XYNY", "xynydev", "Infographics / Alternate Custom Tooling") }}
+{{ contributor("XYNY", "xynydev", "Infographics & Alternate Custom Tooling") }}
 {{ contributor("Crono", "EPOCHvoyager", "Performance Scheduler Enthusiast") }}
-{{ contributor("m2", "m2Giles", "Bug Fixes / Enhancements") }}
-{{ contributor("FiftyDinar", "fiftydinar", "Bug Fixes / Enhancements") }}
-{{ contributor("Marco Rodolfi", "RodoMa92", "Bug Fixes / Enhancements") }}
+{{ contributor("m2", "m2Giles", "Bug Fixes & Enhancements") }}
+{{ contributor("FiftyDinar", "fiftydinar", "Bug Fixes & Enhancements") }}
+{{ contributor("Marco Rodolfi", "RodoMa92", "Bug Fixes & Enhancements") }}
 {{ contributor("RoyalOughtness", "RoyalOughtness", "Security Consulting", "https://github.com/sponsors/RoyalOughtness") }}
-{{ contributor("Valerie", "valerie-tar-gz", "Technical Support / Social Media") }}
+{{ contributor("Valerie", "valerie-tar-gz", "Technical Support & Social Media") }}
 {{ contributor("termdisc", "termdisc", "Technical Support") }}
 {{ contributor("Justin Garrison", "rothgar", "Developer Relations") }}
 {{ contributor("Ian Off", "atimeofday", "QA Testing") }}
