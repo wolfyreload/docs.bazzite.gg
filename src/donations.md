@@ -84,7 +84,7 @@ Love Bazzite and want to help sustain it's development?  Consider **sponsoring**
 
 >[**View the full list of Bazzite contributors in the Gitub repository**](https://github.com/ublue-os/bazzite/graphs/contributors) ([**Contribute**](/CONTRIBUTE.md))
 
-[Universal Blue contributors](https://github.com/ublue-os) also directly impact development of Bazzite! Special thanks to Universal Blue's _Contributor Emeritus_ who helped grow Universal Blue and Bazzite from the very beginning!
+[Universal Blue contributors](https://github.com/ublue-os) also directly impact development of Bazzite! Special thanks to Universal Blue's [**Contributor Emeritus**](https://github.com/ublue-os/main/blob/main/emeritus.md) who helped grow Universal Blue and Bazzite from the very beginning!
 
 ## Fedora Project
 
