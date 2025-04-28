@@ -36,7 +36,7 @@ Both SteamOS and Bazzite use Steam Gaming Mode and share packages between each o
   - Newer package upgrades including the Linux kernel and drivers.
   - Regressions may occur more often since Bazzite upgrades base packages faster than SteamOS does.
 
->If you want to see a more in-depth comparison, read our [SteamOS comparison guide](/General/SteamOS_Comparison.md).
+>If you want to see a more in-depth comparison, read our [**SteamOS comparison guide**](/General/SteamOS_Comparison.md).
 
 ### Does the Steam Deck image receive BIOS updates like SteamOS?
 
