@@ -10,7 +10,7 @@ title: Contributing to Bazzite
 
 !!! attention
     
-    Please read [Universal Blue's General Contributing Guidelines](https://universal-blue.org/contributing.html) before proceeding!
+    Please read [**Universal Blue's General Contributing Guidelines**](https://universal-blue.org/contributing.html) before proceeding!
 
 ## Good Contribution Examples
 
@@ -32,3 +32,8 @@ Read about forking your own Bazzite image [here](/Advanced/creating_custom_image
 
 >**See also**: [Creating A Custom Bazzite Image](/Advanced/creating_custom_image.md)
 
+## Ecosystem and Upstream Contributions
+
+- Package your Linux software as a [Flatpak](https://docs.flatpak.org/en/latest/) and [publish to Flathub](https://docs.flathub.org/docs/for-app-authors/submission).
+- Contribute to the desktop environment that you use by following their contribution guidelines and reporting issues to them directly.
+- Get involved with Fedora Atomic Desktop's future by helping out with their [roadmap](https://gitlab.com/fedora/ostree/sig/-/issues/26).
