@@ -104,7 +104,11 @@ If you want to dual boot another **Fedora Atomic Desktop image** (like [Bluefin]
 
 ## Dual Boot Post-Configuration Setup
 
-`ujust regenerate-grub` to show both Windows and Bazzite in the GRUB menu.
+Show both your Windows and Bazzite installations in the GRUB menu to select from at boot by entering this **command into the terminal**:
+
+```
+ujust regenerate-grub
+```
 
 ### Bazzite as Primary Boot
 
