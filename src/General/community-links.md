@@ -30,6 +30,7 @@ title: Community Resources
 - [**Browser Games Using Web Apps**](https://universal-blue.discourse.group/t/how-to-run-old-browser-games-with-web-apps/486)
 - [**StreamingServiceLauncher**](https://github.com/aarron-lee/StreamingServiceLauncher)
 - [**Crunchyroll for Linux**](https://github.com/aarron-lee/crunchyroll-linux)
+- [**Setup Streaming Services**](https://github.com/fewtarius/SetupStreamingServices)
 - [**Running Valve's Hammer Level Editor Software for Map Making in the Source 1 Engine**](https://andrealmeid.com/post/2020-05-28-csgo-hammer-linux/)
 - [**boxkit: Template to build your own OCI Distrobox container**](https://github.com/ublue-os/boxkit) 
 - [**bazzite-arch: Gaming packages inside of a Distrobox container**](https://github.com/ublue-os/bazzite-arch)
