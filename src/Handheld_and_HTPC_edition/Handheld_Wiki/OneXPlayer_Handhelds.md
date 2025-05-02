@@ -20,9 +20,7 @@ Read the [**Installing Bazzite on Handheld PCs documentation**](/General/Install
 
 ### Post-Installation Setup
 
-- Complete the Bazzite Portal
 - Login to Steam
-- Reboot device
 - Configure the HHD Overlay by opening it with QAM button
 
 ### Optional Tweaks
