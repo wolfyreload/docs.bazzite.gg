@@ -139,7 +139,7 @@ Similar desktop Linux projects that share resources with us.
 - [**ChimeraOS**](https://chimeraos.org/) ([**Support**](https://opencollective.com/chimeraos/donate))
 - [**Ultramarine Linux**](https://ultramarine-linux.org/) ([**Support**](https://github.com/sponsors/FyraLabs))
 - [**Nobara Project**](https://nobaraproject.org/download-nobara/) ([**Support**](https://www.patreon.com/gloriouseggroll))
-- [**Jovian NixOS**](https://jovian-experiments.github.io/Jovian-NixOS/) ([**Contribute**](https://github.com/Jovian-Experiments/Jovian-NixOS/blob/development/CONTRIBUTING.md))
+- [**Jovian NixOS**](https://jovian-experiments.github.io/Jovian-NixOS/) ([**Contribute**](https://jovian-experiments.github.io/Jovian-NixOS/contributing.html))
 - [**OpenSUSE Aeon**](https://aeondesktop.github.io/) / [**OpenSUSE Kalpa**](https://en.opensuse.org/Portal:Kalpa) ([**Contribute**](https://en.opensuse.org/Portal:How_to_participate))
 - [**Winblues**](https://blues.win/) ([**Support Upstream Projects**](https://blues.win/95/thanks/))
 - [**CachyOS**](https://cachyos.org/) ([**Support**](https://www.patreon.com/CachyOS))
