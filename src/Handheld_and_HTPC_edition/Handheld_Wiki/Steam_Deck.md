@@ -18,8 +18,7 @@ authors:
 Read the [**Installing Bazzite on Steam Deck guide**](/General/Installation_Guide/Installing_Bazzite_for_Steam_Deck.md).
 
 ### Post-Installation Setup
-
-- No additional setup required, but the Bazzite Portal will appear in Desktop Mode at startup for additional software if desired.
+No additional setup required, but it is recommended to enter `ujust enable-deck-bios-firmware-updates` in the terminal to receive Steam Deck BIOS updates.
 
 ### Why Bazzite over SteamOS?
 
@@ -37,16 +36,6 @@ Both SteamOS and Bazzite use Steam Gaming Mode and share packages between each o
   - Regressions may occur more often since Bazzite upgrades base packages faster than SteamOS does.
 
 >If you want to see a more in-depth comparison, read our [**SteamOS comparison guide**](/General/SteamOS_Comparison.md).
-
-### Does the Steam Deck image receive BIOS updates like SteamOS?
-
-**Yes**.  If a BIOS update is available then it will install when you update Bazzite normally. It also supports controller firmware updates too.
-
-If desired, there is a **command to disable BIOS updates** at your own risk:
-
-```
-ujust disable-bios-updates
-```
 
 ### Workarounds / Known Issues
 
