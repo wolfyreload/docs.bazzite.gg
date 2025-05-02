@@ -84,7 +84,7 @@ distrobox enter <container>
 
 ## Removing Distrobox Containers
 
-Delete containers graphically with BoxBuddy.
+Delete containers graphically with DistroShelf.
 
 Alternatively, use the command line:
 
