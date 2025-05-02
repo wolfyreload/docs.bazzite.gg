@@ -50,9 +50,9 @@ Distrobox containers can be used for both **development environments** and **ins
 
 ## Distrobox Graphical Interface
 
-![BoxBuddy|690x382, 75%](../img/BoxBuddy.png)
+![Distroshelf|690x382, 75%](../img/distroshelf.png)
 
-Distrobox containers can be created and managed graphically with [BoxBuddy](https://github.com/Dvlv/BoxBuddyRS) which is pre-installed.
+Distrobox containers can be created and managed graphically with [**DistroShelf**](https://github.com/ranfdev/DistroShelf) which is pre-installed.
 
 ## Desktop Integration
 
