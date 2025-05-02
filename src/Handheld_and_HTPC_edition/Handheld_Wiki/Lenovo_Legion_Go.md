@@ -23,10 +23,7 @@ authors:
 Read the [**Installing Bazzite on Handheld PCs documentation**](../../General/Installation_Guide/Installing_Bazzite_for_Handheld_PCs.md).
 
 ## Post-Installation Setup
-
-- Complete the Bazzite Portal
 - Login to Steam
-- Reboot device
 - Configure the HHD Overlay by opening it with <kbd>Legion R</kbd>
 - **Optional**: Adjust RGB with Steam Gaming Mode under `Settings > Controller >  Calibration & Advanced > LED Settings`
 
