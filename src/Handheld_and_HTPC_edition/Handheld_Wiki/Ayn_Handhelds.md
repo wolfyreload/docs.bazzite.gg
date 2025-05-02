@@ -24,9 +24,7 @@ Read the [**Installing Bazzite on Handheld PCs documentation**](/General/Install
 
 ### Post-Installation Setup
 
-- Complete the Bazzite Portal
 - Login to Steam
-- Reboot device
 - Configure the HHD Overlay by opening it with QAM button
 - Virtual keyboard is Steam's keyboard, but needs to be setup in Steam's settings in Desktop Mode (See "Desktop Controls" section below)
 
@@ -55,9 +53,7 @@ Read the [**Installing Bazzite on Handheld PCs documentation**](/General/Install
 
 ### Post-Installation Setup
 
-- Complete the Bazzite Portal
 - Login to Steam
-- Reboot device
 - Configure the HHD Overlay by opening it with QAM button
 - Virtual keyboard is Steam's keyboard, but needs to be setup in Steam's settings in Desktop Mode (See "Desktop Controls" section below)
 
