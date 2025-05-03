@@ -34,6 +34,20 @@ https://www.youtube.com/watch?v=Z_DsWqTuipU
 
 >[**Secure Boot Guide**](/General/Installation_Guide/secure_boot.md)
 
+## Unable to allocate requested partition scheme error
+
+This error occurs when installing on drives larger than 2TB where the first 2TB or more is already occupied by one or more partitions. The image below illustrates the error message.
+
+![Unable to allocation requested partition scheme](../../img/unable-to-allocation-requested-partition-scheme.png)
+
+It seems like the Anaconda installer cannot create any paritions after the 2TB mark.
+
+Here are some possible solutions on how you can address it:
+
+- Install Bazzite on a different storage device where Bazzite can have the entire drive.
+- If you're dual booting with Windows, reduce the size of your Windows partition to under 2TB. If Windows' Disk Management can't do this, consider using a third-party tool like [EaseUS Partition Master](https://www.easeus.com/partition-master/) to resize the partitions while Windows is not running.
+- If the drive contains no important data, you can delete all existing partitions and restart the installation process.
+
 <hr>
 
 ## Alternative Installation Method
