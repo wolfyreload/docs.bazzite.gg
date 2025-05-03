@@ -16,4 +16,4 @@ Bazzite ships [Ptyxis](https://devsuite.app/ptyxis/) as the default terminal. It
 
 Then select "Use Custom Command" and add the shell you want to use. `/usr/bin/fish` is included on the image and other shells like ZSH may be installed with Homebrew: 
 
-![image](https://github.com/user-attachments/assets/8eb039db-7ec1-4847-b3d7-496d69fe9538)
+![image](../img/ptyxis-custom-command.png)
