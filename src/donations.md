@@ -142,6 +142,7 @@ Similar desktop Linux projects that share resources with us.
 - [**Jovian NixOS**](https://jovian-experiments.github.io/Jovian-NixOS/) ([**Contribute**](https://jovian-experiments.github.io/Jovian-NixOS/contributing.html))
 - [**OpenSUSE Aeon**](https://aeondesktop.github.io/) / [**OpenSUSE Kalpa**](https://en.opensuse.org/Portal:Kalpa) ([**Contribute**](https://en.opensuse.org/Portal:How_to_participate))
 - [**Winblues**](https://blues.win/) ([**Support Upstream Projects**](https://blues.win/95/thanks/))
+- [**secureblue**](https://secureblue.dev/)
 - [**CachyOS**](https://cachyos.org/) ([**Support**](https://www.patreon.com/CachyOS))
 
 ## Special Thanks
