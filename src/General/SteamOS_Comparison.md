@@ -68,7 +68,7 @@ None of these are currently offered on SteamOS.  Note that, in Bazzite, disk enc
 
 Secure Boot support is useful for if you want to dual-boot with Windows, and requires Secure Boot for certain anti-cheat software. Read more in our [guide](/General/Installation_Guide/secure_boot.md).
 
->Please note: SELinux can affect certain games that run on the Source Engine, but there is a [fix](/Gaming/Common_gaming_issues.md) if you run into issues.
+>Please note: SELinux can affect certain games that run on the Source Engine, but there is a [**fix**](/Gaming/Common_gaming_issues.md) if you run into issues.
 
 ### Will there be any performance improvements with Bazzite?
 
@@ -87,4 +87,4 @@ However there are some **advantages** that Bazzite may have in certain edge case
   - Bazzite does not use a swapfile and rely on zram with zstd by default (compressed memory)
 - Kernel is using 1000hz tick
 
->These performance tweaks are sourced from this [Medium article](https://medium.com/@a.b.t./here-are-some-possibly-useful-tweaks-for-steamos-on-the-steam-deck-fcb6b571b577) and may be outdated as Valve updates SteamOS.
+>These performance tweaks are sourced from this [**Medium article**](https://medium.com/@a.b.t./here-are-some-possibly-useful-tweaks-for-steamos-on-the-steam-deck-fcb6b571b577) and may be outdated as Valve updates SteamOS.
