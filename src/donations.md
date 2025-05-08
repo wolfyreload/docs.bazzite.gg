@@ -149,7 +149,7 @@ Similar desktop Linux projects that share resources with us.
 
 - [**evlaV**](https://gitlab.com/evlaV) - For making Valve's code available and for being [**this person**](https://xkcd.com/2347/).
 - [**Steam Deck Homebrew**](https://deckbrew.xyz) - For choosing to support distributions other than SteamOS despite the extra work, and a special thanks to [**PartyWumpus**](https://github.com/PartyWumpus) for getting Decky Loader working with SELinux for us.
-- [**Valve**](https://www.valvesoftware.com/), [**Collabora**](https://www.collabora.com/), [**Igalia**](https://www.igalia.com/), & [**Arch Linux**](https://archlinux.org/) - For being the reason that SteamOS exists which is obviously Bazzite's largest influence.
+- [**Valve**](https://www.valvesoftware.com/), [**Collabora**](https://www.collabora.com/), [**Igalia**](https://www.igalia.com/), & [**Arch Linux**](https://archlinux.org/) - For being the reason that SteamOS exists which is Bazzite's largest influence.
 
 ## Maintainers and Contributors of Other Universal Blue Projects
 
