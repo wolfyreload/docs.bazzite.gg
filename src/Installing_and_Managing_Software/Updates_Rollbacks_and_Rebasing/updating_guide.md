@@ -66,6 +66,14 @@ Usually Bazzite is built twice a week which includes the new changes from us and
 
 Bazzite should automatically update when our new builds based on that new major release are ready, and usually aims for the around the same day when the new Fedora Linux major release is out.
 
+## How do I disable automatic updates on Bazzite's Desktop images?
+
+Open a terminal and enter the following command:
+
+```
+ujust toggle-updates
+```
+
 <hr>
 
 [**<-- Back to Updates, Rollback, and Rebasing Guide**](./index.md)
