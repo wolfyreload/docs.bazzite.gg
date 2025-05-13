@@ -12,6 +12,8 @@ authors:
 
 **Resolution:** Close Steam completely and start Steam using the **Steam Big Picture Mode** menu shortcut. Also make sure that **Steam Settings >> Interface >> Enable GPU accelerated rendering in web views (requires restart)** is enabled.
 
+Note: This fix also fixes the lag in Game Mode on Nvidia GPUs, however, this comes with a drawback that the Steam menu and side menu sometimes don't render properly.
+
 ## Audio is soft on ASUS ROG Ally hardware
 
 **Issue:** If you turn up the volume to the maximum, the sound is still quiet.
