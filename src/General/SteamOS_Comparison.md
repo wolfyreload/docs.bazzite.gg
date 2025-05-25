@@ -1,56 +1,56 @@
 ---
 authors:
+  - "@antheas"
   - "@aarron-lee"
   - "@nicknamenamenick"
 ---
 
 # Comparison of Bazzite vs SteamOS
 
-## Why should I consider Bazzite over SteamOS?
+## What is Bazzite?
 
-Bazzite is great for users who feel that the device is too limited by SteamOS in comparison to other Linux operating systems, but do not want to sacrifice Steam Gaming Mode, stability, and the user friendliness of SteamOS.
+Bazzite is the largest community-driven Linux gaming operating system, featuring the latest Linux drivers, rich documentation, a large community, and a variety of flavors (**DX**, **Gnome**, **KDE**, and **Deck**). It is based on **Fedora** and features an atomic update system ([bootc](https://github.com/bootc-dev/bootc)), ensuring the previous update is always available if something goes wrong. It is also designed for daily driving, with a focus on **gaming** and **development**.
 
-### Enhancements
+If you have a problem on **Bazzite**, rest assured you are not the first one, and you can easily find an answer in this documentation, Google, [Discord](https://discord.gg/ublue), [Discourse](https://universal-blue.discourse.group/c/bazzite/), or [Reddit](https://reddit.com/r/bazzite). In addition, since Bazzite ships the **latest drivers**, you can be sure that if your device **can work** in Linux, **it will work** in Bazzite.
 
-- Bazzite generally ships newer software vs SteamOS.
-  - Examples include newer graphics drivers, newer Linux kernels, KDE Plasma, etc.
-- Bazzite allows you to install software on top of the base OS which means you can install software that you cannot install on SteamOS.
-  - Installing such software on SteamOS requires you to unlock the root filesystem on SteamOS, and those changes will get reset from SteamOS updates.
-- Android applications can be installed with [Waydroid](/Installing_and_Managing_Software/Waydroid_Setup_Guide.md) which is pre-installed.
-- Works on different hardware configurations.
-- Out of the box support for virtualization and GPU passthrough.
-- Updating in Steam Gaming Mode will also update installed applications.
-- Access to multiple desktop environments
-  - KDE Plasma 
-  - GNOME (Not available on SteamOS)
-  - Budgie (Planned for the future for Bazzite)
-- [`ujust`](/Installing_and_Managing_Software/ujust.md) convenience scripts for to setup software and tweaks such as supporting specific input peripherals, secure boot, and additional software.
-- Useful gaming-related software preinstalled, such as Lutris, Umu-Launcher, ProtonUp-QT, Protontricks, and more.
-- Supports dual-booting with Windows.
-  - Read the [Setup Guide](/General/Installation_Guide/dual_boot_setup_guide/) for more information.
-- "Fearless Updates"
-  - Due to the atomic nature of Bazzite, users have access to trivially easy OS rollbacks.
-  - If an OS update introduces a bug, you can simply [rollback the bad update with one simple command](/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/bazzite_rollback_helper.md), and wait until the bug gets fixed in a future build.
-  - Once bugs are fixed, then you can again just resume regular OS updates with a simple command.
-- Uses BTRFS with **deduplicaton** and **compression** over Ext4 for internal and newly formatted external storage by default.
+Bazzite also contains **custom hardware enablement** for handheld devices, and we are proud to say that Bazzite currently works on **all** **x86** based handhelds, where for **Lenovo**, **Asus**, **Ayn**, **GPD**, and **OneXPlayer** devices, it **has feature parity with Windows**. In addition, Bazzite has great support for **AMD**, and decent support for recent Intel Arc (e.g., **MSI Claw**) and Nvidia GPUs.
 
-### Handheld Improvements
+## What is SteamOS?
+SteamOS 3 (not to be confused with previous versions) is an Arch based immutable operating system originally designed for the Steam Deck. Much like ChromeOS is an OS for Chrome, SteamOS is an OS for the Steam client. It also features a basic desktop environment with **KDE**, **X11** that allows users to e.g., install mods and emulators, but may be limiting for desktop use.
 
-Handheld Daemon (aka HHD) ships with Bazzite for handheld PCs<sup>1</sup>, and adds the following functionality:
+In addition, due to its development model, it usually contains packages that are 1-2 years old. For example, SteamOS 3.6 released with kernel 6.5 in October 2024, and was in service until May 2025. Kernel 6.5 released in August 2023, so on the 3.6 release day, the kernel was 14 months old and when it expired in May 2025, it was 21 months old.
 
-- Game controller support for a large selection of PC [handhelds.](https://github.com/hhd-dev/hhd/blob/master/readme.md#supported-devices)
-- Hardware controls for TDP, GPU, Power Governor, CPU Boost, etc.
-- RGB controls for select devices only.
-- Swipe gestures while in Steam Gaming Mode.
+This means that if you are excited to buy a new device and plop SteamOS on it, you will usually have to **wait a year** for it to update. For example, **AMD 9070 GPUs** and **Strix Halo** devices (e.g., Asus Z13 2025) cannot run **SteamOS 3.7** (May 2025) at all, even though they released **early in 2025**.
 
-*<sup>1</sup>Handheld PCs that are not the Steam Deck hardware.
+## When should I use Bazzite vs SteamOS?
+For SteamOS, the answer is usually straightforward: if you will mostly be in Steam Gaming Mode, avoiding the desktop environment, and you have a **Steam Deck**, then SteamOS is a good choice. Likewise, if you have an all AMD PC that is **1-3 years old** and **you try SteamOS** and **it works well**, then you can use SteamOS.
+
+Otherwise, **Bazzite** is a natural choice. You will also find **other benefits** below.
+
+### Extra Features
+- Works on **all** x86-based handhelds: **Legion Go/S, ROG Ally/X, OneXPlayer F1/G1/X1 variants, GPD Win 4/Mini/Max, Ayn Loki, MSI Claw 1st Gen AI7+/8+, Steam Deck LCD/OLED, Zotac Zone, Ayaneo Air/Geek/Next**.
+  - With **built-in** **RGB support**, **TDP control**, **GPU control**, **gyro**, **sched-ext**, **back buttons**, **swipe gestures**, **battery conservation**, **charge bypass** and more.
+- Access to both **KDE** and **Gnome** desktop environments
+- Excellent **dual-boot** support with **Windows**.
+  - Read [Setup Guide](/General/Installation_Guide/dual_boot_setup_guide/) for more information.
+  - Handheld Daemon contains a **"Reboot to Windows" button** for handhelds in Gaming mode, allowing switching to Windows in a single tap.
+- Support for **LACT** and **Cooler Control**, for tuning **desktop GPUs** and **fans**.
+- **Fearless Updates**
+  - You always have access to the **previous version** through the bootloader.
+  - For handhelds, Bazzite **will automatically rollback** on the previous version after 3 failed boots.
+  - A **backlog of the previous 90 days of updates** is available, and you can easily roll back to any version with a simple command or through Handheld Daemon.
+- Ships the **newest software available**, along with Fedora, including **optimized** versions of the **Linux kernel**, **Mesa graphics drivers**, and **gamescope**.
+- Useful **gaming-related software**, such as **Lutris, Umu-Launcher, ProtonUp-QT, Protontricks**, and more.
+- Out of the box support for **virtualization** and **GPU passthrough**.
+- **Android** applications can be installed with [Waydroid](/Installing_and_Managing_Software/Waydroid_Setup_Guide.md) which is pre-installed.
+- **Sunshine** is pre-installed, allowing you to easily stream your games.
+- [`ujust`](/Installing_and_Managing_Software/ujust.md) convenience scripts for setting up software and tweaks such as secure boot, and additional software.
+- Uses the disk format **btrfs** with **deduplicaton** and **compression** (SteamOS uses **ext4**) and supports **auto-mounting** for **internal drives** and **SD cards**.
 
 ### Daily Driving
-
-- System packages that get updated on a regular basis.
-  - Follows Fedora's [update cycle](https://docs.fedoraproject.org/en-US/releases/lifecycle/) and receive updates directly from upstream
-    - This includes graphics drivers, the Linux kernel, and desktop environment upgrades
-- Wayland is the default session for Desktop Mode.
+- System packages get updated on a **weekly basis** (not **biannually** like SteamOS).
+- Wayland is used in desktop mode, ensuring correct scaling for high-DPI displays.
+- Most packages follow the Fedora lifecycle, with exceptions where there is a bug, where it is selectively withheld or fixed earlier than Fedora.
 
 ### For Developers
 
@@ -61,30 +61,9 @@ Handheld Daemon (aka HHD) ships with Bazzite for handheld PCs<sup>1</sup>, and a
 - Check out [Development](/Dev/index.md) for more information.
 
 #### Security Improvements
+Bazzite supports LUKS Disk Encryption, Secure Boot, and TPM unlock of the encrypted disk. Bazzite also has the [Security Enhanced Linux](https://www.redhat.com/en/topics/linux/what-is-selinux) kernel module enabled and pre-configured by default.
 
-Bazzite supports LUKS Disk Encryption, Secure Boot, and TPM unlock of the encrypted disk. Bazzite also has the [Security Enhanced Linux](https://www.redhat.com/en/topics/linux/what-is-selinux) kernel module enabled and pre-configured by default. 
+Secure Boot support is also useful for if you want to dual-boot with Windows, and requires Secure Boot for certain anti-cheat software. Read more in our [guide](/General/Installation_Guide/secure_boot.md).
 
-None of these are currently offered on SteamOS.  Note that, in Bazzite, disk encryption must be enabled manually during the OS installation process, and will require you to create an encryption password that you will remember to decrypt the disk.  Avoid entering the decryption disk decryption password on every reboot, you can configure TPM unlock via `ujust setup-luks-tpm-unlock`.  
-
-Secure Boot support is useful for if you want to dual-boot with Windows, and requires Secure Boot for certain anti-cheat software. Read more in our [guide](/General/Installation_Guide/secure_boot.md).
-
->Please note: SELinux can affect certain games that run on the Source Engine, but there is a [**fix**](/Gaming/Common_gaming_issues.md) if you run into issues.
-
-### Will there be any performance improvements with Bazzite?
-
-Performance should be on par with SteamOS, and every game capable of running on SteamOS should run on Bazzite. Bazzite and SteamOS share the same packages, so the difference is usually negligible.
-
-However there are some **advantages** that Bazzite may have in certain edge cases:
-
-- Performance Governor
-  - Bazzite uses powersave w/ [`amd-pstate`](https://www.kernel.org/doc/html/latest/admin-guide/pm/amd-pstate.html) which is more efficient on the hardware
-- MGLRU is already enabled by default by Fedora
-- Watchdog is disabled by default
-- Memory lock is tweaked for [RPCS3](https://rpcs3.net/)
-- Kyber I/O scheduler is used
-- File access times is disabled
-- Transparent Huge Pages is not used
-  - Bazzite does not use a swapfile and rely on zram with zstd by default (compressed memory)
-- Kernel is using 1000hz tick
-
->These performance tweaks are sourced from this [**Medium article**](https://medium.com/@a.b.t./here-are-some-possibly-useful-tweaks-for-steamos-on-the-steam-deck-fcb6b571b577) and may be outdated as Valve updates SteamOS.
+### Performance Improvements
+Due to the use of latest drivers, Bazzite will have **better performance** than SteamOS on **recent devices**. For the devices that SteamOS works well on (i.e., the **Steam Deck** and **2+ year old AMD PCs**), due to their age, the performance difference is negligible.
