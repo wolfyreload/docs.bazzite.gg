@@ -12,15 +12,15 @@ authors:
 
     This wiki may contain outdated information.
 
-# ASUS ROG Ally / ASUS ROG Ally X
+## ASUS ROG Ally / ASUS ROG Ally X
 
 ![ally|603x500, 100%](../../img/ally.png)
 
-## Installing Bazzite
+### Installing Bazzite
 
 Read the [**Installing Bazzite on Handheld PCs documentation**](/General/Installation_Guide/Installing_Bazzite_for_Handheld_PCs.md).
 
-## Post-Installation Setup
+### Post-Installation Setup
 
 - Login to Steam
 - Configure the HHD Overlay by opening it with the QAM button
@@ -29,13 +29,13 @@ Read the [**Installing Bazzite on Handheld PCs documentation**](/General/Install
 - Holding the Armoury Crate button (on the side) allows you to switch to Mouse Mode
 - Enable the Steam Power Button Handler setting in Handheld Daemon
 
-## Optional Tweaks
+### Optional Tweaks
 
 - Adjust RGB with Steam Gaming Mode in Handheld Daemon
 - Adjust the scaling of the UI in the Display Settings
 - Set a charge limit in HHD with Handheld Daemon
 
-## Workarounds / Known Issues
+### Workarounds / Known Issues
 - Changing A/C power sometimes leads to a stuck TDP.
 - Some users report that "Auto UMA" in the bios can cause crashes in some games.
   - If you encounter this, then try setting the VRAM in bios to **4GB** or **8GB**.
@@ -53,7 +53,7 @@ Read the [**Installing Bazzite on Handheld PCs documentation**](/General/Install
   - No controls outside of Steam.
   - Steam's top and bottom panels missing.
 
-### BIOS update breaks Secure Boot key
+#### BIOS update breaks Secure Boot key
 
 ![secure-boot|603x500, 100%](../../img/secure-boot.png)
 
@@ -61,7 +61,7 @@ Read the [**Installing Bazzite on Handheld PCs documentation**](/General/Install
 Read our [**Secure Boot guide**](/General/Installation_Guide/secure_boot.md#method-b-after-installation-method) to re-enroll the key after a BIOS update if you keep Secure Boot enabled, which is the default for this device.
 
 
-### CPU Boost?
+#### CPU Boost?
 
 Disabled by default to prevent excessive power draw to the device.
 
@@ -94,7 +94,7 @@ If your device has paddles, you will want to use the DualSense Edge controller. 
 
 Some games and emulators may need Steam Input **disabled** to work correctly with your controls.
 
-### Desktop Controls
+#### Desktop Controls
 
 Desktop Mode Controller Layout: It may not exist by default if Steam doesn't setup your handheld controller properly. This can be fixed in Steam's controller settings.
 
