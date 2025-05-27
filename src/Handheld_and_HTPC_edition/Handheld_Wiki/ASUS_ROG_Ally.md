@@ -16,8 +16,6 @@ authors:
 
 ![ally|603x500, 100%](../../img/ally.png)
 
-**Status**: Platinum
-
 ## Installing Bazzite
 
 Read the [**Installing Bazzite on Handheld PCs documentation**](/General/Installation_Guide/Installing_Bazzite_for_Handheld_PCs.md).
