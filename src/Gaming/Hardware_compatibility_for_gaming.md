@@ -42,7 +42,7 @@ tags:
     - RX 4xx series and up
     - 600M/700M integrated GPUs are also supported
 - Intel Arc GPUs are supported with **minor caveats** compared to AMD hardware
-- Nvidia GPU support is currently in beta with [**major caveats**](/Handheld_and_HTPC_edition/quirks/#nvidia-exclusive-issues.md) compared to AMD hardware
+- Nvidia GPU support is currently in beta with [**major caveats**](/Handheld_and_HTPC_edition/quirks/#nvidia-exclusive-issues) compared to AMD hardware
 - A [Steam](https://store.steampowered.com/) account
 
 ### Compatible Handhelds
