@@ -58,32 +58,21 @@ Read the [**Installing Bazzite on Handheld PCs documentation**](/General/Install
 ![secure-boot|603x500, 100%](../../img/secure-boot.png)
 
 
-Read our [Secure Boot guide](/General/Installation_Guide/secure_boot.md#method-b-after-installation-method) to re-enroll the key after a BIOS update if you keep Secure Boot enabled, which is the default for this device.
+Read our [**Secure Boot guide**](/General/Installation_Guide/secure_boot.md#method-b-after-installation-method) to re-enroll the key after a BIOS update if you keep Secure Boot enabled, which is the default for this device.
 
 
 ### CPU Boost?
 
 Disabled by default to prevent excessive power draw to the device.
 
-More information can be found [here](https://github.com/aarron-lee/SimpleDeckyTDP/blob/main/README.md#are-there-cpu-boost-controls) about this.
-
-<hr>
-
-## Additional Information
-
-This applies to most handhelds running Bazzite.
+More information can be found [**here**](https://github.com/aarron-lee/SimpleDeckyTDP/blob/main/README.md#are-there-cpu-boost-controls) about this.
 
 ### TDP Controls
 
 ![TDP|690x431, 75%](../../img/TDP.jpeg)
 
-There are a few options for TDP Controls that work with Bazzite:
-
-- The [HHD-overlay](https://github.com/hhd-dev/hhd/blob/master/readme.md) supports TDP controls.
-  - Also has a desktop app that is pre-installed, look for the Handheld Daemon app in Desktop Mode.
-- Steam Quick Access Menu TDP limit (part of Steam Gaming Mode)
-- [SimpleDeckyTDP](https://github.com/aarron-lee/SimpleDeckyTDP) supports TDP, GPU, Power Governor, and among other settings.
-  - Also has a [graphical application](https://github.com/aarron-lee/SimpleDeckyTDP-Desktop), but needs to be manually installed.
+- Steam Quick Access Menu TDP limit (part of Steam Gaming Mode) can control TDP the 
+- The [**HHD-overlay**](https://github.com/hhd-dev/hhd/blob/master/readme.md) also supports TDP controls.
 
 ### How do I open the HHD Overlay?
 
@@ -105,7 +94,7 @@ If your device has paddles, you will want to use the DualSense Edge controller. 
 
 Some games and emulators may need Steam Input **disabled** to work correctly with your controls.
 
-#### Desktop Controls
+### Desktop Controls
 
 Desktop Mode Controller Layout: It may not exist by default if Steam doesn't setup your handheld controller properly. This can be fixed in Steam's controller settings.
 
@@ -116,8 +105,6 @@ Desktop Mode Controller Layout: It may not exist by default if Steam doesn't set
 ![desktop_controls_step_3|690x431, 75%](../../img/handheld_desktop_controls_3.jpeg)
 
 Make sure to **apply** the desktop controls when you select them.
-
-<hr>
 
 ## Contributing
 
