@@ -32,26 +32,13 @@ _Click the name of each hardware to view post-installation setup and known issue
 
 Feel free to add new entries or update current wiki pages for your handheld following our [**documentation guidelines**](https://github.com/bazzite-org/docs.bazzite.gg/blob/main/README.md#documentation-guidelines).
 
-### Support Rating
-
-Bazzite takes a similar approach to [ProtonDB’s medal system](https://www.protondb.com/) by giving a generic label rating for each handheld.
-
-| Status | Definition
-| -------- | -------- |
-|**Platinum**  | No major issues and/or simple workarounds are needed for small fixes. | 
-| **Gold** | Minor issues and/or simple workarounds required, but ultimately works.
-| **Silver** | Major issues and/or exhaustive workarounds required, but boots and can game. |
-| **Bronze**  | Major issues and/or exhaustive workarounds, but boots and displays a desktop.| 
-| **Borked** | Bazzite does not boot on this hardware.
-| **Unknown (_Unlisted_)** | The handheld is not listed here and a general guide is under “Other Handhelds.” |
-
-# HHD Setup
+## HHD Setup
 
 !!! attention
     
     HHD is intended and functional for handhelds that are **not** the Steam Deck.
 
-**Read the [HHD README](https://github.com/hhd-dev/hhd/blob/master/readme.md) for more information.**
+>Read the [**HHD README**](https://github.com/hhd-dev/hhd/blob/master/readme.md) for more information.
 
 1. Double press the 'side menu button' to access Handheld Daemon overlay in Steam Gaming Mode
 
@@ -79,17 +66,7 @@ You can access Decky Loader by pressing the 'side menu button', also known as th
 
 Install optional [Decky plugins](https://plugins.deckbrew.xyz/) for your handheld. If you experience any major issues then it is recommended to uninstall Decky before reporting Bazzite bugs.
 
-## Bazzite's Steam Gaming Mode Documentation
-
-Check out the [Steam Gaming Mode documentation](../Steam_Gaming_Mode.md) for an in-depth guide on Steam Gaming Mode plus general fixes for common issues.
-
-## eGPU Support
-
-!!! warning
-    
-    eGPU is **not** a fully supported feature and may have caveats.
-
-### Caveats:
+## e-GPU Caveats:
 
 - The same [GPU hardware requirements](/Gaming/Hardware_compatibility_for_gaming.md#steam-gaming-mode-requirements) that apply for Steam Gaming Mode also apply for e-GPUs.
   - Nvidia GPUs are **unsupported** but may work if rebasing to a beta Nvidia `-deck` image.
@@ -97,6 +74,10 @@ Check out the [Steam Gaming Mode documentation](../Steam_Gaming_Mode.md) for an 
 ### Recommended External Guide & Script:
 
 Read this [guide](https://github.com/ewagner12/all-ways-egpu) for eGPU usage on Linux, and use the script at your own risk.
+
+## Bazzite's Steam Gaming Mode Documentation
+
+Check out the [Steam Gaming Mode documentation](../Steam_Gaming_Mode.md) for an in-depth guide on Steam Gaming Mode plus general fixes for common issues.
 
 <hr>
 
