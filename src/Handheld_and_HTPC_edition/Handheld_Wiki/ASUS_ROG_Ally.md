@@ -53,58 +53,11 @@ Read the [**Installing Bazzite on Handheld PCs documentation**](/General/Install
   - No controls outside of Steam.
   - Steam's top and bottom panels missing.
 
-#### BIOS update breaks Secure Boot key
-
-![secure-boot|603x500, 100%](../../img/secure-boot.png)
-
-
-Read our [**Secure Boot guide**](/General/Installation_Guide/secure_boot.md#method-b-after-installation-method) to re-enroll the key after a BIOS update if you keep Secure Boot enabled, which is the default for this device.
-
-
 #### CPU Boost?
 
 Disabled by default to prevent excessive power draw to the device.
 
 More information can be found [**here**](https://github.com/aarron-lee/SimpleDeckyTDP/blob/main/README.md#are-there-cpu-boost-controls) about this.
-
-### TDP Controls
-
-![TDP|690x431, 75%](../../img/TDP.jpeg)
-
-- Steam Quick Access Menu TDP limit (part of Steam Gaming Mode) can control TDP the 
-- The [**HHD-overlay**](https://github.com/hhd-dev/hhd/blob/master/readme.md) also supports TDP controls.
-
-### How do I open the HHD Overlay?
-
-![Overlay|690x431, 75%](../../img/HHD_Overlay.jpeg)
-
-![Settings Example|690x431, 75%](../../img/HHD_Settings_Example.jpeg)
-
-Double-tap the Quick Access Menu button.
-
-!!! note
-    
-    ASUS ROG Ally does not support **holding** for the QAM button!
-
-### Controller Information
-
-For most handheld hardware, besides the Steam Deck, emulation of a DualSense controller is used for full functionality. Double tap or hold the side menu button to access settings for controller emulation including switching to an Xbox controller with reduced functionality.
-
-If your device has paddles, you will want to use the DualSense Edge controller. It’s disabled by default because some games do not map it correctly.
-
-Some games and emulators may need Steam Input **disabled** to work correctly with your controls.
-
-#### Desktop Controls
-
-Desktop Mode Controller Layout: It may not exist by default if Steam doesn't setup your handheld controller properly. This can be fixed in Steam's controller settings.
-
-![desktop_controls_step_1|588x500, 60%](../../img/handheld_desktop_controls_1.png)
-
-![desktop_controls_step_2|690x431, 60%](../../img/handheld_desktop_controls_2.png)
-
-![desktop_controls_step_3|690x431, 60%](../../img/handheld_desktop_controls_3.jpeg)
-
-Make sure to **apply** the desktop controls when you select them.
 
 ## Contributing
 
