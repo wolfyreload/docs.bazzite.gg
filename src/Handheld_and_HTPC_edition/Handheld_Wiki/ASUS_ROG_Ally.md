@@ -98,11 +98,11 @@ Some games and emulators may need Steam Input **disabled** to work correctly wit
 
 Desktop Mode Controller Layout: It may not exist by default if Steam doesn't setup your handheld controller properly. This can be fixed in Steam's controller settings.
 
-![desktop_controls_step_1|588x500, 75%](../../img/handheld_desktop_controls_1.png)
+![desktop_controls_step_1|588x500, 60%](../../img/handheld_desktop_controls_1.png)
 
-![desktop_controls_step_2|690x431, 75%](../../img/handheld_desktop_controls_2.png)
+![desktop_controls_step_2|690x431, 60%](../../img/handheld_desktop_controls_2.png)
 
-![desktop_controls_step_3|690x431, 75%](../../img/handheld_desktop_controls_3.jpeg)
+![desktop_controls_step_3|690x431, 60%](../../img/handheld_desktop_controls_3.jpeg)
 
 Make sure to **apply** the desktop controls when you select them.
 
