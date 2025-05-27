@@ -14,24 +14,24 @@ authors:
 
     Sleep functionality requires a BIOS update.
 
-# Ayaneo Geek 1S
+## Ayaneo Geek 1S
 
 ![photo_5875160389711413569_y|663x500, 100%](../../img/Ayaneo_Geek_1S.jpeg)
 
 **Status**: Gold
 
-## Installing Bazzite
+### Installing Bazzite
 
 Read the [**Installing Bazzite on Handheld PCs documentation**](/General/Installation_Guide/Installing_Bazzite_for_Handheld_PCs.md).
 
-## Post-Installation Setup
+### Post-Installation Setup
 
 - Login to Steam
 - Configure the HHD Overlay by opening it with QAM button
 - Virtual keyboard is Steam's keyboard, but needs to be setup in Steam's settings in Desktop Mode (See "Desktop Controls" section below)
 - HHD's support of both LEDs and Gyroscope is fine out of the box (with bmi260 from [ublue-os/akmod].
 
-## Workarounds / Known Issues
+### Workarounds / Known Issues
 
 - Suspending the device requires the latest BIOS update.
   - Reports of controller issues on wake have reported inconsistency. Enabling "full initial usb support" in Bios seems to have an impact on how frequent the issue is.
@@ -59,12 +59,6 @@ sudo systemctl enable --now hhd@$(whoami)
 Check out the [original thread](https://universal-blue.discourse.group/t/ayaneo-geek-1s-2s-linux-bazzite-support-is-already-almost-there-lets-add-them-to-the-officially-supported-devices/1046) for more information and updates on this device.
 
 Ayaneo Geek 1s is as 04/2025 the only ryzen 7000 handheld which is yet to receive the EC update that increase battery life. You can follow and report [on this discord thread](https://discord.com/channels/717181357109018694/1301507866754289745)
-
-<hr>
-
-## Additional Information
-
-This applies to most handhelds running Bazzite.
 
 ### TDP Controls
 
@@ -104,8 +98,6 @@ Desktop Mode Controller Layout: It may not exist by default if Steam doesn't set
 ![desktop_controls_step_3|690x431, 75%](../../img/handheld_desktop_controls_3.jpeg)
 
 Make sure to **apply** the desktop controls when you select them.
-
-<hr>
 
 ## Contributing
 
