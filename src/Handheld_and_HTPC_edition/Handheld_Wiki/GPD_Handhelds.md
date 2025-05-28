@@ -16,23 +16,13 @@ authors:
 
 ![gpdwin4|690x328, 100%](../../img/gpdwin4.jpeg)
 
-### Installing Bazzite
 
-Read the [**Installing Bazzite on Handheld PCs documentation**](/General/Installation_Guide/Installing_Bazzite_for_Handheld_PCs.md).
-
-### Post-Installation Setup
-
-- Login to Steam
-- Configure the HHD Overlay by opening it with QAM button
-- Virtual keyboard is Steam's keyboard, but needs to be setup in Steam's settings in Desktop Mode (See "Desktop Controls" section below)
-  - <kbd>Xbox</kbd> + <kbd>X</kbd> (This can be remapped)
-  - GPD devices also have a physical switch you can toggle to enable a separate desktop/mouse mode.
-
-### Optional Tweaks
+### General Information & Optional Tweaks
 
 - Adjust RGB with Steam Gaming Mode in Handheld Daemon
 - Adjust the scaling of the UI in the Display Settings
 - Set a charge limit in HHD with Handheld Daemon
+- GPD devices also have a physical switch you can toggle to enable a separate desktop/mouse mode.
 
 ### Workarounds / Known Issues
 
@@ -48,30 +38,15 @@ Read the [**Installing Bazzite on Handheld PCs documentation**](/General/Install
 
 For more information, check out the [GPD Win Tips and Tricks guide](https://github.com/aarron-lee/gpd-win-tricks) which includes useful scripts for this handheld.
 
-<hr>
-
 ## GPD Win Max 2
 
 ![placeholder_gpdwinmax2|407x312, 100%](../../img/GPD_Win_Max_2.png)
 
-**Status**: Platinum
-
-### Installing Bazzite
-
-Read the [**Installing Bazzite on Handheld PCs documentation**](/General/Installation_Guide/Installing_Bazzite_for_Handheld_PCs.md).
-
-### Post-Installation Setup
-
-- Login to Steam
-- Configure the HHD Overlay by opening it with QAM button
-- Virtual keyboard is Steam's keyboard, but needs to be setup in Steam's settings in Desktop Mode. (See "Desktop Controls" section below)
-  - <kbd>Xbox</kbd> + <kbd>X</kbd> (This can be remapped)
-  - GPD devices also have a physical switch you can toggle to enable a separate desktop/mouse mode
-- Steam Gaming Mode **Display** settings that are recommended to be changed:
-  - `Use Native Color Temperature` - Enabled
 
 ### Optional Tweaks
-
+- Steam Gaming Mode **Display** settings that are recommended to be changed:
+  - `Use Native Color Temperature` - Enabled
+- GPD devices also have a physical switch you can toggle to enable a separate desktop/mouse mode
 - Adjust RGB with Steam Gaming Mode in Handheld Daemon
 - Adjust the scaling of the UI in the Display Settings
 - Set a charge limit in HHD with Handheld Daemon
@@ -93,7 +68,7 @@ Read the [**Installing Bazzite on Handheld PCs documentation**](/General/Install
 
 For more information, check out the [GPD Win Tips and Tricks guide](https://github.com/aarron-lee/gpd-win-tricks) which includes useful scripts for this handheld.
 
-## Contributing
+### Contributing
 
 This page is a **wiki**, edit it to add any relevant information you may have regarding the handheld and your experience with Bazzite on it. Make sure to follow proper [contributing guidelines](/CONTRIBUTE.md) before adding any edits.
 
