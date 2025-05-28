@@ -50,11 +50,14 @@ title: Community Resources
 - [**Self-Hosting Images**](https://universal-blue.discourse.group/t/self-hosters-the-forge-needs-your-eyes-and-hands/1566)
 - [**BlueBuild Project**](https://blue-build.org/)
 
-## Reference Documentation & Old Newsletters
+## Reference Documentation
 
-- [**Bazzite Buzz Newsletters Archive**](https://universal-blue.discourse.group/t/bazzite-newsletters/2252)
-- [**Bluefin Documentation**](https://docs.projectbluefin.io/)
+- [**Fedora Kinoite Documentation**](https://docs.fedoraproject.org/en-US/fedora-kinoite/)
+- [**Fedora Silverblue Documentation**](https://docs.fedoraproject.org/en-US/fedora-silverblue/)
 - [**Aurora Documentation**](https://docs.getaurora.dev/)
+- [**Bluefin Documentation**](https://docs.projectbluefin.io/)
+- [**Bazzite Newsletter Archive**](https://universal-blue.discourse.group/t/bazzite-newsletters/2252)
+
 
 <hr>
 
