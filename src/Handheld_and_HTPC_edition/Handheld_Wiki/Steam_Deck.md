@@ -7,18 +7,12 @@ authors:
 <!--{"url_discourse": "https://universal-blue.discourse.group/docs?topic=1849", "fetched_at": "2024-09-03 16:43:16.550432+00:00"}-->
 <!-- ANCHOR_END: METADATA -->
 
-## Steam Deck (LCD & OLED)
+## Steam Deck (LCD & OLED Models)
 
 ![Steam Deck LCD|690x348, 100%](../../img/Steam_Deck_LCD.jpeg)
 
-**Status**: Platinum
-
-## Installing Bazzite
-
-Read the [**Installing Bazzite on Steam Deck guide**](/General/Installation_Guide/Installing_Bazzite_for_Steam_Deck.md).
-
-### Post-Installation Setup
-No additional setup required, but it is recommended to enter `ujust enable-deck-bios-firmware-updates` in the terminal to receive Steam Deck BIOS updates.
+### BIOS Updates
+It is recommended to enter `ujust enable-deck-bios-firmware-updates` in the terminal to receive Steam Deck BIOS updates.
 
 ### Why Bazzite over SteamOS?
 

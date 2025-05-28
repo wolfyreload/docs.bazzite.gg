@@ -43,7 +43,6 @@ These are the handhelds that do not have an individual entry in our Handheld Wik
 ### TECNO
 - TECNO Pocket Go
 
-
 ## Unsupported Handhelds
 
 !!! note
@@ -54,7 +53,7 @@ Unsupported handhelds _could work_ with Bazzite, but there may be major issues e
 
 Your mileage may vary with untested hardware. Bazzite does **not** have the required setup for unsupported handheld, so setup will be manually done by the end-user for different functionality if it even works properly on the unsupported device.
 
-## HHD Setup
+## HHD Setup (If Unsupported on Device)
 
 **Commands for functional HHD**:
 
@@ -68,46 +67,6 @@ systemctl enable hhd@yourusername
 
 !!! important
     Replace `yourusername` with your Bazzite username.
-
-<hr>
-
-## TDP Controls
-
-![TDP|690x431, 75%](../../img/TDP.jpeg)
-
-There are a few options for TDP Controls that work with Bazzite:
-
-- The [HHD-overlay](https://github.com/hhd-dev/hhd/blob/master/readme.md) supports TDP controls.
-  - Also has a desktop app that is pre-installed, look for the Handheld Daemon app in Desktop Mode.
-- [SimpleDeckyTDP](https://github.com/aarron-lee/SimpleDeckyTDP) supports TDP, GPU, Power Governor, and among other settings.
-  - Also has a [graphical application](https://github.com/aarron-lee/SimpleDeckyTDP-Desktop), but needs to be manually installed.
-- [PowerControl](https://github.com/mengmeet/PowerControl) supports TDP, GPU, and fan controls on select devices.
-
-## How do I open the HHD Overlay?
-
-![Overlay|690x431, 75%](../../img/HHD_Overlay.jpeg)
-
-Press, hold, or double-tap the Quick Access Menu button.
-
-## Controller Information
-
-For most handheld hardware, besides the Steam Deck, emulation of a DualSense controller is used for full functionality. Double tap or hold the side menu button to access settings for controller emulation including switching to an Xbox controller with reduced functionality.
-
-If your device has paddles, you will want to use the DualSense Edge controller (**except for a few like the Ayn Loki**). It’s disabled by default because some games do not map it correctly.
-
-Some games and emulators may need Steam Input **disabled** to work correctly with your controls.
-
-### Desktop Controls
-
-Desktop Mode Controller Layout: It may not exist by default if Steam doesn't setup your handheld controller properly. This can be fixed in Steam's controller settings.
-
-![desktop_controls_step_1|588x500, 75%](../../img/handheld_desktop_controls_1.png)
-
-![desktop_controls_step_2|690x431, 75%](../../img/handheld_desktop_controls_2.png)
-
-![desktop_controls_step_3|690x431, 75%](../../img/handheld_desktop_controls_3.jpeg)
-
-Make sure to **apply** the desktop controls when you select them.
 
 <hr>
 
