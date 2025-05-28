@@ -53,7 +53,7 @@ Unsupported handhelds _could work_ with Bazzite, but there may be major issues e
 
 Your mileage may vary with untested hardware. Bazzite does **not** have the required setup for unsupported handheld, so setup will be manually done by the end-user for different functionality if it even works properly on the unsupported device.
 
-## HHD Setup (If Unsupported on Device)
+## HHD Setup (If Unsupported OOTB on Device)
 
 **Commands for functional HHD**:
 
