@@ -53,7 +53,7 @@ Unsupported handhelds _could work_ with Bazzite, but there may be major issues e
 
 Your mileage may vary with untested hardware. Bazzite does **not** have the required setup for unsupported handheld, so setup will be manually done by the end-user for different functionality if it even works properly on the unsupported device.
 
-## HHD Setup
+## HHD Setup (If Unsupported on Device)
 
 **Commands for functional HHD**:
 
@@ -67,18 +67,6 @@ systemctl enable hhd@yourusername
 
 !!! important
     Replace `yourusername` with your Bazzite username.
-
-## TDP Controls
-
-![TDP|690x431, 75%](../../img/TDP.jpeg)
-
-There are a few options for TDP Controls that work with Bazzite:
-
-- The [HHD-overlay](https://github.com/hhd-dev/hhd/blob/master/readme.md) supports TDP controls.
-  - Also has a desktop app that is pre-installed, look for the Handheld Daemon app in Desktop Mode.
-- [SimpleDeckyTDP](https://github.com/aarron-lee/SimpleDeckyTDP) supports TDP, GPU, Power Governor, and among other settings.
-  - Also has a [graphical application](https://github.com/aarron-lee/SimpleDeckyTDP-Desktop), but needs to be manually installed.
-- [PowerControl](https://github.com/mengmeet/PowerControl) supports TDP, GPU, and fan controls on select devices.
 
 <hr>
 
