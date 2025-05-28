@@ -12,33 +12,20 @@ authors:
 
     This wiki may contain outdated information.
 
-# Lenovo Legion Go
+## Lenovo Legion Go
 
 ![legion_go|690x387, 100%](../../img/legion_go.jpeg)
 
-## Installing Bazzite
-
-Read the [**Installing Bazzite on Handheld PCs documentation**](../../General/Installation_Guide/Installing_Bazzite_for_Handheld_PCs.md).
-
-## Post-Installation Setup
-- Login to Steam
+### Optional Tweaks
 - Configure the HHD Overlay by opening it with <kbd>Legion R</kbd>
-- **Optional**: Adjust RGB with Steam Gaming Mode under `Settings > Controller >  Calibration & Advanced > LED Settings`
-
-## Optional Tweaks
-
-- Adjust RGB with Steam Gaming Mode in Handheld Daemon
 - Adjust the scaling of the UI in the Display Settings
-- Set a charge limit in HHD with Handheld Daemon
 
-## Workarounds / Known Issues
+### Workarounds / Known Issues
 
 - Performance overlay might be reporting inaccurate power consumption.
 - Adaptive/auto display brightness is currently broken.
   - Manual brightness slider in Steam's UI works without issues.
 - BIOS and controller firmware is **recommended** to update in Windows.
-- Virtual keyboard is Steam's keyboard, but needs to be setup in Steam's settings in Desktop Mode. (See "Desktop Controls" section below)
-  - <kbd>**Legion L**</kbd> + <kbd>**X**/**Square**</kbd> (This can be remapped)
 
 ### Updating the BIOS without a Windows installation
 
