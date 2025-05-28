@@ -55,10 +55,11 @@ Feel free to add new entries or update current wiki pages for your handheld foll
 
 There are a few options for TDP Controls that work with Bazzite:
 
-- The [HHD-overlay](https://github.com/hhd-dev/hhd/blob/master/readme.md) supports TDP controls.
+- The [HHD-overlay](https://github.com/hhd-dev/hhd/blob/master/readme.md) supports TDP controls. (**Primary Supported Method**)
   - Also has a desktop app that is pre-installed, look for the Handheld Daemon app in Desktop Mode.
 - [SimpleDeckyTDP](https://github.com/aarron-lee/SimpleDeckyTDP) supports TDP, GPU, Power Governor, and among other settings.
   - Also has a [graphical application](https://github.com/aarron-lee/SimpleDeckyTDP-Desktop), but needs to be manually installed.
+  - [PowerControl](https://github.com/mengmeet/PowerControl) supports TDP, GPU, and fan controls on select devices.
 
 ### How do I open the HHD Overlay?
 
