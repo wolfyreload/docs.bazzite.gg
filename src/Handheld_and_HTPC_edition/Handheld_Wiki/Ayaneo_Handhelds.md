@@ -45,7 +45,7 @@ sudo systemctl enable --now hhd@$(whoami)
 
 Check out the [original thread](https://universal-blue.discourse.group/t/ayaneo-geek-1s-2s-linux-bazzite-support-is-already-almost-there-lets-add-them-to-the-officially-supported-devices/1046) for more information and updates on this device.
 
-Ayaneo Geek 1s is (as of April 2025) the only Ryzen 7000 handheld which is yet to receive the EC update that increase battery life. You can follow and report [on this discord thread](https://discord.com/channels/717181357109018694/1301507866754289745)
+Ayaneo Geek 1s is (as of April 2025) the only Ryzen 7000 handheld which is yet to receive the EC update that increase battery life. You can follow and report [on this discord thread](https://discord.com/channels/717181357109018694/1301507866754289745).
 
 ### Contributing
 
