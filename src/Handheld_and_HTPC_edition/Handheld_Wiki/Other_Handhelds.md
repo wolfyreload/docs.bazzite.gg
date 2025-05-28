@@ -13,7 +13,7 @@ authors:
 
 ## Known Supported _Unlisted_ Handhelds
 
-These are the handhelds that do not have an individual entry in our Handheld Wiki yet, but have support ranging from **Silver to Platinum**.
+These handhelds do not have their own wiki page, yet.
 
 ### GPD
 - GPD Win Mini
