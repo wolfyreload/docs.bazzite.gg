@@ -16,18 +16,6 @@ authors:
 
 ![Loki Max|375x500, 100%](../../img/Loki_Max.jpeg)
 
-**Status**: Platinum
-
-### Installing Bazzite
-
-Read the [**Installing Bazzite on Handheld PCs documentation**](/General/Installation_Guide/Installing_Bazzite_for_Handheld_PCs.md).
-
-### Post-Installation Setup
-
-- Login to Steam
-- Configure the HHD Overlay by opening it with QAM button
-- Virtual keyboard is Steam's keyboard, but needs to be setup in Steam's settings in Desktop Mode (See "Desktop Controls" section below)
-
 ### Optional Tweaks
 
 - Adjust RGB with Steam Gaming Mode under `Settings > Controller >  Calibration & Advanced > LED Settings` or in Handheld Daemon
@@ -37,7 +25,7 @@ Read the [**Installing Bazzite on Handheld PCs documentation**](/General/Install
 ### Workarounds / Known Issues
 
 - Games can sometimes default to 800p resolution.
-  - - Manually change the resolution per game in the `Steam Settings > Properties > Game Resolution` to either "Native" or other higher resolutions.
+  - Manually change the resolution per game in the `Steam Settings > Properties > Game Resolution` to either "Native" or other higher resolutions.
 - Back buttons are hard mapped to L3 and R3.
   - This is also an issue on Windows.
 
@@ -45,17 +33,6 @@ Read the [**Installing Bazzite on Handheld PCs documentation**](/General/Install
 
 ![loki_mini_pro|666x500, 100%](../../img/loki_mini_pro.jpeg)
 
-**Status**: Silver
-
-### Installing Bazzite
-
-Read the [**Installing Bazzite on Handheld PCs documentation**](/General/Installation_Guide/Installing_Bazzite_for_Handheld_PCs.md).
-
-### Post-Installation Setup
-
-- Login to Steam
-- Configure the HHD Overlay by opening it with QAM button
-- Virtual keyboard is Steam's keyboard, but needs to be setup in Steam's settings in Desktop Mode (See "Desktop Controls" section below)
 
 ### Optional Tweaks
 
@@ -73,7 +50,7 @@ Read the [**Installing Bazzite on Handheld PCs documentation**](/General/Install
 - Rotation is wrong in Desktop Mode for KDE images.
 - Mouse input may break in Desktop Mode.
 
-## Contributing
+### Contributing
 
 This page is a **wiki**, edit it to add any relevant information you may have regarding the handheld and your experience with Bazzite on it. Make sure to follow proper [contributing guidelines](/CONTRIBUTE.md) before adding any edits.
 
