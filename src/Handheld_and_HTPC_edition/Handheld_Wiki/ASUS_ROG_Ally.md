@@ -16,24 +16,15 @@ authors:
 
 ![ally|603x500, 100%](../../img/ally.png)
 
-### Installing Bazzite
+### General Notes
 
-Read the [**Installing Bazzite on Handheld PCs documentation**](/General/Installation_Guide/Installing_Bazzite_for_Handheld_PCs.md).
-
-### Post-Installation Setup
-
-- Login to Steam
-- Configure the HHD Overlay by opening it with the QAM button
-- Virtual keyboard is Steam's keyboard, but needs to be setup in Steam's settings in Desktop Mode (See "Desktop Controls" section below)
-  - There is **no default keybinding for Steam's on-screen keyboard** (Remap it to <kbd>**X**</kbd> or whatever you prefer)
 - Holding the Armoury Crate button (on the side) allows you to switch to Mouse Mode
 - Enable the Steam Power Button Handler setting in Handheld Daemon
 
 ### Optional Tweaks
 
-- Adjust RGB with Steam Gaming Mode in Handheld Daemon
-- Adjust the scaling of the UI in the Display Settings
-- Set a charge limit in HHD with Handheld Daemon
+- Adjust settings in Handheld Daemon.
+- Adjust the scaling of the UI in the Display Settings.
 
 ### Workarounds / Known Issues
 - Changing A/C power sometimes leads to a stuck TDP.
