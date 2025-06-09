@@ -40,7 +40,7 @@ sudo swapon /var/swap/swapfile
 Backup your fstab file with:
 
 ```
-sudo cp  /etc/fstab.bak
+sudo cp /etc/fstab /etc/fstab.bak
 ```
 
 Then, edit fstab with this **command**:
@@ -60,7 +60,7 @@ Then add the following **line of code** to fstab:
 In case of any error, you may restore from your backup with this:
 
 ```
-sudo cp  /etc/fstab.bak /etc/fstab
+sudo cp /etc/fstab.bak /etc/fstab
 ```
 
 ## Disable zram
