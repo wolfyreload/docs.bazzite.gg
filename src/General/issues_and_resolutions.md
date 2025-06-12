@@ -132,4 +132,53 @@ Note that this fix may negatively affect the battery life of your laptop or hand
 
 <hr>
 
+## Error on connecting to Wi-Fi: "Failed to add new connection: 802.1x connections must have IWD provisioning files"
+
+**Issue:** NetworkManager cannot automatically generate 802.1x connections when using the [`iwd`](https://wiki.archlinux.org/title/Iwd) backend.
+
+**Cause:** For performance reasons, and to fix certain issues in relation to streaming (Sunshine/Moonlight, Steam Remote Play, and cloud streaming services) we enable `iwd` by default on -deck images.
+
+**Resolution:** If you're using Bazzite on a *Wi-Fi Enterprise* network, open your terminal and execute
+
+```bash
+ujust toggle-iwd
+```
+
+This switches the Wi-Fi backend to the legacy [`wpa_supplicant`](https://wiki.archlinux.org/title/Wpa_supplicant) and allow you to connect again.
+
+<hr>
+
+**Alternative resolution:** If you prefer to keep using the `iwd` backend and just want to connect to `eduroam`, follow these steps:
+
+```bash
+sudo nano /var/lib/iwd/eduroam.8021x
+```
+
+Then add the following:
+
+```bash
+[Security]
+EAP-Method=PEAP
+EAP-Identity=anonymous@<university.domain>
+EAP-PEAP-Phase2-Method=MSCHAPV2
+EAP-PEAP-Phase2-Identity=<username@university.domain>
+EAP-PEAP-Phase2-Password=<password>
+
+[Settings]
+AutoConnect=true
+```
+
+Make sure to replace `<university.domain>`, `<username@university.domain>` and `<password>` with proper login information. Afterwards, press `Ctrl+X` and `Y` to Save & Exit.
+
+Now try to connect again. If you still can't connect, execute:
+
+```bash
+nmcli connection modify eduroam 802-1x.phase1-auth-flags 32
+```
+
+and then try to connect again.
+
+
+<hr>
+
 **See also**: [Steam Gaming Mode Quirks](/Handheld_and_HTPC_edition/quirks.md)
