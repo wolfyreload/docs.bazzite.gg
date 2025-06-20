@@ -40,9 +40,9 @@ hide:
 
   <small>Order reflects the recommendation degree.</small>
 
-  1. [Flatpak][flatpak] for graphical apps.
+  1. [ujust][ujust] to use Bazzite tailored installers.
      {style="list-style-type: decimal;"}
-  2. [ujust][ujust] to use Bazzite tailored installers.
+  2. [Flatpak][flatpak] for graphical apps.
      {style="list-style-type: decimal;"}
   3. [Homebrew][homebrew] for command-line apps.
      {style="list-style-type: decimal;"}
