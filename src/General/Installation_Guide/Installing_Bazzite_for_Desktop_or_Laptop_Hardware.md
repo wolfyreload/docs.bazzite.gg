@@ -150,7 +150,7 @@ https://www.youtube.com/watch?v=wUDbMJtR1sM
 
 ### Dual Boot Setup with Secure Boot Enabled
 
-https://www.youtube.com/watch?v=pbxM_1ZJCCc
+https://www.youtube.com/watch?v=JxPsKhJGTrs
 
 <hr>
 
