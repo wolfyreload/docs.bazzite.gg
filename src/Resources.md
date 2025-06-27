@@ -8,6 +8,8 @@ title: Social Platforms
 
 ## [:simple-reddit: Reddit](https://www.reddit.com/r/bazzite) <sup>([Redlib](https://redlib.perennialte.ch/r/Bazzite))</sup>
 
+## [:simple-lemmy: Lemmy](https://lemmy.world/c/bazzite)
+
 ## [:simple-mastodon: Mastodon](https://fosstodon.org/@UniversalBlue)
 
 ## [:simple-bluesky: Bluesky](https://bsky.app/profile/bazzite.gg)
