@@ -118,6 +118,14 @@ Take note that the GRUB menu might not show up. In such case, spam the <kbd>↓<
 
 <hr>
 
+### Boot into Windows from Steam
+
+Adds a script in Steam to boot into Windows
+
+```
+ujust setup-boot-windows-steam
+```
+
 ## Expanding storage size in a Windows dual-boot scenario
 
 !!! note
