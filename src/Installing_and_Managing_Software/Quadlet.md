@@ -22,6 +22,7 @@ Create a file called `~/.config/containers/systemd/nginx.container` with content
 [Container]
 ContainerName=nginx
 Image=docker.io/nginxinc/nginx-unprivileged
+AutoUpdate=registry
 PublishPort=8080:8080
 ```
 
@@ -84,6 +85,7 @@ For example:
 [Container]
 ContainerName=nginx
 Image=docker.io/nginxinc/nginx-unprivileged
+AutoUpdate=registry
 PublishPort=8080:8080
 
 [Install]
@@ -116,6 +118,7 @@ Rootful Quadlet Path
 | ------------- | ------------------------------------------- | ---------------------------------------------------------------------------------------- |
 | ContainerName | ContainerName=nginx                         | Name of the container.                                                                   |
 | Image         | Image=docker.io/nginxinc/nginx-unprivileged | Container image that you want to use.                                                    |
+| AutoUpdate    | AutoUpdate=registry                         | Source to check for update. The value is either `registry` or `local`.                   |
 | PublishPort   | PublishPort=8080:8080                       | Port opened by container. (HOST_PORT:CONTAINER_PORT)                                     |
 | Volume        | Volume=/path/to/data:/data:z                | Link host folder with container folder. (HOST_FOLDER:CONTAINER_FOLDER:OPTION)            |
 | Network       | Network=host                                | Network used by container. The value can be `host`, `none`, or user defined network name |
@@ -140,6 +143,7 @@ Quadlet File:
 ContainerName=minecraft
 Environment=EULA=TRUE
 Image=docker.io/itzg/minecraft-server
+AutoUpdate=registry
 PublishPort=25565:25565
 Volume=/path/to/data:/data:z
 
@@ -161,6 +165,7 @@ Quadlet File:
 ContainerName=plex
 Environment=TZ=Your/TimeZone
 Image=docker.io/plexinc/pms-docker
+AutoUpdate=registry
 Network=host
 Volume=/path/to/config:/config:z
 Volume=/path/to/transcode:/transcode:z
@@ -196,6 +201,7 @@ Environment="SAMBA_VOLUME_CONFIG_protected=[My Share]; path=/shares/protected; v
 # Open share with readonly access
 Environment="SAMBA_VOLUME_CONFIG_guest=[Guest Share]; path=/shares/guest; guest ok = yes; browseable = yes"
 Image=ghcr.io/servercontainers/samba:smbd-only-latest
+AutoUpdate=registry
 Network=host
 Volume=/path/to/protected:/shares/protected:z
 Volume=/path/to/guest:/shares/guest:z
