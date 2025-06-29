@@ -8,6 +8,10 @@ title: Installing and Managing Applications
 
 ## Linux Package Formats
 
+Fedora Atomic Desktops have read-only root files to prioritize stability.  Therefore, containerized applications that do not interfere with your host system will work best.
+
+>Check out the [**Frequently Asked Questions**](https://docs.bazzite.gg/General/FAQ/#what-are-the-advantages-to-using-fedora-atomic-desktop) page for why this priority exists.
+
 ### **Package formats ranked from most recommended to least recommended for daily usage**:
 
 1. [**`ujust`**](./ujust.md) (_Convenience Commands_) - Custom scripts maintained by Bazzite & Universal Blue contributors that can install applications.
