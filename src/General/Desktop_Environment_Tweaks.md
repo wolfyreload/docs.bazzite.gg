@@ -71,20 +71,6 @@ rpm-ostree install kvantum
 
 > [**Check out this external resource on KDE themes for more information**](https://itsfoss.com/properly-theme-kde-plasma/).
 
-## Wallpaper Engine Guide (_Only on KDE Images_)
-
-!!! note
-    
-    Not all wallpapers are compatible and may even cause issues since most are not intended for use on the Linux desktop.
-
-![KDE Wallpaper Settings|682x500, 75%](../img/KDE_Wallpaper_Settings.jpeg)
-
-**[Wallpaper Engine](https://www.wallpaperengine.io/en) is a live wallpaper application intended for Windows.**
-
-![Wallpaper settings|549x500, 75%](../img/Wallpaper_settings.png)
-
-Read this [guide](https://github.com/catsout/wallpaper-engine-kde-plugin/blob/main/README.md#usage) on how to set it up on KDE Plasma.
-
 <hr>
 
 ## Customizing Other Desktops and Sessions
