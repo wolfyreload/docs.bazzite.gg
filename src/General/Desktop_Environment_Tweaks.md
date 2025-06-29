@@ -71,7 +71,7 @@ rpm-ostree install kvantum
 
 > [**Check out this external resource on KDE themes for more information**](https://itsfoss.com/properly-theme-kde-plasma/).
 
-## Wallpaper Engine Guide (_Only on KDE Images_)
+## Wallpaper Engine Guide (<sub>_Only on KDE Images_</sub>)
 
 !!! note   
 
