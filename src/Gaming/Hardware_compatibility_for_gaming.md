@@ -13,7 +13,7 @@ tags:
 ## General Hardware
 
 !!! note
-    
+
     Most x86_64 PCs from the last decade should run Bazzite.
 
 ### Minimum System Requirements
@@ -26,7 +26,7 @@ tags:
 - **Storage**: 64GB free on an internal solid-state drive
 - **Network**: Stable internet connection with no bandwidth caps
 - **Additional Notes**: Certain drivers are **not** compatible with Bazzite
-  - For example: [A list of compatible USB Wi-Fi adapters](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md) 
+  - For example: [A list of compatible USB Wi-Fi adapters](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md)
 
 
 >[**The Hardware for Linux website**](https://linux-hardware.org/?view=computers) is a good indicator for how well OEM hardware is supported on the Linux desktop.
@@ -34,7 +34,7 @@ tags:
 ### Steam Gaming Mode Requirements
 
 !!! note
-    
+
     These specific requirements only apply to [Bazzite-Deck images](/Handheld_and_HTPC_edition/Steam_Gaming_Mode.md)
 
 - AMD GPU
@@ -51,9 +51,9 @@ The [**Handheld Wiki**](../Handheld_and_HTPC_edition/Handheld_Wiki/index.md) lis
 
 ## Vulkan Compatible GPU
 
-!!! attention 
+!!! attention
 
-    Linux gaming is heavily dependent on having compatible hardware with Vulkan.  
+    Linux gaming is heavily dependent on having compatible hardware with Vulkan.
 
 ### Viewing Your GPU's Vulkan Version
 
@@ -86,12 +86,12 @@ This will use the OpenGL translation as opposed to Vulkan.
 
     Bazzite will automatically mount secondary drives that are formatted as Ext4 or BTRFS by default.
 
-**BTRFS is the default and recommended filesystem for Bazzite**.  Any secondary drives that you plan to play video games on should be **backed up and reformatted to either Ext4 or BTRFS, however the drive will lose all of the data when performing this operation**.  You can use [**KDE Partition Manager (KDE images) or GNOME Disks (GNOME images) to format the drives appropriately at your own risk**](../Advanced/Auto-Mounting_Secondary_Drives.md).
+**BTRFS is the default and recommended filesystem for Bazzite**.  Any secondary drives that you plan to play video games on should be **backed up and reformatted to either Ext4 or BTRFS, however the drive will lose all of the data when performing this operation**.  You can use [**GNOME Disks to format the drives appropriately at your own risk**](../Advanced/Auto-Mounting_Secondary_Drives.md).
 
 ### Unsupported Filesystems for Secondary Drives
 
-!!! warning 
-    
+!!! warning
+
     You will lose all of your data reformatting secondary internal/external drives.
 
 #### NTFS
