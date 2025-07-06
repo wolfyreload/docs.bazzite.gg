@@ -35,7 +35,7 @@ Follow **Method B** below to resolve this and move past the error message if you
 
 !!! note
 
-    This screen will also appear on first-boot if you enable Secure Boot if it was disabled during installation.
+    This screen will also appear on the next boot if you enable Secure Boot if it was disabled during installation.
 
 A blue screen will appear giving the option to enroll the signed keys after leaving the Bazzite installer.
 
