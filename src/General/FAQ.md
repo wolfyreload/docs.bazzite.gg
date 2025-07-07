@@ -29,7 +29,7 @@ Bazzite's [website](https://bazzite.gg/#image-picker) offers a streamlined way o
 
 Bazzite offers multiple images, but most images will be following _one of these **two variants**_:
 
-- **Variant 1**: Bazzite images that do **not** have Steam Gaming Mode and receive automatic updates daily that have can be seen as Fedora Atomic Desktop with gaming packages pre-installed.
+- **Variant 1**: Bazzite images that do **not** have Steam Gaming Mode and receive automatic updates daily that can be viewed as a Fedora Atomic Desktop with gaming packages pre-installed.
 - **Variant 2**: Bazzite images that automatically boot into Steam Gaming Mode (like SteamOS) and are intended for controller-oriented setups.
 
 ### 1. Desktop Edition 
