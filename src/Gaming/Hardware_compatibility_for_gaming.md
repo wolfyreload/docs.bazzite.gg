@@ -26,7 +26,7 @@ tags:
 - **Storage**: 64GB free on an internal solid-state drive
 - **Network**: Stable internet connection with no bandwidth caps
 - **Additional Notes**: Certain drivers are **not** compatible with Bazzite
-  - For example: [A list of compatible USB Wi-Fi adapters](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md)
+  - For example: [A list of **compatible** USB Wi-Fi adapters](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md)
 
 
 >[**The Hardware for Linux website**](https://linux-hardware.org/?view=computers) is a good indicator for how well OEM hardware is supported on the Linux desktop.
