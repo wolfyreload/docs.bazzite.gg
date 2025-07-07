@@ -6,6 +6,7 @@ authors:
   - "@storyaddict"
   - "@castrojo"
   - "@aarron-lee"
+  - "@wxllow"
 tags:
   - Guide
 ---
@@ -108,6 +109,17 @@ After verification has happened, it will usually take a while before your device
 Make sure to add `/usr/bin/waydroid-launcher` to Steam as a non-Steam game for Waydroid to work properly in Steam Gaming Mode.
 
 ![Waydroid Launcher add to steam|960x540](../img/waydroid_launcher_add_to_steam.jpg)
+
+### Enable Multi-Touch Support
+
+To use multi-touch gestures in Waydroid while running under Steam Gaming Mode, you need to enable "Touchscreen Native Support" in Steam's controller settings:
+
+1. Within your Waydroid shortcut, go to **Controller Settings**.
+2. Go to **Edit Layout** > **Action Sets** > **Default**.
+3. Select **Add Always-On command**.
+4. Under **System**, select the **Touchscreen Native Support** command.
+
+![Waydroid Launcher Steam Multi-Touch|640x400](../img/waydroid_launcher_steam_multitouch.jpg)
 
 <hr>
 
