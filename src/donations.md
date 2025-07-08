@@ -102,6 +102,7 @@ We also encourage you to donate to the projects that are used in Bazzite which h
 <sub>(*If we missed software that is part of Bazzite and can be donated to, then [**please let us know**](https://github.com/KyleGospo/docs.bazzite.gg/issues) or [**PR a fix**](https://github.com/KyleGospo/docs.bazzite.gg/blob/main/src/donations.md)!*)</sub>
 
 - [**Atuin**](https://github.com/sponsors/atuinsh)
+- [**Bazaar**](https://github.com/sponsors/kolunmi)
 - [**BORE Scheduler**](https://ko-fi.com/firelzrd)
 - [**Blur My Shell**](https://github.com/sponsors/aunetx)
 - [**Clapper**](https://liberapay.com/Clapper)
