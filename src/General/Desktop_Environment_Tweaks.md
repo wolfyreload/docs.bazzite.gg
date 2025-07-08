@@ -11,17 +11,11 @@ tags:
 
 ## Customizing KDE Plasma
 
-KDE Plasma is the default Bazzite desktop environment and is highly customizable. One of the various customization that can be done is installing custom styles, cursors, and icons to your system with custom themes made by the community.
-
-The downloading of themes through Discover has been disabled due to issues regarding the slow loading of search results, and compatibility issues with themes written for old versions of KDE. This may change in the future; in the mean time, you can try to install themes through the KDE system settings, or install them manually.
-
-!!! note
-
-    Themes installed through the System Settings are installed into `~/.local/share/plasma`; to uninstall them, you may need to manually delete the folders associated with the installed themes manually.
+KDE Plasma is the default Bazzite desktop environment and is highly customizable. One of the various customization that can be done is installing custom styles, cursors, and icons to your system with custom themes made by the community.  Themes installed through the **System Settings** are installed into `~/.local/share/plasma`; to uninstall them, you may need to manually delete the folders associated with the installed themes manually.
 
 ![Directory|401x207, 75%](../img/Directory.png)
 
-## Universal instructions for most custom themes
+## Manually Installing Themes (_Recommended_)
 
 Step-by-step instructions to install custom themes on KDE Plasma.
 
@@ -47,7 +41,7 @@ Global themes are placed in `~/.local/share/plasma/look-and-feel/` (_you may nee
 
 #### SDDM (Login Manager) Themes
 
-Use Discover to install SDDM themes.  SDDM themes can also be layered **at your own risk** if they are available as RPM packages using [`rpm-ostree`](/Installing_and_Managing_Software/rpm-ostree.md).
+SDDM themes can be layered **at your own risk** if they are available as RPM packages using [`rpm-ostree`](/Installing_and_Managing_Software/rpm-ostree.md).
 
 #### Icon / Cursor Themes
 
