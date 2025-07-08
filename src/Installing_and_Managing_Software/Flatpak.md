@@ -15,16 +15,9 @@ Flatpak is a universal containerized package format that tries to sandbox applic
 
 ## Installing Flatpaks
 
-Flatpaks can be installed via the software center of the desktop environment you chose.
+![Bazaar|100x100, 100%](../img/bazaar.jpg)
 
-![Discover|50x50, 100%](../img/Discover_icon.png)
-**KDE**: _Discover_
-
-![GNOME Software|50x50, 100%](../img/Gnome_Software.png)
-**GNOME**: _GNOME Software_
-
-![Discover|659x500, 100%](../img/Discover.png)
-![GNOME Software Center](../img/Gnome_Software_Center.png)
+Flatpaks can be installed via the Bazaar app store.
 
 **Alternatively open a host terminal and enter**:
 
