@@ -57,6 +57,7 @@ title: Community Resources
 - [**Aurora Documentation**](https://docs.getaurora.dev/)
 - [**Bluefin Documentation**](https://docs.projectbluefin.io/)
 - [**Bazzite Newsletter Archive**](https://universal-blue.discourse.group/t/bazzite-newsletters/2252)
+- [**DeepWiki**](https://deepwiki.com/ublue-os/bazzite)
 
 
 <hr>
