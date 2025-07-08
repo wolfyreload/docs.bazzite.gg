@@ -7,6 +7,7 @@ authors:
   - "@castrojo"
   - "@aarron-lee"
   - "@wxllow"
+  - "@SuperRiderTH"
 tags:
   - Guide
 ---
@@ -72,7 +73,7 @@ ujust setup-waydroid
 
 Selecting `Configure Waydroid` will allow users to install additional Android tweaks with the [Waydroid Extras Scripts.](https://github.com/casualsnek/waydroid_script#waydroid-extras-script)
 
-1. Select Android Version (**_Android 11_ recommended**)
+1. Select Android Version (**_Android 13_ is installed by default**)
 2. Select items to install
 
 ##### Available Waydroid Extras:
@@ -140,6 +141,43 @@ waydroid prop set persist.waydroid.uevent false
 ```
 
 If you ever want to undo this change, run the same steps but set `true` instead of `false` with the same command.
+
+## Mouse Clicks to Touch Input
+
+Some applications do not expect mouse clicks and only respond to touchscreen taps.
+
+!!! note
+    
+    Waydroid must be running!
+
+You can use this command in a host terminal to enable this per-application:
+
+```command
+waydroid prop set persist.waydroid.fake_touch "PACKAGE_NAME_HERE"
+```
+
+!!! note
+    
+    Package names are usually in the format of "com.example.appname".
+    You can find the package name for the application at the bottom of the "App info" page in the Settings app.
+    
+    Wildcards are also supported, so "com.rovio.*" would apply to all games by Rovio.
+
+    An example for the app "Fate/Grand Order" would be:
+    `waydroid prop set persist.waydroid.fake_touch "com.aniplex.fategrandorder.en"`
+
+The application inside of Waydroid needs to be restarted for the changes to take effect.
+
+!!! warning
+
+    Only set specific applications with this command!
+    Setting this globally to the system using a wildcard can cause irregular behavior with the mouse cursor.
+
+To revert these changes, use the following command in a host terminal:
+
+```command
+waydroid prop set persist.waydroid.fake_touch ""
+```
 
 ## Resolution & Density Options
 
