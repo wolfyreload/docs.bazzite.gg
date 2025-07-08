@@ -164,7 +164,7 @@ Power save: off
 Note that this fix may negatively affect the battery life of your laptop or handheld. If you do wish to reverse this change, just delete the config file:
 ```bash
 sudo rm /etc/iwd/main.conf
-sudo systemctl restart iwd`
+sudo systemctl restart iwd
 ```
 
 <hr>
