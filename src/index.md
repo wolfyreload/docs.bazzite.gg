@@ -39,7 +39,7 @@ hide:
 
   <small>Order reflects the recommendation degree.</small>
 
-  1. [ujust][ujust] to use Bazzite tailored installers.
+  1. [`ujust`][ujust] to use Bazzite tailored installers.
      {style="list-style-type: decimal;"}
   2. [Flatpak][flatpak] for graphical apps.
      {style="list-style-type: decimal;"}
@@ -52,7 +52,7 @@ hide:
   6. [Appimage][appimage] for portable apps found on the web.
      {style="list-style-type: decimal;"}
 
-  There is also [package layering with `rpm-ostree`][rpm-ostree], however it is [advised to avoid using it if possible][rpm-ostree_caveats] since they can break future upgrades until packages are removed.  Use as a last resort.
+  There is also [package layering with `rpm-ostree`][rpm-ostree], but it is [advised to avoid using it if possible][rpm-ostree_caveats] since layered packages can break future upgrades until packages are removed.  **Use as a last resort**.
 
 - [:fontawesome-solid-circle-arrow-down: **Updates & Rollbacks**][updateindex]{ style="font-size: 1.1rem" }
 
