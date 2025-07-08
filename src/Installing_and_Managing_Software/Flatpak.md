@@ -15,7 +15,7 @@ Flatpak is a universal containerized package format that tries to sandbox applic
 
 ## Installing Flatpaks
 
-![Bazaar|100x100, 100%](../img/bazaar.jpg)
+![Bazaar|2840x2038, 50%](../img/Bazaar.jpg)
 
 Flatpaks can be installed via the Bazaar app store.
 
