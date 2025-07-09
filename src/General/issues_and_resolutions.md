@@ -100,9 +100,9 @@ You can do this by:
 
 Now if you now select the Shutdown option, Windows will shut down completely and not interfere with Bazzite.
 
-## Wi-Fi Lag spikes
+## Wi-Fi is slow / Wi-Fi lag spikes
 
-**Issue:** Your Wi-Fi connection has a lot more lag spikes, which interferes with voice chat on Discord and online games. The problem is not present in Windows.
+**Issue:** Your Wi-Fi performance is much slower than expected or has lag spikes, which interferes with voice chat and online games. The problem is not present in Windows.
 
 **Cause:** The Wi-Fi power saving feature in Linux seems to work poorly on some Wi-Fi devices under Linux.
 
@@ -115,20 +115,55 @@ Now if you now select the Shutdown option, Windows will shut down completely and
     link/ether 00:00:00:00:00:00 brd ff:ff:ff:ff:ff:ff permaddr 00:00:00:00:00:00
 ```
 
-The device that we are interested in is the Wi-Fi device which is called "wlp6s0" in the example which is my Rog Ally
+The device that we are interested in is the Wi-Fi device. In this example (my ROG Ally), the Wi-Fi network is called `wlp6s0`.
+Another common name for the Wi-Fi network is `wlan0`.
 
-Next run `iw wlp6s0 get power_save` (change the wlp6s0 if your device name is different) and you should get `Power save: on` as the output.
+Next run `iw wlp6s0 get power_save` (change `wlp6s0` if your device name is different) to confirm if power saving is on:
+```
+Power save: on
+```
 
-To resolve this we are going to configure Network manager to not use the power save feature for Wi-FI devices. Open a terminal and run
+There are different steps to resolve this depending on if you've enabled **iwd** with `ujust toggle-iwd` (by default iwd is *disabled* and **wpa_supplicant** is used).
+
+### wpa_supplicant (iwd is OFF)
+
+We are going to configure NetworkManager to not use the power save feature for all Wi-FI devices. Open a terminal and run
 
 ```bash
 printf "[connection]\nwifi.powersave = 2" | sudo tee /etc/NetworkManager/conf.d/wifi-powersave-off.conf
 sudo systemctl restart NetworkManager
 ```
 
-Next run `iw wlp6s0 get power_save` to confirm that power save is off and hopefully you'll experience much less lag when playing online.
+Next, run `iw wlp6s0 get power_save` to confirm that power save is off:
+```
+Power save: off
+```
 
-Note that this fix may negatively affect the battery life of your laptop or handheld. If you do wish to reverse this change just delete the config file with `sudo rm /etc/NetworkManager/conf.d/wifi-powersave-off.conf` followed by `sudo systemctl restart NetworkManager`
+Note that this fix may negatively affect the battery life of your laptop or handheld. If you do wish to reverse this change, just delete the config file:
+```bash
+sudo rm /etc/NetworkManager/conf.d/wifi-powersave-off.conf
+sudo systemctl restart NetworkManager
+```
+
+### iwd (iwd is ON)
+
+We are going to configure iwd to not use the power save feature for all Wi-Fi devices. Open a terminal and run
+
+```bash
+printf "[DriverQuirks]\nPowerSaveDisable = *" | sudo tee /etc/iwd/main.conf
+sudo systemctl restart iwd
+```
+
+Next, run `iw wlp6s0 get power_save` to confirm that power save is off:
+```
+Power save: off
+```
+
+Note that this fix may negatively affect the battery life of your laptop or handheld. If you do wish to reverse this change, just delete the config file:
+```bash
+sudo rm /etc/iwd/main.conf
+sudo systemctl restart iwd
+```
 
 <hr>
 
