@@ -102,9 +102,7 @@ Now if you now select the Shutdown option, Windows will shut down completely and
 
 ## Wi-Fi is slow / Wi-Fi lag spikes
 
-**Issue:** Your Wi-Fi performance is much slower than expected. The problem is not present in Windows.
-
-**Issue:** Your Wi-Fi connection has a lot more lag spikes, which interferes with voice chat on Discord and online games. The problem is not present in Windows.
+**Issue:** Your Wi-Fi performance is much slower than expected or has lag spikes, which interferes with voice chat and online games. The problem is not present in Windows.
 
 **Cause:** The Wi-Fi power saving feature in Linux seems to work poorly on some Wi-Fi devices under Linux.
 
@@ -144,7 +142,7 @@ Power save: off
 Note that this fix may negatively affect the battery life of your laptop or handheld. If you do wish to reverse this change, just delete the config file:
 ```bash
 sudo rm /etc/NetworkManager/conf.d/wifi-powersave-off.conf
-sudo systemctl restart NetworkManager`
+sudo systemctl restart NetworkManager
 ```
 
 ### iwd (iwd is ON)
@@ -152,7 +150,7 @@ sudo systemctl restart NetworkManager`
 We are going to configure iwd to not use the power save feature for all Wi-Fi devices. Open a terminal and run
 
 ```bash
-printf "[DriverQuirks]\PowerSaveDisable = *" | sudo tee /etc/iwd/main.conf
+printf "[DriverQuirks]\nPowerSaveDisable = *" | sudo tee /etc/iwd/main.conf
 sudo systemctl restart iwd
 ```
 
