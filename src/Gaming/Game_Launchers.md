@@ -2,6 +2,7 @@
 authors:
   - "@nicknamenamenick"
   - "@termdisc"
+  - "@xXJSONDeruloXx"
 tags:
   - Guide
 ---
