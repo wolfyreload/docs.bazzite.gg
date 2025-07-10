@@ -142,6 +142,19 @@ plugins:
       use_image_from_page: true # Use first image found in a page as fallback
 ```
 
+## Credit Yourself!
+
+While it is not **mandatory**, you could add your Github username to the top of the page like this:
+
+```
+---
+authors:
+  - "@yournamehere"
+---
+```
+
+Some pages already include an authors section already.  **Do not add credits to the main index pages!**
+
 ## Translate documentation
 
 Translating documentation is as straightfoward as can be.
