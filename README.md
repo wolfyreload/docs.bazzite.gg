@@ -144,7 +144,7 @@ plugins:
 
 ## Credit Yourself!
 
-While it is not **mandatory**, you could add your Github username to the top of the page like this:
+While it is **not required**, you could add your Github username to the top of the page like this:
 
 ```
 ---
