@@ -37,13 +37,6 @@ https://www.youtube.com/watch?v=VTnm9EiBdPA
 
 https://www.youtube.com/watch?v=Z_DsWqTuipU
 
-## Failed to open \EFI\BOOT\mmx64.efi - Not Found
-
-![Failed to open \EFI\BOOT\mmx64.efi - Not Found](../../img/efi-boot-fail.png)
-
-To work around this issue, boot from file. Go into your UEFI (BIOS), select your EFI partition with Bazzite installed, then select /EFI/fedora/grubx64.efi to boot from.
-After this, your boot manager should boot normally showing "FEDORA" as the option.
-
 >[**Secure Boot Guide**](/General/Installation_Guide/secure_boot.md)
 
 ## Unable to allocate requested partition scheme error
