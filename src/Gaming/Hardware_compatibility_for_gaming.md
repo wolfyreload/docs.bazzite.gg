@@ -3,7 +3,7 @@ authors:
   - "@nicknamenamenick"
   - "@Zeglius"
 tags:
-  - Guide
+  - Knowledge Base
 ---
 
 <!-- ANCHOR: METADATA -->
