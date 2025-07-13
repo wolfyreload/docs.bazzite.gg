@@ -3,7 +3,7 @@ title: "Best Shell Practices"
 authors:
   - "@raddevon"
 tags:
-  -  Customization
+  -  Guide
 ---
 
 ## Changing the default terminal shell
