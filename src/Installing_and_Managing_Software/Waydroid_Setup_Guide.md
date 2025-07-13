@@ -10,6 +10,7 @@ authors:
   - "@SuperRiderTH"
 tags:
   - Guide
+  - Software
 ---
 
 <!-- ANCHOR: METADATA -->
