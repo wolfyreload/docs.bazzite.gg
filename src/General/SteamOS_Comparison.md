@@ -18,7 +18,7 @@ If you have a problem on **Bazzite**, rest assured you are not the first one, an
 Bazzite also contains **custom hardware enablement** for handheld devices, and we are proud to say that Bazzite currently works on **all** **x86** based handhelds, where for **Lenovo**, **Asus**, **Ayn**, **GPD**, and **OneXPlayer** devices, it **has feature parity with Windows**. In addition, Bazzite has great support for **AMD**, and decent support for recent **Intel Arc** (e.g., **MSI Claw**) and **Nvidia GPUs**.
 
 ## What is SteamOS?
-**SteamOS 3** (not to be confused with previous versions) is an Arch-based immutable operating system originally designed for the Steam Deck. Much like ChromeOS is an OS for Chrome, SteamOS is an OS for the Steam client. It also features a basic desktop environment with **KDE**, **X11** that allows users to e.g., install mods and emulators, but may be limiting for desktop use.
+**SteamOS 3** (not to be confused with previous versions) is an Arch-based operating system originally designed for the Steam Deck. Much like ChromeOS is an OS for Chrome, SteamOS is an OS for the Steam client. It also features a basic desktop environment with **KDE**, **X11** that allows users to e.g., install mods and emulators, but may be limiting for desktop use.
 
 In addition, due to its development model, it usually contains packages that are **1-2 years old**. For example, SteamOS 3.6 released with kernel 6.5 in October 2024, and was in service until May 2025. Kernel 6.5 released in August 2023, so on the 3.6 release day, the kernel was 14 months old and when it expired in May 2025, it was 21 months old.
 
