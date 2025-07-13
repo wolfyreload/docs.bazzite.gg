@@ -5,6 +5,8 @@ authors:
   - "@HikariKnight"
   - "@AkazaRenn"
   - "@snipem"
+tags:
+  -  Troubleshooting
 ---
 
 # Common Issues and Workarounds for Steam Gaming Mode
