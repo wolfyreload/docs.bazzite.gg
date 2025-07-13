@@ -9,6 +9,8 @@ authors:
   - "@aarron-lee"
   - "@HikariKnight"
   - "@ryanpolasky"
+tags:
+  - Installation
 ---
 
 <!-- ANCHOR: METADATA -->
