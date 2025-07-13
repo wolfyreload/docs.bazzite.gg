@@ -4,6 +4,7 @@ authors:
 
 tags:
   - Installation
+  - Troubleshooting
 ---
 
 <!-- ANCHOR: METADATA -->
