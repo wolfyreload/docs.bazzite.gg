@@ -3,6 +3,8 @@ title: Show Detailed Init Logs During Boot
 authors:
   - "@dkolb"
   - "@nicknamenamenick"
+tags:
+  -  Customization
 ---
 
 
