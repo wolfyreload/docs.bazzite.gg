@@ -2,7 +2,7 @@
 authors:
   - "@nicknamenamenick"
 tags:
-  - Guide
+  - Customization
 ---
 
 <!-- ANCHOR: METADATA -->
