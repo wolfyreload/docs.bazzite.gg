@@ -3,7 +3,7 @@ authors:
   - "@castrojo"
   - "@nicknamenamenick"
 tags:
-  -  Customization
+  -  Guide
 ---
 
 <!-- ANCHOR: METADATA -->
