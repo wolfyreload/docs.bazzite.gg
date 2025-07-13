@@ -2,6 +2,8 @@
 authors:
   - "@HikariKnight"
   - "@nicknamenamenick"
+tags:
+  -  Guide
 ---
 
 ## If you just plan to add options to a module, you should consider using a karg!
