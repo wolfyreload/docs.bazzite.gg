@@ -1,6 +1,8 @@
 ---
 authors:
   - "@nicknamenamenick"
+tags:
+  -  Updates
 ---
 
 <!-- ANCHOR: METADATA -->
