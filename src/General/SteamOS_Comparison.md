@@ -3,6 +3,8 @@ authors:
   - "@antheas"
   - "@aarron-lee"
   - "@nicknamenamenick"
+tags:
+  -  Knowledge Base
 ---
 
 # Comparison of Bazzite vs SteamOS
