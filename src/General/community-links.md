@@ -1,5 +1,7 @@
 ---
 title: Community Resources
+tags:
+  -  Knowledge Base
 ---
 !!! note
 
