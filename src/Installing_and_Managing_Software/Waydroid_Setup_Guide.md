@@ -73,7 +73,7 @@ ujust setup-waydroid
 
 Selecting `Configure Waydroid` will allow users to install additional Android tweaks with the [Waydroid Extras Scripts.](https://github.com/casualsnek/waydroid_script#waydroid-extras-script)
 
-1. Select Android Version (**_Android 13_ is installed by default**)
+1. Select Android Version (**_Android 11_ is recommended.**)
 2. Select items to install
 
 ##### Available Waydroid Extras:
