@@ -1,6 +1,8 @@
 ---
 authors:
   - "@nicknamenamenick"
+tags:
+  -  Software
 ---
 
 <!-- ANCHOR: METADATA -->
