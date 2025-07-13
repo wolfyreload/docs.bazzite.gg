@@ -1,6 +1,8 @@
 ---
 authors:
   - "@nicknamenamenick"
+tags:
+  -  Software
 preview:
   src: "../img/AppImage.png"
   contain: True
