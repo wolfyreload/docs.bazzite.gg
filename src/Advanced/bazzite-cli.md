@@ -2,6 +2,8 @@
 authors:
   - "@castrojo"
   - "@nicknamenamenick"
+tags:
+  -  Customization
 ---
 
 <!-- ANCHOR: METADATA -->
