@@ -4,7 +4,7 @@ authors:
   - "@dkolb"
   - "@nicknamenamenick"
 tags:
-  -  Customization
+  -  Guide
 ---
 
 
