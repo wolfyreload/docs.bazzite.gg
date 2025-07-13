@@ -4,7 +4,7 @@ authors:
   - "@HikariKnight"
   - "@porkloin"
 tags:
-  - Utility
+  - Guide
 ---
 
 ## What is it?
