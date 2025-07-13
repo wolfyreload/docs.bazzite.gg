@@ -2,6 +2,8 @@
 authors:
   - "@nicknamenamenick"
   - "@wolfyreload"
+tags:
+  -  Software
 ---
 
 <!-- ANCHOR: METADATA -->
