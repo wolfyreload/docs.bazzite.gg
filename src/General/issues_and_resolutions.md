@@ -2,6 +2,8 @@
 title: Issues & Resolutions
 authors:
   - "@wolfyreload"
+tags:
+  -  Troubleshooting
 ---
 
 # Issues & Resolution
