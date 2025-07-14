@@ -27,11 +27,11 @@ Use the [**official template image**](https://github.com/ublue-os/image-template
  
 ### Option B - Forking Bazzite
 
-Sometimes you don't want to make a whole new image from scratch, you just want to change some things without too much extra work by forking Bazzite.  It is highly recommended to use the [Pull application for Github](https://github.com/apps/pull) to keep your fork in sync.
+Sometimes you don't want to make a whole new image from scratch, you just want to change some things without too much extra work by **forking Bazzite**.  It is highly recommended to use the [**Pull application for Github**](https://github.com/apps/pull) to keep your fork in sync.
 
 ### Option C - Using BlueBuild
 
-[BlueBuild](https://blue-build.org/learn/universal-blue/) is a project that orginally started as a starting point for Universal Blue custom image building and eventually became its own separate project.  All support for Blue-Build images should be directed to the appropriate [communication channels](https://blue-build.org/community/) outside of Universal Blue.
+[**BlueBuild**](https://blue-build.org/learn/universal-blue/) is a project that orginally started as a starting point for Universal Blue custom image building and eventually became its own separate project.  All support for Blue-Build images should be directed to the appropriate [communication channels](https://blue-build.org/community/) outside of Universal Blue.
 
 ## Custom Image Showcase
 
