@@ -2,8 +2,6 @@
 title: General Documentation
 ---
 
-## General Documentation
-
 - [**Dictionary & Terminology**](/General/terms.md)
 - [**Upstream Fedora Atomic Desktop Comparison**](/General/Fedora_Atomic_Comparison.md)
 - [**SteamOS Comparison**](/General/SteamOS_Comparison.md)
