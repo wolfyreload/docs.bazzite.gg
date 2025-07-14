@@ -11,7 +11,6 @@ title: General Documentation
 - [**Reporting Bugs**](/General/reporting_bugs.md)
 - [**Desktop Environment Tweaks**](/General/Desktop_Environment_Tweaks.md)
 - [**Community Resources**](/General/community-links.md)
-- [**Press Kit**](https://github.com/ublue-os/bazzite/tree/main/press_kit)
 - [**Uninstalling Bazzite**](/General/uninstalling-bazzite.md)
 
 ## Repository Information (External)
@@ -20,3 +19,4 @@ title: General Documentation
 - [**Security Policy**](https://github.com/ublue-os/bazzite/blob/main/SECURITY.md)
 - [**License**](https://github.com/ublue-os/bazzite/blob/main/LICENSE)
 - [**Bazzite-Specific Packages**](https://github.com/orgs/bazzite-org/repositories)
+- [**Press Kit**](https://github.com/ublue-os/bazzite/tree/main/press_kit)
