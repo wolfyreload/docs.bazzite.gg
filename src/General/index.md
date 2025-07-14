@@ -9,5 +9,5 @@ title: General Documentation
 - [**Reporting Bugs**](/General/reporting_bugs.md)
 - [**Desktop Environment Tweaks**](/General/Desktop_Environment_Tweaks.md)
 - [**Community Resources**](/General/community-links.md)
-- [**Press Kit**](/General/press_kit.md)
+- [**Press Kit**](https://github.com/ublue-os/bazzite/tree/main/press_kit)
 - [**Uninstalling Bazzite**](/General/uninstalling-bazzite.md)
