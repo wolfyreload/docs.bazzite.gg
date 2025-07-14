@@ -132,7 +132,7 @@ Right clicking a game on Lutris gives the option to add it as a non-Steam game (
     
     A Game Pass Ultimate subscription is required to use [Xbox Cloud Gaming](https://www.xbox.com/en-us/play) except for select games like Fortnite.
 
-Games installed from the Microsoft Store do **not** run unless you use a Xbox Cloud Gaming client like [**Greenlight**](https://github.com/unknownskl/greenlight). Fortnite can also be played via this method **without** a Game Pass subscription.
+Games installed from the Microsoft Store do **not** run unless you use a Xbox Cloud Gaming client like [**Greenlight**](https://github.com/unknownskl/greenlight). Fortnite can also be played via this method **without** a Game Pass subscription.  There are also [**select titles available on Battle.net**](https://us.support.blizzard.com/en/article/000357106) which can be ran through Proton using Lutris.
 
 <hr>
 
