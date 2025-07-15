@@ -194,7 +194,7 @@ nav:
           - "Using Looking-Glass": Advanced/looking-glass.md
           - "Bazzite Command Line Tools": Advanced/bazzite-cli.md
           - "Best Shell Practices": Advanced/Best_Shell_Practices.md
-      - "System Administration"
+      - "System Administration":
           - "Auto-Mounting Secondary Drives": Advanced/Auto-Mounting_Secondary_Drives.md
           - "Booting to Rescue & Emergency Mode": Advanced/rescue-and-emergency-mode.md
           - "Reset Forgotten User Password": Advanced/Reset_Forgotten_User_Password.md
