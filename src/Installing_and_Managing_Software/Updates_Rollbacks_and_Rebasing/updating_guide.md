@@ -62,7 +62,7 @@ Changelogs can be found on the [Github repository](https://github.com/ublue-os/b
 
 ## How often is there a new Bazzite build?
 
-Usually Bazzite is built twice a week which includes the new changes from us and from Fedora Linux. Updates may happen multiple times a day regardless due to updates from application updates, firmware upgrades, and any container environments that exist on your system.
+Usually Bazzite is built twice a week which includes the new changes from us and from Fedora Linux.
 
 ## How does updating to a new Fedora major release work?
 
