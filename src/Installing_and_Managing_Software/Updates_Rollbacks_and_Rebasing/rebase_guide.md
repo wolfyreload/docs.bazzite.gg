@@ -57,7 +57,7 @@ For rebasing to the generic KDE Plasma version of the Handheld & HTPC image.
 
 !!! warning
     
-    Rebasing between different desktop environments (e.g. KDE to GNOME) **may cause issues** and is **unsupported**.
+    Rebasing between different desktop environments (e.g. KDE Plasma to GNOME) **may cause issues** and is **unsupported**.
 
 ## How do I change the Bazzite's update branch? (Stable, Testing, and Unstable)
 
