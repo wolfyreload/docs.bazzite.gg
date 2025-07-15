@@ -133,6 +133,14 @@ We also encourage you to donate to the projects that are used in Bazzite which h
 - [**xone**](https://www.paypal.com/donate?hosted_button_id=BWUECKFDNY446)
 - [**yq**](https://github.com/sponsors/mikefarah)
 
+## Particular Recognition
+
+- [**evlaV**](https://gitlab.com/evlaV) - For making Valve's code available publicly for SteamOS.
+- [**Steam Deck Homebrew**](https://deckbrew.xyz) - For choosing to support distributions other than SteamOS despite the extra work, and a special thanks to [**PartyWumpus**](https://github.com/PartyWumpus) for getting Decky Loader working with SELinux for us.
+- [**FOSS Torrents**](https://fosstorrents.com/distributions/bazzite/) - For providing torrents for Bazzite.
+- [**Valve**](https://www.valvesoftware.com/), [**Collabora**](https://www.collabora.com/), [**Igalia**](https://www.igalia.com/), & [**Arch Linux**](https://archlinux.org/) - For being the reason that [**SteamOS**](https://store.steampowered.com/steamos/) exists which is Bazzite's largest influence.
+
+
 ## Collaborated Projects
 
 Similar desktop Linux projects that share resources with us.
@@ -145,12 +153,6 @@ Similar desktop Linux projects that share resources with us.
 - [**Winblues**](https://blues.win/) ([**Support Upstream Projects**](https://blues.win/95/thanks/))
 - [**secureblue**](https://secureblue.dev/) ([**Support**](https://secureblue.dev/donate))
 - [**CachyOS**](https://cachyos.org/) ([**Support**](https://www.patreon.com/CachyOS))
-
-## Special Thanks
-
-- [**evlaV**](https://gitlab.com/evlaV) - For making Valve's code available and for being [**this person**](https://xkcd.com/2347/).
-- [**Steam Deck Homebrew**](https://deckbrew.xyz) - For choosing to support distributions other than SteamOS despite the extra work, and a special thanks to [**PartyWumpus**](https://github.com/PartyWumpus) for getting Decky Loader working with SELinux for us.
-- [**Valve**](https://www.valvesoftware.com/), [**Collabora**](https://www.collabora.com/), [**Igalia**](https://www.igalia.com/), & [**Arch Linux**](https://archlinux.org/) - For being the reason that [**SteamOS**](https://store.steampowered.com/steamos/) exists which is Bazzite's largest influence.
 
 ## Maintainers and Contributors of Other Universal Blue Projects
 
