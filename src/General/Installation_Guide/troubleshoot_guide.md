@@ -70,7 +70,7 @@ Here are some possible solutions on how you can address it:
 
 !!! note
 
-    **The alternative installation method is useful for downloading a smaller ISO and may resolve issues with downloading Bazzite's ISO, but contains installer display issues on most handheld hardware**.
+    **The alternative installation method is useful for downloading a smaller ISO and may resolve other issues, but also contains display issues in the installer on most handheld displays**.
 
 If none of the above errors are relevant to your issue, or you still have problems installing Bazzite, then try following our alternative installation method:
 
