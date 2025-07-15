@@ -15,7 +15,7 @@ tags:
 
 !!! warning
     
-    Rebasing between different desktop environments (e.g. KDE to GNOME) **may cause issues** and is **unsupported**.
+    Rebasing between different desktop environments (e.g. KDE Plasma to GNOME) **may cause issues** and is **unsupported**.
 
 Rebasing allows users to switch to a different image **without** having to reinstall and lose personal files and application data.
 
