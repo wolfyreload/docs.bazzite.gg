@@ -139,7 +139,7 @@ We also encourage you to donate to the projects that are used in Bazzite which h
 - [**Steam Deck Homebrew**](https://deckbrew.xyz) - For choosing to support distributions other than SteamOS despite the extra work, and a special thanks to [**PartyWumpus**](https://github.com/PartyWumpus) for getting Decky Loader working with SELinux for us.
 - [**FOSS Torrents**](https://fosstorrents.com/distributions/bazzite/) - For providing torrents for Bazzite.
 - [**Podman**](https://podman.io/) - For providing the container technology that Bazzite heavily uses.
-- [**kernel-sync**] - For containing patches that are now used in the [Bazzite Kernel](https://github.com/bazzite-org/kernel-bazzite).
+- [**kernel-sync**](https://copr.fedorainfracloud.org/coprs/sentry/kernel-fsync/) - For containing patches that are now used in the [Bazzite Kernel](https://github.com/bazzite-org/kernel-bazzite).
 - [**Valve**](https://www.valvesoftware.com/), [**Collabora**](https://www.collabora.com/), [**Igalia**](https://www.igalia.com/), & [**Arch Linux**](https://archlinux.org/) - For being the reason that [**SteamOS**](https://store.steampowered.com/steamos/) exists which is Bazzite's largest influence.
 
 
