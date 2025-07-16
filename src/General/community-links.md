@@ -25,31 +25,22 @@ tags:
 
 ## Software / Gaming
 
-- [**Restored OLD Bazzite Portal Application List**](https://universal-blue.discourse.group/t/old-bazzite-portal-flatpak-list-restored-as-a-forum-post/5440)
-- [**Flathub Electron App Store Frontend**](https://github.com/aarron-lee/flathub-electron)
+- [**OLD Bazzite Portal Application List**](https://universal-blue.discourse.group/t/old-bazzite-portal-flatpak-list-restored-as-a-forum-post/5440)
 - [**Microsoft's Tutorial on Xbox Cloud Streaming for Game Pass Ultimate (and Fortnite)**](https://support.microsoft.com/en-us/topic/xbox-cloud-gaming-in-microsoft-edge-with-steam-deck-43dd011b-0ce8-4810-8302-965be6d53296)
-- [**Installing Mullvad VPN**](https://docs.getaurora.dev/guides/layerapp/)
 - [**Browser Games Using Web Apps**](https://universal-blue.discourse.group/t/how-to-run-old-browser-games-with-web-apps/486)
 - [**StreamingServiceLauncher**](https://github.com/aarron-lee/StreamingServiceLauncher)
 - [**Crunchyroll for Linux**](https://github.com/aarron-lee/crunchyroll-linux)
-- [**Setup Streaming Services**](https://github.com/fewtarius/SetupStreamingServices)
 - [**Running Valve's Hammer Level Editor Software for Map Making in the Source 1 Engine**](https://andrealmeid.com/post/2020-05-28-csgo-hammer-linux/)
 - [**boxkit: Template to build your own OCI Distrobox container**](https://github.com/ublue-os/boxkit) 
 - [**bazzite-arch: Gaming packages inside of a Distrobox container**](https://github.com/ublue-os/bazzite-arch)
 - [**DAWbox: An Ubuntu based OCI ready for music production, powered by Distrobox**](https://github.com/Messaiga/DAWbox)
-
-
-## Customization & Themes
-
-- [**Change Start Icon for KDE Plasma Images**](https://docs.getaurora.dev/guides/start-icon/)
-- [**GRUB Theming**](https://universal-blue.discourse.group/t/grub-theming-guide-for-silverblue-ublue/370)
 
 ## Bootable Container Topics
 
 - [**List of Bootable Container Images**](https://workshop.blue-build.org/images)
 - [**List of Community Created Custom Images**](https://universal-blue.discourse.group/t/list-of-community-created-custom-images/340)
 - [**Installing Universal Blue's Base Images**](https://universal-blue.discourse.group/t/how-to-install-universal-blues-base-images/868)
-- [**Self-Hosting Images**](https://universal-blue.discourse.group/t/self-hosters-the-forge-needs-your-eyes-and-hands/1566)
+- [**Self-Hosting Images**](https://github.com/ublue-os/forge)
 - [**BlueBuild Project**](https://blue-build.org/)
 
 ## Reference Documentation
