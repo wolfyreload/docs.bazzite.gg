@@ -85,7 +85,7 @@ On Bazzite handheld images (-deck), additional UX improvements help reduce virtu
 4. Enter your launch options
 
 ![Cog Icon > Properties|690x284, 75%](../img/Steam_Setup_Cog.png)
-![Launch Options view|690x284, 75%](../img/Steam_Launch_Options.png)
+![Launch Options view|833x594, 75%](../img/Steam_Launch_Options.png)
 
 #### Advanced Launch Option Management
 
