@@ -24,6 +24,10 @@ tags:
 ### Option A - Using the Image template
 
 Use the [**official template image**](https://github.com/ublue-os/image-template) to build off of to make your own custom Bazzite preferred over forking the project.
+
+#### Video Guide
+
+https://www.youtube.com/watch?v=IxBl11Zmq5w
  
 ### Option B - Forking Bazzite
 
