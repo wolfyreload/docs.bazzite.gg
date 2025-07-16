@@ -142,6 +142,8 @@ rpm-ostree rebase ostree-image-signed:docker://ghcr.io/ublue-os/bazzite-deck:39-
 
 For the _Jan. 13th 2024_ `bazzite-deck` (_Fedora 39_) build.
 
+<sub>_(Please note that this build is no longer available since it is past the 90 day limit and is only used as an example for this documentation.)_</sub>
+
 <hr>
 
 [**<-- Back to Updates, Rollback, and Rebasing Guide**](./index.md)
