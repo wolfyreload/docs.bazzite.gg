@@ -19,7 +19,7 @@ tags:
 
 Rebasing allows users to switch to a different image **without** having to reinstall and lose personal files and application data.
 
-[**It is recommended to use the Bazzite Rollback Helper utility**](./bazzite_rollback_helper.md).
+>[**It is recommended to use the Bazzite Rollback Helper utility**](./bazzite_rollback_helper.md).
 
 ## Rebase Scenarios
 
@@ -35,9 +35,10 @@ See what channel or build you are on by **entering this command in a host termin
 rpm-ostree status
 ```
 
-Check under "Deployments:" and the output should be similar to:
-
-> **● ostree-image-signed:docker://ghcr.io/ublue-os/[*image*]:[*channel*]**
+Check under "**Deployments:**" and the output should be similar to:
+```
+ ● ostree-image-signed:docker://ghcr.io/ublue-os/[*image*]:[*channel*]
+```
 
 Switch to another Bazzite variant by entering the command for each specific image.
 
