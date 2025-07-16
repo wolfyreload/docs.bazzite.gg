@@ -12,7 +12,7 @@ title: Steam Gaming Mode Images
 
 ![Steam Gaming Mode UI|690x430](../img/Steam_Gaming_Mode_UI.jpeg)
 
-<sub>Steam Gaming Mode requires a modern AMD graphics card or an Intel Arc graphics card. Nvidia hardware is currently in **beta** and not recommended unless for testing purposes. </sub>
+<sub>Please note that Steam Gaming Mode has demanding GPU hardware requirements.</sub>
 
 ### What is Steam Gaming Mode?
 !!! important 
