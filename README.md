@@ -44,7 +44,7 @@ If you really need to, use `#` only and exclusively for page titles, and only on
 >
 > Source ~ https://www.mkdocs.org/
 
-**TL;DR**: Its a fancy tool that allows us to create a documentation website with basic [Markdown](https://commonmark.org/help/).
+**TL;DR**: It's a fancy tool that allows us to create a documentation website with basic [Markdown](https://commonmark.org/help/).
 
 The essential part that can't be missing in a mdBook is the `mkdocs.yml` file.
 
