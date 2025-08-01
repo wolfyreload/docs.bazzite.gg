@@ -74,14 +74,14 @@ ujust setup-waydroid
 
 Selecting `Configure Waydroid` will allow users to install additional Android tweaks with the [Waydroid Extras Scripts.](https://github.com/casualsnek/waydroid_script#waydroid-extras-script)
 
-1. Select Android Version (**_Android 11_ is recommended.**)
+1. Select Android version you have installed. To find installed Android version, start Waydroid, open Settings app then go to "About This Phone". Your Android version will be 11 or 13.
 2. Select items to install
 
 ##### Available Waydroid Extras:
 
 - [GApps](https://github.com/opengapps/opengapps/wiki/FAQ) (Default Android applications including the **Google Play Store)** or [microG](https://microg.org/) (Free alternatives to Google applications)
 
-- ARM Translation (_libndk_ for **AMD CPUs only** & _libhoudini_ for **Intel CPUs only**)
+- ARM Translation (_libndk_ or _libhoudini_. _libhoudini_ offers better overall compatibility compared to _libndk_. Some games may run on only one of _libhoudini_ or _libndk_.  On Android 11, _libhoudini_ will run significantly slower than _libndk_ if you have AMD CPU. **Do not install both of them at the same time. If you need to switch, uninstall your current translation layer before installing new one.**)
 
 - [Magisk](https://github.com/topjohnwu/Magisk) (Android power user suite)
 
