@@ -1,6 +1,8 @@
 ---
 authors:
   - "@nicknamenamenick"
+tags:
+  -  Updates
 ---
 
 <!-- ANCHOR: METADATA -->
@@ -11,13 +13,13 @@ authors:
 
 ## What is Rebasing?
 
-!!! attention 
+!!! warning
     
-    Do **not** rebase between different desktop environments.
+    Rebasing between different desktop environments (e.g. KDE Plasma to GNOME) **may cause issues** and is **unsupported**.
 
 Rebasing allows users to switch to a different image **without** having to reinstall and lose personal files and application data.
 
-[**It is recommended to use the Bazzite Rollback Helper utility**](./bazzite_rollback_helper.md).
+>[**It is recommended to use the Bazzite Rollback Helper utility**](./bazzite_rollback_helper.md).
 
 ## Rebase Scenarios
 
@@ -33,9 +35,10 @@ See what channel or build you are on by **entering this command in a host termin
 rpm-ostree status
 ```
 
-Check under "Deployments:" and the output should be similar to:
-
-> **● ostree-image-signed:docker://ghcr.io/ublue-os/[*image*]:[*channel*]**
+Check under "**Deployments:**" and the output should be similar to:
+```
+ ● ostree-image-signed:docker://ghcr.io/ublue-os/[*image*]:[*channel*]
+```
 
 Switch to another Bazzite variant by entering the command for each specific image.
 
@@ -55,7 +58,7 @@ For rebasing to the generic KDE Plasma version of the Handheld & HTPC image.
 
 !!! warning
     
-    Rebasing between different desktop environments **may cause issues** and is **unsupported**.
+    Rebasing between different desktop environments (e.g. KDE Plasma to GNOME) **may cause issues** and is **unsupported**.
 
 ## How do I change the Bazzite's update branch? (Stable, Testing, and Unstable)
 
@@ -139,6 +142,8 @@ rpm-ostree rebase ostree-image-signed:docker://ghcr.io/ublue-os/bazzite-deck:39-
 ```
 
 For the _Jan. 13th 2024_ `bazzite-deck` (_Fedora 39_) build.
+
+<sub>_(Please note that this build is no longer available since it is past the 90 day limit and is only used as an example for this documentation.)_</sub>
 
 <hr>
 

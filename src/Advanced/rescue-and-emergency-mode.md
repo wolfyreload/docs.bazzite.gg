@@ -1,6 +1,8 @@
 ---
 authors:
   - "@bsherman"
+tags:
+  -  Troubleshooting
 ---
 
 ## Preface

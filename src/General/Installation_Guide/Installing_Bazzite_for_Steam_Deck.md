@@ -8,6 +8,8 @@ authors:
   - "@rothgar"
   - "@HikariKnight"
   - "@Zeglius"
+tags:
+  - Installation
 ---
 
 <!-- ANCHOR: METADATA -->

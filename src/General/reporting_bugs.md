@@ -2,7 +2,7 @@
 authors:
   - "@nicknamenamenick"
 tags:
-  - Guide
+  - Troubleshooting
 ---
 
 <!-- ANCHOR: METADATA -->
@@ -28,7 +28,7 @@ Report bugs experienced with Bazzite in our [**issue tracker**](https://github.c
 Sometimes bugs are fixed during upgrades, so try updating and rebooting your device before submitting a report to see if the issue still persists between updates.
 
 >**Read how to update Bazzite for your device**:
->[Updating guide](../Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/updating_guide.md)
+>[**Updating guide**](../Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/updating_guide.md)
 
 ### Make sure to attach system logs
 

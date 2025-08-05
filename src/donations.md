@@ -45,14 +45,14 @@ Love Bazzite and want to help sustain it's development?  Consider **sponsoring**
 
 <div style="display: flex; flex-wrap: wrap; gap: 0.4rem;">
 {{ contributor("Kyle Gospodnetich", "KyleGospo", "Founder & Lead Maintainer", "https://github.com/sponsors/KyleGospo") }}
-{{ contributor("Antheas Kapenekakis", "antheas", "Handheld Support", "https://github.com/sponsors/antheas") }}
+{{ contributor("Antheas Kapenekakis", "antheas", "Bazzite Maintainer, Handheld Daemon creator", "https://github.com/sponsors/antheas") }}
 {{ contributor("HikariKnight", "HikariKnight", "Virtualization Support & Scripting", "https://github.com/sponsors/HikariKnight") }}
 {{ contributor("Noel Miller", "noelmiller", "Installer Enhancements & Custom Image Tooling", "https://github.com/sponsors/noelmiller") }}
 {{ contributor("RJ Trujillo", "EyeCantCU", "Tooling for CI/CD Pipelines & Initial Alternate Desktop Environment Support") }}
 {{ contributor("Tulip Blossom", "tulilirockz", "OCI Image Virtuoso & Image Maintenance", "https://github.com/sponsors/tulilirockz") }}
 {{ contributor("Brian Ketelsen", "bketelsen", "Tooling Expert") }}
 {{ contributor("CheckYourFax", "CheckYourFax", "Community Support & Issue Wrangling") }}
-{{ contributor("Zeglius", "Zeglius", "Scripting & Documentation Maintenance", "https://github.com/sponsors/Zeglius") }}
+{{ contributor("Zeglius", "Zeglius", "Scripting, Documentation Maintenance, Live ISOs Maintainer", "https://github.com/sponsors/Zeglius") }}
 {{ contributor("Aarron Lee", "aarron-lee", "Scripting & Command-Line Utilities") }}
 {{ contributor("Jan", "Jan200101", "Kernel Patches") }}
 {{ contributor("Matthew Schwartz", "matte-schwartz", "Steam Gaming Mode Testing & Consulting") }}
@@ -64,7 +64,7 @@ Love Bazzite and want to help sustain it's development?  Consider **sponsoring**
 {{ contributor("Kurt Himebauch", "xXJSONDeruloXx", "ujust Extraordinaire") }}
 {{ contributor("Atapi", "Sterophonick", "Driver Backports") }}
 {{ contributor("XYNY", "xynydev", "Infographics & Alternate Custom Tooling") }}
-{{ contributor("Crono", "EPOCHvoyager", "Performance Scheduler Enthusiast") }}
+{{ contributor("Crono", "EPOCHvoyager", "Minor Scripting, Pedantry Devotee") }}
 {{ contributor("m2", "m2Giles", "Bug Fixes & Enhancements") }}
 {{ contributor("FiftyDinar", "fiftydinar", "Bug Fixes & Enhancements") }}
 {{ contributor("Marco Rodolfi", "RodoMa92", "Bug Fixes & Enhancements") }}
@@ -102,6 +102,7 @@ We also encourage you to donate to the projects that are used in Bazzite which h
 <sub>(*If we missed software that is part of Bazzite and can be donated to, then [**please let us know**](https://github.com/KyleGospo/docs.bazzite.gg/issues) or [**PR a fix**](https://github.com/KyleGospo/docs.bazzite.gg/blob/main/src/donations.md)!*)</sub>
 
 - [**Atuin**](https://github.com/sponsors/atuinsh)
+- [**Bazaar**](https://github.com/sponsors/kolunmi)
 - [**BORE Scheduler**](https://ko-fi.com/firelzrd)
 - [**Blur My Shell**](https://github.com/sponsors/aunetx)
 - [**Clapper**](https://liberapay.com/Clapper)
@@ -132,9 +133,19 @@ We also encourage you to donate to the projects that are used in Bazzite which h
 - [**xone**](https://www.paypal.com/donate?hosted_button_id=BWUECKFDNY446)
 - [**yq**](https://github.com/sponsors/mikefarah)
 
+## Particular Recognition
+
+- [**evlaV**](https://gitlab.com/evlaV) - For making Valve's code available publicly for SteamOS.
+- [**Steam Deck Homebrew**](https://deckbrew.xyz) - For choosing to support distributions other than SteamOS despite the extra work, and a special thanks to [**PartyWumpus**](https://github.com/PartyWumpus) for getting Decky Loader working with SELinux for us.
+- [**FOSS Torrents**](https://fosstorrents.com/distributions/bazzite/) - For providing torrents for Bazzite.
+- [**Podman**](https://podman.io/) - For providing the container technology that Bazzite heavily uses.
+- [**kernel-sync**](https://copr.fedorainfracloud.org/coprs/sentry/kernel-fsync/) - For containing patches that are now used in the [Bazzite Kernel](https://github.com/bazzite-org/kernel-bazzite).
+- [**Valve**](https://www.valvesoftware.com/), [**Collabora**](https://www.collabora.com/), [**Igalia**](https://www.igalia.com/), & [**Arch Linux**](https://archlinux.org/) - For being the reason that [**SteamOS**](https://store.steampowered.com/steamos/) exists which is Bazzite's largest influence.
+
+
 ## Collaborated Projects
 
-Similar desktop Linux projects that share resources with us.
+Desktop Linux projects that share resources with us.
 
 - [**ChimeraOS**](https://chimeraos.org/) ([**Support**](https://opencollective.com/chimeraos/donate))
 - [**Ultramarine Linux**](https://ultramarine-linux.org/) ([**Support**](https://github.com/sponsors/FyraLabs))
@@ -144,12 +155,6 @@ Similar desktop Linux projects that share resources with us.
 - [**Winblues**](https://blues.win/) ([**Support Upstream Projects**](https://blues.win/95/thanks/))
 - [**secureblue**](https://secureblue.dev/) ([**Support**](https://secureblue.dev/donate))
 - [**CachyOS**](https://cachyos.org/) ([**Support**](https://www.patreon.com/CachyOS))
-
-## Special Thanks
-
-- [**evlaV**](https://gitlab.com/evlaV) - For making Valve's code available and for being [**this person**](https://xkcd.com/2347/).
-- [**Steam Deck Homebrew**](https://deckbrew.xyz) - For choosing to support distributions other than SteamOS despite the extra work, and a special thanks to [**PartyWumpus**](https://github.com/PartyWumpus) for getting Decky Loader working with SELinux for us.
-- [**Valve**](https://www.valvesoftware.com/), [**Collabora**](https://www.collabora.com/), [**Igalia**](https://www.igalia.com/), & [**Arch Linux**](https://archlinux.org/) - For being the reason that [**SteamOS**](https://store.steampowered.com/steamos/) exists which is Bazzite's largest influence.
 
 ## Maintainers and Contributors of Other Universal Blue Projects
 

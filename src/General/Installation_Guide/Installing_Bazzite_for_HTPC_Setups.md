@@ -6,6 +6,8 @@ authors:
   - "@castrojo"
   - "@noelmiller"
   - "@rothgar"
+tags:
+  - Installation
 ---
 
 <!-- ANCHOR: METADATA -->

@@ -2,6 +2,8 @@
 authors:
   - "@nicknamenamenick"
   - "@Zeglius"
+tags:
+  -  Software
 preview:
   src: "../img/rpm-ostree.png"
   contain: true

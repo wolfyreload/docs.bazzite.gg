@@ -2,6 +2,8 @@
 authors:
   - "@HikariKnight"
   - "@nicknamenamenick"
+tags:
+  -  Guide
 ---
 
 ## READ FIRST!

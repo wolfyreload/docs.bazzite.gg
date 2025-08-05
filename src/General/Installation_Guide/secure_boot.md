@@ -1,6 +1,8 @@
 ---
 authors:
   - "@nicknamenamenick"
+tags:
+  - Installation
 ---
 
 <!-- ANCHOR: METADATA -->

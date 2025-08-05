@@ -1,6 +1,10 @@
 ---
 authors:
   - "@nicknamenamenick"
+
+tags:
+  - Installation
+  - Troubleshooting
 ---
 
 <!-- ANCHOR: METADATA -->
@@ -37,6 +41,13 @@ https://www.youtube.com/watch?v=VTnm9EiBdPA
 
 https://www.youtube.com/watch?v=Z_DsWqTuipU
 
+## "Failed to open \EFI\BOOT\mmx64.efi - Not Found" error
+
+![Failed to open \EFI\BOOT\mmx64.efi - Not Found](../../img/efi-boot-fail.png)
+
+To work around this issue, boot from file. Go into your UEFI (BIOS), select your EFI partition with Bazzite installed, then select /EFI/fedora/grubx64.efi to boot from.
+After this, your boot manager should boot normally showing "FEDORA" as the option.
+
 >[**Secure Boot Guide**](/General/Installation_Guide/secure_boot.md)
 
 ## Unable to allocate requested partition scheme error
@@ -59,7 +70,7 @@ Here are some possible solutions on how you can address it:
 
 !!! note
 
-    **The alternative installation method is useful for downloading a smaller ISO and may resolve issues with downloading Bazzite's ISO, but contains installer display issues on most handheld hardware**.
+    **The alternative installation method is useful for downloading a smaller ISO and may resolve other issues, but also contains display issues in the installer on most handheld displays**.
 
 If none of the above errors are relevant to your issue, or you still have problems installing Bazzite, then try following our alternative installation method:
 

@@ -1,6 +1,8 @@
 ---
 authors:
   - "@nicknamenamenick"
+tags:
+  -  Software
 ---
 
 <!-- ANCHOR: METADATA -->
@@ -11,20 +13,13 @@ authors:
 
 ![Flatpak|100x100, 100%](../img/Flatpak.png)
 
-Flatpak is a universal containerized package format that tries to sandbox applications through flexible permissions that the application has access to on your system.  It is the **primary method of installing applications on Bazzite** and is recommended to use Flatpak over other formats for most software when possible.
+Flatpak is a universal containerized package format that tries to sandbox applications through flexible permissions that the application has access to on your system.  It is the **primary method of installing applications on Bazzite** _(outside of the small selection of software available in the [Bazzite Portal or as a `ujust` command](./ujust.md))_  and is recommended to use Flatpak over other formats for most software when possible.
 
 ## Installing Flatpaks
 
-Flatpaks can be installed via the software center of the desktop environment you chose.
+![Bazaar|2840x2038, 50%](../img/Bazaar.jpg)
 
-![Discover|50x50, 100%](../img/Discover_icon.png)
-**KDE**: _Discover_
-
-![GNOME Software|50x50, 100%](../img/Gnome_Software.png)
-**GNOME**: _GNOME Software_
-
-![Discover|659x500, 100%](../img/Discover.png)
-![GNOME Software Center](../img/Gnome_Software_Center.png)
+Flatpaks can be installed via the Bazaar app store.
 
 **Alternatively open a host terminal and enter**:
 
@@ -56,7 +51,7 @@ Sometimes a project's website or [Github repository](<https://github.com/flathub
 
 ### Project Website
 
-https://www.flatpak.org/
+https://flatpak.org/
 
 <hr>
 

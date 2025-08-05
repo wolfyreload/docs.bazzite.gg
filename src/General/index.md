@@ -1,7 +1,9 @@
 ---
 title: General Documentation
 ---
-- [**README**](https://github.com/ublue-os/bazzite/blob/main/README.md)
+
+## Bazzite Overview
+
 - [**Dictionary & Terminology**](/General/terms.md)
 - [**Upstream Fedora Atomic Desktop Comparison**](/General/Fedora_Atomic_Comparison.md)
 - [**SteamOS Comparison**](/General/SteamOS_Comparison.md)
@@ -9,5 +11,12 @@ title: General Documentation
 - [**Reporting Bugs**](/General/reporting_bugs.md)
 - [**Desktop Environment Tweaks**](/General/Desktop_Environment_Tweaks.md)
 - [**Community Resources**](/General/community-links.md)
-- [**Press Kit**](/General/press_kit.md)
 - [**Uninstalling Bazzite**](/General/uninstalling-bazzite.md)
+
+## Repository Information (External)
+
+- [**README**](https://github.com/ublue-os/bazzite/blob/main/README.md)
+- [**Security Policy**](https://github.com/ublue-os/bazzite/blob/main/SECURITY.md)
+- [**License**](https://github.com/ublue-os/bazzite/blob/main/LICENSE)
+- [**Bazzite-Specific Packages**](https://github.com/orgs/bazzite-org/repositories)
+- [**Press Kit**](https://github.com/ublue-os/bazzite/tree/main/press_kit)

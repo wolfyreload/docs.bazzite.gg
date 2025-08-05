@@ -2,6 +2,7 @@
 authors:
   - "@nicknamenamenick"
   - "@termdisc"
+  - "@xXJSONDeruloXx"
 tags:
   - Guide
 ---
@@ -27,6 +28,70 @@ Steam can run Windows games on Linux. It utilizes a wide range of projects and p
 ##### Image Example
 ![Cog Icon > Properties|690x284, 75%](../img/Steam_Setup_Cog.png)
 ![Compatibility tab|690x492, 75%](../img/Steam_Setup_Compat_Tab.png)
+
+### Steam Launch Options and Shortcuts
+
+Steam launch options allow you to pass environment variables, arguments, and commands to games when they start. Bazzite includes several shortcuts and UX improvements to make common launch options easier to use, especially on handheld devices.
+
+#### Common Launch Option Patterns
+
+Most Steam launch options follow this pattern: `ENVIRONMENT_VARIABLES command_or_script %command%`
+
+- `%command%` represents the game executable and must be included
+- Environment variables go before `%command%`
+- Additional arguments can go after `%command%`
+
+**Examples:**
+```
+PROTON_LOG=1 %command%                    # Enable Proton logging
+SteamDeck=0 %command%                     # Disable Steam Deck mode
+PROTON_ENABLE_NGX_UPDATER=1 %command%     # Enable DLSS updates
+```
+
+#### Bazzite's Launch Option Shortcuts
+
+Bazzite includes several shortcuts to simplify common launch options:
+
+##### For Steam Deck Mode Control
+- **`sd0 %command%`** - Shorthand for `SteamDeck=0 %command%`
+  - Disables Steam Deck specific features that may conflict with your setup
+  - Useful when keyboard/mouse doesn't work or game launchers don't appear
+  - Available via the `sd0` script
+
+##### For NVIDIA Users (dlss-swapper)
+- **`dlss-swapper %command%`** - Enables latest DLSS presets with NGX updater
+  - Replaces: `PROTON_ENABLE_NGX_UPDATER=1 DXVK_NVAPI_DRS_SETTINGS=NGX_DLSS_SR_OVERRIDE=on,NGX_DLSS_RR_OVERRIDE=on,NGX_DLSS_FG_OVERRIDE=on,NGX_DLSS_SR_OVERRIDE_RENDER_PRESET_SELECTION=render_preset_latest,NGX_DLSS_RR_OVERRIDE_RENDER_PRESET_SELECTION=render_preset_latest %command%`
+- **`dlss-swapper-dll %command%`** - Same as above but skips NGX updater
+
+#### Handheld UX Improvements
+
+On Bazzite handheld images (-deck), additional UX improvements help reduce virtual keyboard typing:
+
+- **Auto-clipboard**: ` %command%` is automatically copied to clipboard when Steam launches
+
+**Example handheld workflow:**
+1. Open game properties → Launch Options
+2. Type: `sd0`
+3. Press the virtual keyboard's paste button to add ` %command%`
+4. Result: `sd0 %command%`
+
+> To the game, `sd0 %command%` is the same as launching with `SteamDeck=0 [game path]`, setting `SteamDeck` to `0` to help with compatibility issues.
+
+#### Where to Set Launch Options
+
+1. Right-click game in Steam library
+2. Select **Properties**
+3. In the General tab, find **Launch Options** field
+4. Enter your launch options
+
+![Cog Icon > Properties|690x284, 75%](../img/Steam_Setup_Cog.png)
+![Launch Options view|833x594, 75%](../img/Steam_Launch_Options.png)
+
+#### Advanced Launch Option Management
+
+For users who need more complex launch option management, consider:
+
+- **[ScopeBuddy](../Advanced/scopebuddy.md)** - Advanced gamescope launch option management
 
 ## **Non-Steam Games**
 
@@ -67,7 +132,7 @@ Right clicking a game on Lutris gives the option to add it as a non-Steam game (
     
     A Game Pass Ultimate subscription is required to use [Xbox Cloud Gaming](https://www.xbox.com/en-us/play) except for select games like Fortnite.
 
-Games installed from the Microsoft Store do **not** run unless you use a Xbox Cloud Gaming client like [**Greenlight**](https://github.com/unknownskl/greenlight). Fortnite can also be played via this method **without** a Game Pass subscription.
+Games installed from the Microsoft Store do **not** run unless you use a Xbox Cloud Gaming client like [**Greenlight**](https://github.com/unknownskl/greenlight). Fortnite can also be played via this method **without** a Game Pass subscription.  There are also [**select titles available on Battle.net**](https://us.support.blizzard.com/en/article/000357106) which can be ran through Proton using Lutris.
 
 <hr>
 

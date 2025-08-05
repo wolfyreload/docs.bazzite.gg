@@ -5,6 +5,8 @@ authors:
   - "@atimeofday"
   - "@damiankorcz"
   - "@aarron-lee"
+tags:
+  - Installation
 ---
 
 <!-- ANCHOR: METADATA -->

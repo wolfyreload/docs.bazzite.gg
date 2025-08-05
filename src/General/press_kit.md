@@ -1,3 +1,8 @@
+---
+tags:
+  -  Knowledge Base
+---
+
 # Press Kit
 
 ![Bazzite|690x430](../img/Convergence_Wallpaper.png)

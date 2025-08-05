@@ -2,6 +2,8 @@
 title: Enabling Hibernation in Bazzite Desktop Images
 authors:
   - "@antheas"
+tags:
+  -  Guide
 ---
 
 !!! warning

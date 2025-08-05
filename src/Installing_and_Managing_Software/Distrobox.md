@@ -1,6 +1,8 @@
 ---
 authors:
   - "@nicknamenamenick"
+tags:
+  -  Software
 # preview: "../img/distrobox.png"
 preview:
   alpha: 150

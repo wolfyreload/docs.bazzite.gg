@@ -6,8 +6,11 @@ authors:
   - "@storyaddict"
   - "@castrojo"
   - "@aarron-lee"
+  - "@wxllow"
+  - "@SuperRiderTH"
 tags:
   - Guide
+  - Software
 ---
 
 <!-- ANCHOR: METADATA -->
@@ -71,14 +74,14 @@ ujust setup-waydroid
 
 Selecting `Configure Waydroid` will allow users to install additional Android tweaks with the [Waydroid Extras Scripts.](https://github.com/casualsnek/waydroid_script#waydroid-extras-script)
 
-1. Select Android Version (**_Android 11_ recommended**)
+1. Select Android version you have installed. To find installed Android version, start Waydroid, open Settings app then go to "About This Phone". Your Android version will be 11 or 13.
 2. Select items to install
 
 ##### Available Waydroid Extras:
 
 - [GApps](https://github.com/opengapps/opengapps/wiki/FAQ) (Default Android applications including the **Google Play Store)** or [microG](https://microg.org/) (Free alternatives to Google applications)
 
-- ARM Translation (_libndk_ for **AMD CPUs only** & _libhoudini_ for **Intel CPUs only**)
+- ARM Translation (_libndk_ or _libhoudini_. _libhoudini_ offers better overall compatibility compared to _libndk_. Some games may run on only one of _libhoudini_ or _libndk_.  On Android 11, _libhoudini_ will run significantly slower than _libndk_ if you have AMD CPU. **Do not install both of them at the same time. If you need to switch, uninstall your current translation layer before installing new one.**)
 
 - [Magisk](https://github.com/topjohnwu/Magisk) (Android power user suite)
 
@@ -109,6 +112,17 @@ Make sure to add `/usr/bin/waydroid-launcher` to Steam as a non-Steam game for W
 
 ![Waydroid Launcher add to steam|960x540](../img/waydroid_launcher_add_to_steam.jpg)
 
+### Enable Multi-Touch Support
+
+To use multi-touch gestures in Waydroid while running under Steam Gaming Mode, you need to enable "Touchscreen Native Support" in Steam's controller settings:
+
+1. Within your Waydroid shortcut, go to **Controller Settings**.
+2. Go to **Edit Layout** > **Action Sets** > **Default**.
+3. Select **Add Always-On command**.
+4. Under **System**, select the **Touchscreen Native Support** command.
+
+![Waydroid Launcher Steam Multi-Touch|640x400](../img/waydroid_launcher_steam_multitouch.jpg)
+
 <hr>
 
 ## Disable Inputs to Waydroid When Unfocused
@@ -128,6 +142,43 @@ waydroid prop set persist.waydroid.uevent false
 ```
 
 If you ever want to undo this change, run the same steps but set `true` instead of `false` with the same command.
+
+## Mouse Clicks to Touch Input
+
+Some applications do not expect mouse clicks and only respond to touchscreen taps.
+
+!!! note
+    
+    Waydroid must be running!
+
+You can use this command in a host terminal to enable this per-application:
+
+```command
+waydroid prop set persist.waydroid.fake_touch "PACKAGE_NAME_HERE"
+```
+
+!!! note
+    
+    Package names are usually in the format of "com.example.appname".
+    You can find the package name for the application at the bottom of the "App info" page in the Settings app.
+    
+    Wildcards are also supported, so "com.rovio.*" would apply to all games by Rovio.
+
+    An example for the app "Fate/Grand Order" would be:
+    `waydroid prop set persist.waydroid.fake_touch "com.aniplex.fategrandorder.en"`
+
+The application inside of Waydroid needs to be restarted for the changes to take effect.
+
+!!! warning
+
+    Only set specific applications with this command!
+    Setting this globally to the system using a wildcard can cause irregular behavior with the mouse cursor.
+
+To revert these changes, use the following command in a host terminal:
+
+```command
+waydroid prop set persist.waydroid.fake_touch ""
+```
 
 ## Resolution & Density Options
 

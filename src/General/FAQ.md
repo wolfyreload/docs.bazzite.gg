@@ -29,7 +29,7 @@ Bazzite's [website](https://bazzite.gg/#image-picker) offers a streamlined way o
 
 Bazzite offers multiple images, but most images will be following _one of these **two variants**_:
 
-- **Variant 1**: Bazzite images that do **not** have Steam Gaming Mode and receive automatic updates daily that have can be seen as Fedora Atomic Desktop with gaming packages pre-installed.
+- **Variant 1**: Bazzite images that do **not** have Steam Gaming Mode and receive automatic updates daily that can be viewed as a Fedora Atomic Desktop with gaming packages pre-installed.
 - **Variant 2**: Bazzite images that automatically boot into Steam Gaming Mode (like SteamOS) and are intended for controller-oriented setups.
 
 ### 1. Desktop Edition 
@@ -125,7 +125,6 @@ Unlike traditional Linux distributions, **most of the maintenance and security u
 (_in alphabetical order_)
 
 - [**Boxkit**](https://github.com/ublue-os/boxkit): Tool used for custom OCI Distrobox/Toolbox containers, and anything from [DaVinci Resolve](https://github.com/zelikos/davincibox) to [OBS Studio Portable](https://github.com/ublue-os/obs-studio-portable) can be accessed with this. (The software is in their own special container, so dependencies do not affect your host.)
-- [**Discover Overlay**](https://github.com/trigg/Discover): Discord chat overlay integration for Steam Gaming Mode which has a [special configuration](https://trigg.github.io/Discover/bazzite) for Bazzite where it launches automatically
 - [**Handheld Daemon**](https://github.com/hhd-dev/hhd): Tool for configuring and managing handheld devices from gyro, LEDs, paddles, and TDP.
 - [**Ptyxis**](https://devsuite.app/ptyxis/): Terminal with first-class container support.
 - [**ScopeBuddy**](https://github.com/HikariKnight/ScopeBuddy): A manager script to make Gamescope easier on the Desktop.
