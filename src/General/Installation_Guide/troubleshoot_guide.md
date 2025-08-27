@@ -25,7 +25,9 @@ The "code 1" error is a generic error code that appears during installation when
 
 ## "Device is Active" Error
 
-Delete your Windows bitlocker partition using another tool (such as gparted from a live distro) first and then retry installation.
+This happens because the Bazzite installers disk partitioner doesn't want to touch bitlocker partitons.
+If you want to dual boot and keep using bitlocker first shrink your partition from windows and then retry installation.
+If you want to just run Bazzite first delete your bitlocker partition using another tool (such as gparted from another live distro) and then retry installation.
 
 **Watch this video for a demonstation**:
 
