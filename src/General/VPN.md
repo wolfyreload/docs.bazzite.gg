@@ -1,5 +1,8 @@
 ---
 title: "VPN Setup"
+authors:
+  - "@tired-runner"
+  - "@zachriel"
 ---
 
 VPNs are usually not offered on Flathub as the Flatpak sandbox is too strict for most VPN clients to work as is.
@@ -17,20 +20,35 @@ We recommend you the following options:
 - Good VPNs provide Wireguard configuration files that can be imported directly into NetworkManager, check your VPN providers documentation for more information
 - Only as a last resort [layer the VPN with rpm-ostree](/guides/software#rpm-ostree)
 
-## Import VPN configuration files in KDE Plasma
+## Import VPN configuration files through GUI (desktop environment)
 
-This option may be good enough for you if you don't need special features provided by your VPN client, like kill-switches, split tunneling and other custom features not built-in to the VPN protocol.
-These VPNs can be toggled on and off at will.
+This option may be good enough for you if you don't need special features provided by your VPN client, like kill-switches, split tunneling and other custom features not built-in to the VPN protocol. VPNs imported in this way can be toggled on and off at will.
 
-1. Open Systemsettings
-2. Navigate to the Networking Section and go into the "Wi-Fi & Internet" settings
-3. Click the "+" button at the bottom
+=== "KDE Plasma"
 
-<img src="/img/vpn_settings.png" alt="Settings page of Networking Settings" width="600" height="487" />
+    1\. Open Systemsettings
+    2\. Navigate to the Networking Section and go into the "Wi-Fi & Internet" settings
+    3\. Click the "+" button at the bottom
 
-4. Select your downloaded configuration file
+    <img src="/img/vpn_settings.png" alt="Settings page of Networking Settings" width="600" height="487" />
 
-<img src="/img/add_vpn.png" alt="Import VPN config file dialog" width="400" height="617" />
+    4\. Select your downloaded configuration file
+
+    <img src="/img/add_vpn.png" alt="Import VPN config file dialog" width="400" height="617" />
+
+=== "GNOME"
+
+    1\. Open Settings
+    2\. Navigate to the Network section
+    3\. Click the "+" button on the VPN section
+
+    <img src="/img/vpn_settings_gnome.png" alt="Networking Settings page in GNOME" width="600" height="487" />
+
+    4\. Choose "Import From file..."
+
+    <img src="/img/add_vpn_file_gnome.png" alt="Import VPN config file dialog in GNOME" width="600" height="487" />
+
+    5\. Select your downloaded configuration file.
 
 ## Using functional VPN Flatpaks
 
