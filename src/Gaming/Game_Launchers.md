@@ -55,27 +55,12 @@ Bazzite includes several shortcuts to simplify common launch options:
 ##### For Steam Deck Mode Control
 - **`sd0 %command%`** - Shorthand for `SteamDeck=0 %command%`
   - Disables Steam Deck specific features that may conflict with your setup
-  - Useful when keyboard/mouse doesn't work or game launchers don't appear
-  - Available via the `sd0` script
+  - Example: Expedition 33 hides most graphics settings unless you set `SteamDeck=0`, and enforces lower than lowest settings.
 
 ##### For NVIDIA Users (dlss-swapper)
 - **`dlss-swapper %command%`** - Enables latest DLSS presets with NGX updater
   - Replaces: `PROTON_ENABLE_NGX_UPDATER=1 DXVK_NVAPI_DRS_SETTINGS=NGX_DLSS_SR_OVERRIDE=on,NGX_DLSS_RR_OVERRIDE=on,NGX_DLSS_FG_OVERRIDE=on,NGX_DLSS_SR_OVERRIDE_RENDER_PRESET_SELECTION=render_preset_latest,NGX_DLSS_RR_OVERRIDE_RENDER_PRESET_SELECTION=render_preset_latest %command%`
 - **`dlss-swapper-dll %command%`** - Same as above but skips NGX updater
-
-#### Handheld UX Improvements
-
-On Bazzite handheld images (-deck), additional UX improvements help reduce virtual keyboard typing:
-
-- **Auto-clipboard**: ` %command%` is automatically copied to clipboard when Steam launches
-
-**Example handheld workflow:**
-1. Open game properties → Launch Options
-2. Type: `sd0`
-3. Press the virtual keyboard's paste button to add ` %command%`
-4. Result: `sd0 %command%`
-
-> To the game, `sd0 %command%` is the same as launching with `SteamDeck=0 [game path]`, setting `SteamDeck` to `0` to help with compatibility issues.
 
 #### Where to Set Launch Options
 
