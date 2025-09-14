@@ -24,8 +24,7 @@ The name of the project is `Bazzite`. It is built with [Universal Blue](https://
 - `Fedora Bazzite` - this implies a formal relationship between Fedora and Bazzite. Check the [mission document](https://universal-blue.org/mission.html) for more information about the relationship between Fedora and Universal Blue
 - `Universal Bazzite` or `uBlue Bazzite` - "Bazzite is built with Universal Blue" or "Bazzite is a Universal Blue image" is recommended instead.
 - "Immutable Distribution" - Bazzite is an operating system, it is neither immutable nor a distribution, it is a custom image based on Fedora. As an alternative for immutable, the word `image based` or `image` may be used.
-- "Atomic" -
-Atomic is a marketing term of the Fedora distribution, we prefer to refer to Bazzite as simply "Bazzite", an "image", "image based" or as a flavor of Linux.
+- "Atomic" - Atomic is a marketing term of the Fedora distribution, we prefer to refer to Bazzite as simply "Bazzite", an "image", "image based" or as a flavor of Linux.
 
 
 ## Universal Blue Terminology
