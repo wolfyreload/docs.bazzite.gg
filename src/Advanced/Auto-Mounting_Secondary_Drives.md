@@ -63,6 +63,6 @@ https://www.youtube.com/watch?v=-2wca_0CpXY
 
 4. Ensure "User Session Defaults" is FALSE and "Mount at system startup" is TRUE, then click "Ok"
 
-5. Repeat for any additional disks. You can can confirm this worked by checking your Fstab file and seeing that the appropriate UUIDs have been added. `sudo cat /etc/fstab`
+5. Repeat for any additional disks. You can confirm this worked by checking your Fstab file and seeing that the appropriate UUIDs have been added. `sudo cat /etc/fstab`
 
 
