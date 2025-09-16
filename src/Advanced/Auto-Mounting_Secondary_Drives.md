@@ -53,7 +53,7 @@ This video tutorial shows how to recover from your mounting mistakes.
 
 https://www.youtube.com/watch?v=-2wca_0CpXY
 
-### Drives will not auto-mount despite being BTRS/ext4 (Requests authentication every boot to mount)
+### Drives will not auto-mount despite being BTRFS/ext4 (Requests authentication every boot to mount)
 
 1. Mount the target disk(s).
 
