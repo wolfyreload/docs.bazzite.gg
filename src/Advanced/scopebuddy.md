@@ -138,7 +138,7 @@ This let's us re-use the `SCB_GAMESCOPE_ARGS` we set in our `scb.conf`
 
 !!! note
 
-    You can also set an AppID manually using `SCB_APPID="somecoolgame"` to override the automatic AppID detection which only supports Steam currently. This can be used to manually add some rudementary support for "AppID" like configs for games in other launchers like Lutris or Heroic with something like `SCB_APPID="heroic/somecoolgame"` and the resulting AppID config used would then be `AppID/heroic/somecoolgame.conf`
+    You can also set an AppID manually using `SCB_APPID="somecoolgame"` to override the automatic AppID detection which only supports Steam currently. This can be used to manually add rudimentary support for "AppID"-like configs for games in other launchers like Lutris or Heroic; for example, `SCB_APPID="heroic/somecoolgame"` would use the config file `AppID/heroic/somecoolgame.conf`.
 
 ## Frequently asked questions (FAQ)
 
