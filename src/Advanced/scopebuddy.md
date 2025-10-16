@@ -62,7 +62,7 @@ scb -- %command% --launcher-skip
 
 For users that routinely change resolutions or use game streaming via Sunshine/Moonlight or Steam Remote Play, your display properties may change frequently.
 
-On KDE desktops (Gnome support TBD), scopebuddy accepts configuration to automatically inject the width and height, HDR state, or VRR state of your primary display.
+On KDE desktops (early Gnome support [added with caveats](https://github.com/HikariKnight/ScopeBuddy?tab=readme-ov-file#gnome-support)), scopebuddy accepts configuration to automatically inject the width and height, HDR state, or VRR state of your primary display.
 
 Add the following variables to the following to the config file at `~/config/scopebuddy/scb.conf`:
 
@@ -136,6 +136,10 @@ Notice how `SCB_GAMESCOPE_ARGS` uses `+=` instead of `=`.
 
 This let's us re-use the `SCB_GAMESCOPE_ARGS` we set in our `scb.conf`
 
+!!! note
+
+    You can also set an AppID manually using `SCB_APPID="somecoolgame"` to override the automatic AppID detection which only supports Steam currently. This can be used to manually add rudimentary support for "AppID"-like configs for games in other launchers like Lutris or Heroic; for example, `SCB_APPID="heroic/somecoolgame"` would use the config file `AppID/heroic/somecoolgame.conf`.
+
 ## Frequently asked questions (FAQ)
 
 ### Can I use scopebuddys functions without using gamescope?
@@ -151,7 +155,7 @@ The default config file will also be set to `noscope.conf` instead of `scb.conf`
 
 !!! note
 
-    You can also export `SCB_NOSCOPE=1` inside an appid config if you never want to use gamescope for a game but still use scopebuddy for it.
+    You can also export `SCB_NOSCOPE=1` inside an appid config if you never want to use gamescope for a game but still use scopebuddy for it. However `noscope.conf` will be ignored when used like this, due to it being applied after `scb.conf` has been loaded.
 
 ### Does ScopeBuddy work inside Steam Gamemode?
 
