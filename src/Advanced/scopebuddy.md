@@ -34,6 +34,18 @@ XDG_DEFAULT_LAYOUT=no scb -w 1920 -h 1080 -W 2560 -H 1440 -- %command% --launche
 
 Now your Steam Overlay will work when using gamescope for a game in desktop mode! 🎉
 
+### Usage in Lutris
+
+1. Open Lutris and right click on the game you want to use ScopeBuddy with.
+2. Click `Configure`
+3. Go to the `System Options` tab and scroll down to `Game execution`
+4. Click `Add` under `Environment variables` and set the key to `SCB_APPID` and the value to `lutris/nameofgame`.
+5. In the `Command prefix` add `scb --`
+6. Click Save
+
+![ScopeBuddy configuration for Lutris|1210x600](../img/ScopeBuddy_Lutris_config.png)
+
+!!! info "The `SCB_APPID` Environment variable is optional, but will let you take advantage of game specific config files"
 
 ## Configuration files
 
