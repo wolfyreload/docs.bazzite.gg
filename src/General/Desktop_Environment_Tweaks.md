@@ -62,9 +62,7 @@ Install it with this **command**:
 ```
 rpm-ostree install kvantum
 ```
-
 > [**Check out this external resource on KDE themes for more information**](https://itsfoss.com/properly-theme-kde-plasma/).
-
 
 <hr>
 
@@ -81,6 +79,5 @@ The "Extension Manager" applicaton alllows for installing new extensions to GNOM
 Install [Decky Loader](https://decky.xyz/) then install [CSS Loader](https://docs.deckthemes.com/) to customize how Steam Gaming Mode looks. Be aware that third-party plugins may cause issues. Read Bazzite's [Steam Gaming Mode documentation](../Handheld_and_HTPC_edition/quirks.md) to resolve common issues if you run into them after using Decky Loader.
 
 ## **See also**:
-
 - [KDE Plasma Documentation](https://docs.kde.org/stable5/en/plasma-desktop/plasma-desktop/index.html)
 - [GNOME Documentation](https://help.gnome.org/users/gnome-help/stable/)
