@@ -60,6 +60,10 @@ If you install Windows after Bazzite, you can restore Bazzite bootloader with th
 
 If you want to dual boot another **Fedora Atomic Desktop image** (like [Bluefin](https://projectbluefin.io/)) installed alongside Bazzite, then you would have to make an additional EFI partition and switch between them through the BIOS boot menu.
 
+### Note about dual booting other non-atomic distributions
+
+Dual booting with **other distributions**, especially **non-atomic Fedora**, is not supported. The grub bootloader may not recognize each boot entry correctly, and it is best that you use the motherboard's UEFI boot menu or even forgo dual booting entirely to avoid running into unexpected issues.
+
 ## Dual Boot Post-Configuration Setup
 
 Show both your Windows and Bazzite installations in the GRUB menu to select from at boot by entering this **command into the terminal**:
