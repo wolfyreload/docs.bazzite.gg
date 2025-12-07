@@ -62,7 +62,7 @@ If you want to dual boot another **Fedora Atomic Desktop image** (like [Bluefin]
 
 ### Note about dual booting other non-atomic distributions
 
-Dual booting with **other distributions**, especially **non-atomic Fedora**, is not supported. The grub bootloader may not recognize each boot entry correctly, and it is best that you use the motherboard's UEFI boot menu or even forgo dual booting entirely to avoid running into unexpected issues.
+Dual booting with **other distributions**, especially **non-atomic Fedora**, is not supported. The GRUB bootloader may not recognize each boot entry correctly. It is recommended to use your motherboard's UEFI boot menu or to forgo dual booting entirely to avoid unexpected issues.
 
 ## Dual Boot Post-Configuration Setup
 
