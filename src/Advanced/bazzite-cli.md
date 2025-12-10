@@ -24,7 +24,7 @@ Bazzite's opt-in command line experience. `bazzite-cli` comes with some fantasti
 - [**bash-preexec**](https://github.com/rcaloras/bash-preexec) - Preexec and precmd functions for Bash (required by atuin)
 - [**bat**](https://github.com/sharkdp/bat) - A `cat` clone with syntax highlighting and Git integration
 - [**bbrew**](https://github.com/valkyrie00/bbrew) - Homebrew wrapper for better Bazzite integration
-- [**chezmoi**](https://www.chezmoi.io/) - Manage your dotfiles across multiple diverse machines, securely
+- [**chezmoi**](https://www.chezmoi.io/) - Manage your dotfiles across multiple diverse machines, securely.
 - [**direnv**](https://direnv.net/) to load and unload environment variables depending on the current directory.
 - [**dysk**](https://github.com/Canop/dysk) - A Linux utility to get information on filesystems, like df but better
 - [**eza**](https://github.com/eza-community/eza) as a replacement `ls`
