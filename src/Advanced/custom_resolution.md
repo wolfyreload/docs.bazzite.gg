@@ -34,10 +34,10 @@ crh
 
 ### Options Available:
 
-- `current` = Show your current resolutions, if any.
-- `add` = Add a custom resolution.
-- `rm` = Remove a custom resolution.
-- `rm all` = Remove all custom resolutions.
+- `current`: Show your current resolutions, if any.
+- `add`: Add a custom resolution.
+- `rm`: Remove a custom resolution.
+- `rm all`: Remove all custom resolutions.
 - Run without arguments for **Interactive Mode**
 
 ### Guide for creating a custom resolution
@@ -56,22 +56,22 @@ crh
 
 ### Guide for creating a custom resolution for Sunshine Game Streaming
 
-Let's say you are streaming from your host PC(running Bazzite) to your Laptop:
+Let's say you are streaming from your host PC (running Bazzite) to your Laptop:
 
 - Your host PC has a resolution of `1920x1080@144Hz`,
 - but your Laptop has a resolution of `2560x1600@120Hz`.
 
 ...and text in the stream looks blurry because of resolution scaling.
 
-You can use `custom-resolution-helper` to add a virtual display to your host PC(running Bazzite) without a dummy plug!
+You can use `custom-resolution-helper` to add a virtual display to your host PC (running Bazzite) without a dummy plug!
 
 Simply follow the steps for creating a custom resolution, and select the option to make the display **always enabled**.
 
-!!! info "Using DisplayPort ports as a virtual display generally works better, as custom resolutions in HDMI ports likely don't work without an additional `edid` file, of which this tool does not support"
+!!! info "Using DisplayPort for virtual displays is recommended, as custom resolutions on HDMI ports may require an additional `edid` file, which this tool does not support."
 
 ### Advanced Usage
 
-If you look more closely at the commands generated and run by the helper (or the `help` page), you can see that this tool simply adds a **kernel argument** with `video=[RESOLUTION]`, with `[RESOLUTION]` following a format of `<name>:<xres>x<yres>[M][R][-<bpp>][@<refresh>][i][m][eDd]`, following the [kernel documentation for modedb](https://www.kernel.org/doc/Documentation/fb/modedb.txt). 
+This tool adds a **kernel argument** with `video=[RESOLUTION]`. The `[RESOLUTION]` string follows the format `<name>:<xres>x<yres>[M][R][-<bpp>][@<refresh>][i][m][eDd]`, as specified in the [kernel documentation for modedb](https://www.kernel.org/doc/Documentation/fb/modedb.txt).
 
 If you feel confident enough and know what you are doing, you can use the
 
