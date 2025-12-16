@@ -31,7 +31,7 @@ Unhide GRUB on Bazzite-Deck images with this **command**:
 ujust configure-grub
 ```
 
-Select the "**unhide**" opiton to have GRUB appear on boot.
+Select the "**unhide**" option to have GRUB appear on boot.
 
 !!! note
 
