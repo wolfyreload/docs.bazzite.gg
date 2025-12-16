@@ -2,7 +2,7 @@
 title: "VPN Setup"
 authors:
   - "@tired-runner"
-  - "@zachriel"
+  - "@zachrielforever"
 ---
 
 VPNs are usually not offered on Flathub as the Flatpak sandbox is too strict for most VPN clients to work as is.
@@ -18,7 +18,7 @@ We recommend you the following options:
   - `ujust toggle-tailscale` will remove the built in desktop integration if you prefer to use something else
   - Tailscale's [YouTube channel](https://www.youtube.com/@Tailscale) has lots of great tips and tricks
 - Good VPNs provide Wireguard configuration files that can be imported directly into NetworkManager, check your VPN providers documentation for more information
-- Only as a last resort [layer the VPN with rpm-ostree](/guides/software#rpm-ostree)
+- Only as a last resort [layer the VPN with rpm-ostree](/Installing_and_Managing_Software/rpm-ostree/)
 
 ## Import VPN configuration files through GUI (desktop environment)
 

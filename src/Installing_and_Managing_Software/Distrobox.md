@@ -52,16 +52,21 @@ Distrobox containers can be used for both **development environments** and **ins
 
 ## Distrobox Graphical Interface
 
-![Distroshelf|690x382, 75%](../img/distroshelf.png)
+![Distroshelf|970x752, 75%](../img/distroshelf_fixedcrop.png)
 
 Distrobox containers can be created and managed graphically with [**DistroShelf**](https://github.com/ranfdev/DistroShelf) which is pre-installed.
 
 ## Desktop Integration
 
-Applications with a graphical user interface can integrate with your system with an application shortcut **entering this command inside of the container**:
+Applications with a graphical user interface can integrate with your system with an application shortcut by exporting the application using the below command in the container terminal window:
 
 ```bash
 distrobox-export --app <package>
+```
+To "un-export" the app, enter the command below in the container terminal window:
+
+```bash
+distrobox-export --delete --app <package>
 ```
 
 > [Read Bluefin's documentation on how containers integrate with your system](https://docs.projectbluefin.io/bluefin-dx#pet-containers).
