@@ -49,7 +49,7 @@ title: Credits and Donating
     </div>
 {%- endmacro %}
 
-Love Bazzite and want to help sustain it's development?  Consider **sponsoring** the maintainers and contributors of the project.
+Love Bazzite and want to help sustain its development?  Consider **sponsoring** the maintainers and contributors of the project.
 
 <div class="button-container">
     <a href="https://opencollective.com/bazzite-us" target="_blank" class="sponsor-button">Sponsor Bazzite ($ USA)</a>
