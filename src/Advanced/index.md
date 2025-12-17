@@ -8,7 +8,7 @@ title: Advanced Guides
 - [**Using Looking-Glass**](/Advanced/looking-glass.md)
 - [**Bazzite Command-Line Tools**](/Advanced/bazzite-cli.md)
 - [**Best Shell Practices**](/Advanced/Best_Shell_Practices.md)
-- [**Custom Resolutions**](/Advanced/custom-resolution.md)
+- [**Custom Resolutions**](/Advanced/custom_resolution.md)
 
 
 ## System Administration
