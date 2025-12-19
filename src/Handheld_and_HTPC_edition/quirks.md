@@ -34,8 +34,22 @@ Then add this to the file:
 Change `DP-1` to the correct output.
 You can find your display outputs using the command
 
+KDE:
 ```
-grep -r '^connected' /sys/class/drm/*/status | grep -Po 'card.-e\K([^/]*)'
+kscreen-doctor -o
+```
+
+GNOME:
+```
+gnome-randr
+```
+
+!!! note
+
+    It has been reported that some systems dont properly report the Display Output name when using gnome-randr, you can run the command below to list all the connected output names without any details so that you can compare them with what the above commands report.
+
+```
+grep -r '^connected' /sys/class/drm/*/status | grep -Po 'card.?-\K([^/]*)'
 ```
 
 Save with <kbd>CTRL</kbd> + <kbd>X</kbd> then pressing <kbd>Y</kbd> followed by <kbd>ENTER</kbd>
