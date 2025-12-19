@@ -24,9 +24,9 @@ Note: This fix also fixes the lag in Game Mode on Nvidia GPUs, however, this com
 
 ## Discord screen-sharing is not working
 
-**Issue:** When you try to share your screen in Discord, it simply closes the dialogue box and does not share the screen.
+**Issue:** When you try to share your screen in Discord, it simply closes the dialogue box or does not work, as Discord might have broken the screen sharing feature in Linux again.
 
-**Resolution:** You can install Discord's official **Discord Canary** client, which is their alpha/test version of Discord. You can install **Discord Canary** by opening the terminal and running:
+**Resolution:** You can install Discord's official **Discord Canary** client, which is their alpha/test version of Discord and it might have been fixed there. You can install **Discord Canary** by opening the terminal and running:
 
 ```bash
 flatpak remote-add --if-not-exists flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo
