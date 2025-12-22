@@ -65,7 +65,7 @@ Wants=graphical-session.target
 
 [Service] 
 ExecStart=/home/<username>/.local/bin/arctis-manager
-Restart=on-failure
+Restart=always
 RestartSec=2
 
 [Install] 
