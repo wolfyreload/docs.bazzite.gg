@@ -7,6 +7,7 @@ tags:
 ---
 
 This guide will walk you through the steps to install and run Arctis Manger in Distrobox then run it automatically at startup.
+This guide works with [Linux-Arctis-Manager](https://github.com/elegos/Linux-Arctis-Manager) v1.6.3.
 
 # Add udev rules on host:
 This will let arctis manager access the usb device without needing root.
