@@ -206,7 +206,7 @@ and then try to connect again.
 
 **Issue:** Once a Gigabyte b550 motherboard suspends, it does not properly resume, and the display remains black until a reboot.
 
-**Resolution:** This can be fixed by disabling GPP0 and GPP8 wakeup. A hidden ujust is provided for this process:
+**Resolution:** This can be fixed by disabling GPP0 and GPP8 wakeup. A hidden ujust is provided to toggle this fix:
 ```bash
 ujust _toggle-gigabyte-wake-fix
 ```
