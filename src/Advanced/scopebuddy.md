@@ -193,7 +193,7 @@ command+=" --launcher-skip --some-other-parameter"
 
     The `+=` is very important as you NEED to append launch options to the %command%, it is also vital that you start with a space after the first " otherwise the game will fail to launch.
 
-### Can I have scopebuddy not apply it's fixes and only use it as a gamescope manager?
+### Can I have scopebuddy not apply its fixes and only use it as a gamescope manager?
 
 Using the following environment variables will change scopebuddys default behavior
 
