@@ -199,7 +199,7 @@ Using the following environment variables will change scopebuddys default behavi
 
 - `SCB_APPENDMODE=1` setting this in `scb.conf` will let you supply arguments to scopebuddy and they will be appended **after** the gamescope arguments in any config files.
 - `SCB_STEAMARGIGNORE=0` setting this in `scb.conf` will make scopebuddy no longer strip the `-e` or `--steam` arguments if it is supplied to gamescope, this is due to this specific flag currently crashing gamescope.
-- `SCB_NESTEDFIX=0` setting this in `scb.conf` will disable the SteamOverlay and SteamInput fix that scopebuddy applies (before you ask, they are the same fix)
+- `SCB_NESTEDFIX=0` setting this in `scb.conf` will disable the Steam Overlay and SteamInput fix that scopebuddy applies (before you ask, they are the same fix)
 
 !!! note
 
