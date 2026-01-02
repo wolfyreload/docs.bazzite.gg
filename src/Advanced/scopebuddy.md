@@ -158,6 +158,10 @@ This let's us re-use the `SCB_GAMESCOPE_ARGS` we set in our `scb.conf`
 
 ## Frequently asked questions (FAQ)
 
+### Is there a graphical application for making configurations?
+
+Yes! There is one on flathub: [Scopebuddy Gui](https://flathub.org/en/apps/io.github.rfrench3.scopebuddy-gui)
+
 ### Can I use scopebuddys functions without using gamescope?
 
 Yes, just use the env var `SCB_NOSCOPE=1` in the Launch Options like this
