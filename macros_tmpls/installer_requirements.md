@@ -6,4 +6,5 @@
   - **Fedora Media Writer** (this is the preferred option) ([Windows/Mac](https://github.com/FedoraQt/MediaWriter/releases/latest), [Linux](https://flathub.org/apps/org.fedoraproject.MediaWriter))
   - Rufus ([Windows](https://rufus.ie/en/))
   - Etcher ([Windows, MacOS, Linux](https://etcher.balena.io/))
-  - Ventoy ([Windows, Linux, Live environment](https://www.ventoy.net/en/index.html)) may work in grub2 mode, but it's not recommended as it generally has issues with our isos and may not support Secure Boot on the initial install.
+
+### Ventoy is not recommended under any circumstance and no support will be provided for it.
