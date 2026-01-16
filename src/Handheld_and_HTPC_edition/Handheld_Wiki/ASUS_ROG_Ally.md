@@ -30,6 +30,11 @@ tags:
 
 ### Workarounds / Known Issues
 - Changing A/C power sometimes leads to a stuck TDP.
+- Some users report the mic sounding garbled
+  - Solution to that is to set the mic/input volume to 10%-15% in settings
+  - For Discord you also need to set the input profile in the Discord Settings to voice cancellation.
+- (Xbox Ally Only) Audio swaps from left to right internal speakers as mono.
+  - This is a known problem that is supposed to be fixed on Kernel 6.19
 - Some users report that "Auto UMA" in the bios can cause crashes in some games.
   - If you encounter this, then try setting the VRAM in bios to **4GB** or **8GB**.
 - LED indicator is on max brightness by default and cannot be changed on any other operating system outside of Windows.
