@@ -63,13 +63,23 @@ We might want to replace it with a mention of the Bootloader Restoration Tool an
     3. Reboot into Bazzite and run `ujust regenerate-grub` in the terminal to add Windows to the GRUB.
 
 
-If you install Windows after Bazzite, you can restore Bazzite bootloader with the **Bootloader Restoring Tool** in the Live ISO.
+If you install Windows after Bazzite, you can restore Bazzite's bootloader with the **Bootloader Restoring Tool** in the Live ISO.
 
 <hr/>
 
-### Note about dual booting other Fedora Atomic Desktop images on the **same** drive:
+### Note about dual booting other distributions
 
-If you want to dual boot another **Fedora Atomic Desktop image** (like [Bluefin](https://projectbluefin.io/)) installed alongside Bazzite, then you would have to make an additional EFI partition and switch between them through the BIOS boot menu.
+For Fedora Atomic Desktop images on the **same** drive:
+
+- To dual boot another **Fedora Atomic Desktop image** (like [Bluefin](https://projectbluefin.io/)) installed alongside Bazzite, you must make an additional EFI partition and switch between them through your motherboard's UEFI boot menu.
+
+For dual booting on **separate** drives:
+
+- Use your motherboard's UEFI boot menu as the GRUB bootloader may not recognize each boot entry correctly.
+
+!!! note 
+
+    Dual booting with **other distributions**, especially **non-atomic Fedora**, is not officially supported. It is recommended to use your motherboard's UEFI boot menu or to forgo dual booting entirely to avoid unexpected issues. If something does go wrong, restore Bazzite's bootloader using the **Bootloader Restoring Tool** in the Live ISO.
 
 ## Dual Boot Post-Configuration Setup
 

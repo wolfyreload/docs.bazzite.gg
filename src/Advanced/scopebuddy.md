@@ -14,6 +14,7 @@ tags:
 - Gives you the ability to automate running bash scripts before the game runs (this is a side effect of how the config files work)
 - You can bring your configurations with you between computers by just copying `~/.config/scopebuddy` to a new device
 - It also is used as a workaround to fix the Steam Overlay when using nested gamescope in desktop mode.
+- Fixes SteamInput when used in nested mode on Desktop
 
 ## How to use it
 
@@ -69,6 +70,9 @@ This means we can now shorten our Launch Options for games we want to run in gam
 ```bash
 scb -- %command% --launcher-skip
 ```
+
+!!! note
+    `--launcher-skip` is just an example launch option
 
 ### Auto Resolution/HDR/VRR
 
@@ -154,6 +158,10 @@ This let's us re-use the `SCB_GAMESCOPE_ARGS` we set in our `scb.conf`
 
 ## Frequently asked questions (FAQ)
 
+### Is there a graphical application for making configurations?
+
+Yes! There is one on flathub: [Scopebuddy Gui](https://flathub.org/en/apps/io.github.rfrench3.scopebuddy-gui)
+
 ### Can I use scopebuddys functions without using gamescope?
 
 Yes, just use the env var `SCB_NOSCOPE=1` in the Launch Options like this
@@ -172,7 +180,7 @@ The default config file will also be set to `noscope.conf` instead of `scb.conf`
 ### Does ScopeBuddy work inside Steam Gamemode?
 
 Yes!
-When scopebuddy detects that steam is running in gamemode, it will force `SCB_NOSCOPE=1` and `SCB_CONF=gamemode.conf` this means that you can set custom options that will only be used in gamemode while keeping game specific options!
+When scopebuddy detects that steam is running in gamemode, it will force `SCB_NOSCOPE=1` and `SCB_CONF=gamemode.conf` so that you can set custom options that will only be used in gamemode while keeping game specific options!
 
 This means you can use scopebuddy to automatically handle using nested gamescope when in desktop mode and not utilizing gamescope when inside gamemode.
 No more manually adding and removing gamescope from launch options when you switch between gamemode and desktop mode! 🎉
@@ -189,9 +197,31 @@ command+=" --launcher-skip --some-other-parameter"
 
     The `+=` is very important as you NEED to append launch options to the %command%, it is also vital that you start with a space after the first " otherwise the game will fail to launch.
 
+### Can I have scopebuddy not apply its fixes and only use it as a gamescope manager?
+
+Using the following environment variables will change scopebuddy's default behavior
+
+- `SCB_APPENDMODE=1` setting this in `scb.conf` will let you supply arguments to scopebuddy and they will be appended **after** the gamescope arguments in any config files.
+- `SCB_STEAMARGIGNORE=0` setting this in `scb.conf` will make scopebuddy no longer strip the `-e` or `--steam` arguments if it is supplied to gamescope, this is due to this specific flag currently crashing gamescope.
+- `SCB_NESTEDFIX=0` setting this in `scb.conf` will disable the Steam Overlay and SteamInput fix that scopebuddy applies (before you ask, they are the same fix)
+
+!!! note
+
+    See [XKCD 1172](https://xkcd.com/1172/) for context to why these environment variables exist
+
+### When should I use export for an environment variable?
+
+This depends if it is an internal variable for scopebuddy or a global variable for games.
+Rule of thumb is that you export every environment variable except in the situation of
+
+- It starts with `SCB_` as these are all internal scopebuddy variables
+- The variable is named `command` as this is the internal scopebuddy variable containing everything inside `%command%` from steam (or everything after the `--`)
+
 ### Wait... This is all just bash!?
 
 Every config file for scopebuddy is a full bash script that is sourced before running gamescope and the game. This means if you are an advanced user you can do some really creative stuff!
+You can also set `SCB_DEBUG=1` to have the final command written to `~/.config/scopebuddy/scopebuddy.log`
+
 !!! note
 
     Steam will mess with the launch environment, some tools like `curl` will have incompatible libraries in the environment while `wget` will work fine. Test your scripts properly and have them write to a log for easy debugging using `2>&1 1>/tmp/myscript.log` at the end of it in the config to write the output to a log file during testing.
