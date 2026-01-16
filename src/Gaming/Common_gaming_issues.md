@@ -25,7 +25,7 @@ You can use this log file for requesting support.
 
 ## Steam games not launching at all
 
-Make sure your games are **not** on a NTFS (Windows) partition. More information [here](https://docs.bazzite.gg/Gaming/Hardware_compatibility_for_gaming/#unsupported-filesystems-for-secondary-drives)
+Make sure your games are **not** on a NTFS (Windows) partition. More information [here](./Hardware_compatibility_for_gaming.md#unsupported-filesystems-for-secondary-drives)
 
 ## Native Linux Port Versus Windows Version
 
