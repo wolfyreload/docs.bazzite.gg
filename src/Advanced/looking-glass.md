@@ -56,5 +56,5 @@ cp ./looking-glass-client /run/host/home/$USER/.local/bin/
 7. Test and see if `looking-glass-client` binary works for you on the host with your VM running.
 8. Exit the container and run the below command to remove the container we used to build the Looking-Glass client.
 ```bash
-distrobox stop tmp_lookingglass ; distrobox rm tmp_lookingglass
+distrobox stop tmp-lookingglass ; distrobox rm tmp-lookingglass
 ```

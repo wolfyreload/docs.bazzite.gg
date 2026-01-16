@@ -21,6 +21,11 @@ If you encounter issues with a game launching on Steam:
 2. Launch the game
 
 A log file should appear in your Home directory named after the game's application ID number.
+You can use this log file for requesting support.
+
+## Steam games not launching at all
+
+Make sure your games are **not** on a NTFS (Windows) partition. More information [here](./Hardware_compatibility_for_gaming.md#unsupported-filesystems-for-secondary-drives)
 
 ## Native Linux Port Versus Windows Version
 
