@@ -13,3 +13,5 @@ title: Community
 ## [:simple-x: X/Twitter](https://x.com/bazzite_gg) <sup>([No X/Twitter account?](https://xcancel.com/bazzite_gg))</sup>
 
 ## [:simple-reddit: Reddit](https://www.reddit.com/r/bazzite)
+
+## [:simple-lemmy: Lemmy](https://lemmy.world/c/bazzite)
