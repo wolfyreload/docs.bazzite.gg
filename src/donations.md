@@ -116,7 +116,7 @@ Enjoy using Bazzite and want to help sustain its development? Consider sponsorin
 {{ contributor("Brian Ketelsen", "bketelsen", "Tooling Expert") }}
 </div>
 
->[**View the full list of Bazzite contributors in the Gitub repository**](https://github.com/ublue-os/bazzite/graphs/contributors)
+>[**View the full list of Bazzite contributors in the GitHub repository**](https://github.com/ublue-os/bazzite/graphs/contributors)
 
 ### Fedora Project
 
