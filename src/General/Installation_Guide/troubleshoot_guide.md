@@ -52,7 +52,7 @@ https://www.youtube.com/watch?v=VTnm9EiBdPA
 
 Disable Secure Boot in BIOS to get past this screen. If you wish to use Secure Boot, follow [the **Secure Boot Guide** using method B](/General/Installation_Guide/secure_boot.md)
 
-video walkthrough: https://www.youtube.com/watch?v=Z_DsWqTuipU
+Video walkthrough: https://www.youtube.com/watch?v=Z_DsWqTuipU
 
 ## "Failed to open \EFI\BOOT\mmx64.efi - Not Found" error
 
