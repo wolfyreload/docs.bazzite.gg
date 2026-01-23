@@ -22,7 +22,7 @@ The "code 1" error is a generic error code that appears during installation when
     - This can be adapted to work with Ubuntu-based OSes by removing the 'ubuntu' folder instead of the 'fedora' folder
   - **Fix 3:** Delete the existing EFI partition on the drive: If you are NOT planning on dual-booting, use GParted or Disks to remove the existing EFI.
     - **Warning:** This is **irreversible** and will remove every other operating system on the drive, **including Windows**
-  - **Fix 4:** Create a new EFI partition: You can use manual partitioning as described in the [Dual Boot Setup Guide](./dual_boot_setup_guide.md#manual-partitioning-to-the-same-drive-for-dual-boot-setups) to accomplish this.
+  - **Fix 4:** Create a new EFI partition: You can use manual partitioning as described in the [Manual Partitioning Guide](./manual_partitioning.md) to create a new EFI partition alongside the existing one to accomplish this.
     - Warning: some BIOSes cannot handle a second EFI partition on the drive.
 - **Incorrect Filesystem:** Using the EXT4 or any other filesystem type for the root partition will cause this error. You must use BTRFS for the root partition.
 - **Corrupted ISO Image:** Ensure the ISO image isn't corrupted by calculating the checksums or using the official torrent when downloading Bazzite.
