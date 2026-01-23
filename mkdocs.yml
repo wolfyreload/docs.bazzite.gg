@@ -206,6 +206,7 @@ nav:
           - "How to Modify Initramfs and Dracut": Advanced/dracut-and-initramfs.md
           - "Creating A Custom Bazzite Image": Advanced/creating_custom_image.md
   - Bazzite-DX: https://dev.bazzite.gg
-  - Contribute: CONTRIBUTE.md
+  - Contribute: https://universal-blue.org/contributing.html
   - Community: community.md
+  - Videos: https://www.youtube.com/playlist?list=PLuiT7cNvThNC956b5rtSPCjwcHe2tKBmY
   - Donate: donations.md
